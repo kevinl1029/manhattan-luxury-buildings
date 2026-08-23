@@ -71,11 +71,6 @@
     text-transform:uppercase;
   }
   h1 .thin{font-weight:400;font-stretch:112%;display:block;color:var(--muted);}
-  .standfirst{
-    max-width:52ch;margin:26px 0 0;font-size:16.5px;color:#3A3E38;
-  }
-  .standfirst b{font-weight:600;}
-
   .legend{
     display:flex;gap:22px;flex-wrap:wrap;align-items:center;
     margin-top:26px;padding-top:18px;border-top:1px solid var(--rule);
@@ -100,6 +95,7 @@
   }
   .control-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
   .control-row + .control-row{margin-top:12px;}
+  .control-row[hidden]{display:none;}
 
   .pill{
     font-family:"IBM Plex Mono",monospace;
@@ -259,6 +255,14 @@
     .masthead{padding:36px 0 22px;}
     .count{margin-left:0;width:100%;}
     .grid{grid-template-columns:1fr;}
+    .controls{padding:10px 0;}
+    #pills{
+      flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+      padding-bottom:4px;margin:0 -20px;padding-left:20px;padding-right:20px;
+      scrollbar-width:none;
+    }
+    #pills::-webkit-scrollbar{display:none;}
+    #pills .pill{flex:none;}
   }
   @media (prefers-reduced-motion:reduce){
     *{transition:none !important;animation:none !important;}
@@ -272,7 +276,7 @@
   /* ---------- map ---------- */
   .mapwrap{
     margin:34px 0 0;border:1px solid var(--rule-soft);background:var(--sheet);
-    position:relative;
+    position:relative;z-index:1;
   }
   .mapwrap[hidden]{display:none;}
   #map{width:100%;height:min(72vh,680px);background:var(--sheet);}
@@ -329,7 +333,6 @@
   <header class="masthead">
     <p class="eyebrow" id="tally">Doorman &amp; full-service rental stock · 14 neighborhoods</p>
     <h1>Full-service<span class="thin">Manhattan</span></h1>
-    <p class="standfirst">Every doorman, concierge, and full-amenity building I could find from Battery Park City up through Gramercy — the Financial District, Tribeca, Chinatown, Two Bridges, SoHo, Nolita, the Lower East Side, Greenwich Village, the West Village, the East Village, Chelsea, Flatiron, and Gramercy. <b>Filter by neighborhood, search by name or street, star the ones worth a tour.</b> The <b>Listings</b> tab shows live availability pulled daily from the buildings' own leasing sites — prices move, so confirm on the leasing site before you plan around anything here.</p>
     <p class="legend">
       <span><span class="legend-swatch"></span>Each hairline is one floor</span>
       <span>Dashed = floor count unverified</span>
