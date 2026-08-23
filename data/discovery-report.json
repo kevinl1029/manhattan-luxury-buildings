@@ -1,0 +1,840 @@
+{
+  "generatedAt": "2026-08-23T02:55:00.645Z",
+  "total": 74,
+  "byAdapter": {
+    "jonah": 5,
+    "rentcafe": 9,
+    "wordpress": 6,
+    "none": 34,
+    "generic": 4,
+    "entrata": 3,
+    "rockrose": 2,
+    "equity": 2,
+    "stonehenge": 1,
+    "related": 4,
+    "rose": 2,
+    "jsonld": 1,
+    "streeteasy": 1
+  },
+  "buildings": [
+    {
+      "name": "The Rollins",
+      "hood": "les",
+      "url": "https://therollinsnyc.com/",
+      "adapter": "jonah",
+      "status": "pending",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Suffolk",
+      "hood": "les",
+      "url": "https://thesuffolk.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Essex",
+      "hood": "les",
+      "url": "https://theessexnyc.com/",
+      "adapter": "jonah",
+      "status": "pending",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Artisan",
+      "hood": "les",
+      "url": "https://theartisannyc.com/",
+      "adapter": "jonah",
+      "status": "pending",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Ludlow",
+      "hood": "les",
+      "url": "https://www.theludlownyc.com/",
+      "adapter": "jonah",
+      "status": "pending",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Chrystie",
+      "hood": "les",
+      "url": "https://thechrystie.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://thechrystie.com/residences/",
+        "https://thechrystie.com/availability/",
+        "https://thechrystie.com/wp-content/uploads/2024/07/Residences.jpg"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Sioné",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Jones L.E.S.",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "155 Attorney Street",
+      "hood": "les",
+      "url": "http://www.155attorneystreet.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-210717",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": "210717"
+    },
+    {
+      "name": "The Orchard",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Stella LES",
+      "hood": "les",
+      "url": "http://stellales.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-379412"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": "379412"
+    },
+    {
+      "name": "Gotham Court",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "275 South Street",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Madison Jackson",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Norfolk",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "EVGB",
+      "hood": "ev",
+      "url": "https://rentevgb.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "known-feed:rentcafe",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://evgb-rentcafewebsite.securecafe.com/onlineleasing/evgb/floorplans.aspx",
+        "https://rentevgb.com/residences/",
+        "https://rentevgb.com/availability/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "2 Cooper Square",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Nathaniel",
+      "hood": "ev",
+      "url": "https://www.thenathanielny.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-168618",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": "168618"
+    },
+    {
+      "name": "Steiner East Village",
+      "hood": "ev",
+      "url": "http://www.steinereastvillage.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Avalon Bowery Place I",
+      "hood": "ev",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place",
+      "adapter": "entrata",
+      "status": "pending",
+      "hints": [
+        "avalon-entrata",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Avalon Bowery Place II",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Eleventh & Third",
+      "hood": "ev",
+      "url": "https://www.eleventhandthird.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-379488",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://www.eleventhandthird.com/availabilities"
+      ],
+      "yardiPropertyId": "379488"
+    },
+    {
+      "name": "The Adele",
+      "hood": "ev",
+      "url": "http://www.adelenyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "250 E Houston (Red Square)",
+      "hood": "ev",
+      "url": "http://250ehouston.com/",
+      "adapter": "none",
+      "status": "dead",
+      "hints": [
+        "site-dead"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "152 Second Avenue",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "EVE",
+      "hood": "ev",
+      "url": "https://eve.nyc/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "rentcafe-securecafe",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://rosenyc.securecafe.com/onlineleasing/eve-residential-property-list/floorplans"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Arabella 101",
+      "hood": "ev",
+      "url": "http://www.arabella101.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Bloom 62",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Deco East",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "CD280",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Sky East",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Tompkins Square Plaza",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Hudson East",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Eastville Gardens",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Houston",
+      "hood": "ev",
+      "url": "https://thehoustonnyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://thehoustonnyc.com/availability/",
+        "https://thehoustonnyc.com/the-houston-nyc-new-luxury-residences-at-lower-east-side/",
+        "https://thehoustonnyc.com/residences/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The East",
+      "hood": "ev",
+      "url": "https://theeastnyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://theeastnyc.com/residences",
+        "https://theeastnyc.com/availability",
+        "https://theeastnyc.com/residences/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "298 Mulberry",
+      "hood": "nolita",
+      "url": "https://www.298mulberryst.com/",
+      "adapter": "jonah",
+      "status": "pending",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "227 Mulberry",
+      "hood": "nolita",
+      "url": "https://www.hakimian.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "rentcafe-securecafe"
+      ],
+      "availabilityUrls": [
+        "https://hakimian-reslisting.securecafe.com/residentservices/apartmentsforrent/userlogin.aspx"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Archive",
+      "hood": "wv",
+      "url": "https://rockrose.com/building/the-archive/",
+      "adapter": "rockrose",
+      "status": "pending",
+      "hints": [
+        "rockrose"
+      ],
+      "availabilityUrls": [
+        "https://rockrose.com/availabilities/",
+        "https://rockrose.com/retail-availabilities/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "600 Washington",
+      "hood": "wv",
+      "url": "http://www.equityapartments.com/new-york-city/west-village/600-washington-apartments",
+      "adapter": "equity",
+      "status": "pending",
+      "hints": [
+        "equity-residential"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "110 Horatio Street",
+      "hood": "wv",
+      "url": "https://rockrose.com/building/110-horatio-st/",
+      "adapter": "rockrose",
+      "status": "pending",
+      "hints": [
+        "rockrose"
+      ],
+      "availabilityUrls": [
+        "https://rockrose.com/availabilities/",
+        "https://rockrose.com/retail-availabilities/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Printing House",
+      "hood": "wv",
+      "url": "http://printinghousewestvillage.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "756 Washington",
+      "hood": "wv",
+      "url": "http://www.hellerorg.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "56 Seventh Avenue",
+      "hood": "wv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "780 Greenwich Street",
+      "hood": "wv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "95 Christopher Street",
+      "hood": "wv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "101 West 15th Street",
+      "hood": "chelsea",
+      "url": "https://www.stonehengenyc.com/buildings/101w15",
+      "adapter": "stonehenge",
+      "status": "pending",
+      "hints": [
+        "stonehenge",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Westminster",
+      "hood": "chelsea",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Chelsea Landmark",
+      "hood": "chelsea",
+      "url": "http://www.chelsealandmark.com/",
+      "adapter": "rose",
+      "status": "pending",
+      "hints": [
+        "rose-associates",
+        "yardi-property-46133"
+      ],
+      "availabilityUrls": [
+        "https://availability.rosenyc.com/availability/msdigldp/"
+      ],
+      "yardiPropertyId": "46133"
+    },
+    {
+      "name": "The Arthur",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Tate",
+      "hood": "chelsea",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-tate",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Ten23",
+      "hood": "chelsea",
+      "url": "http://www.equityapartments.com/new-york-city/chelsea/ten23-apartments",
+      "adapter": "equity",
+      "status": "pending",
+      "hints": [
+        "equity-residential"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Caledonia",
+      "hood": "chelsea",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-caledonia",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "AVA High Line",
+      "hood": "chelsea",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line",
+      "adapter": "entrata",
+      "status": "pending",
+      "hints": [
+        "avalon-entrata",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Avalon West Chelsea",
+      "hood": "chelsea",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea",
+      "adapter": "entrata",
+      "status": "pending",
+      "hints": [
+        "avalon-entrata",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Abington House",
+      "hood": "chelsea",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Highline 537",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Chelsea Grande",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Port 10",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "London Terrace Gardens",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Maverick Chelsea",
+      "hood": "chelsea",
+      "url": "https://225west28th.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://225west28th.com/availability/",
+        "https://225west28th.com/residences/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Ruby Chelsea",
+      "hood": "chelsea",
+      "url": "https://rubychelsea.com/",
+      "adapter": "rose",
+      "status": "pending",
+      "hints": [
+        "known-feed:rose",
+        "yardi-property-507035"
+      ],
+      "availabilityUrls": [
+        "https://availability.rosenyc.com/availability/hgpiehrt/"
+      ],
+      "yardiPropertyId": "507035"
+    },
+    {
+      "name": "Chelsea Canvas",
+      "hood": "chelsea",
+      "url": "https://chelseacanvasnyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://chelseacanvasnyc.com/availability/",
+        "https://chelseacanvasnyc.com/residences/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Instrata Gramercy",
+      "hood": "gramercy",
+      "url": "https://www.instratagramercy.com/",
+      "adapter": "jsonld",
+      "status": "pending",
+      "hints": [
+        "jsonld-units",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Gramercy Starck",
+      "hood": "gramercy",
+      "url": "https://www.gramercystarckny.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Park 23",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Hatten House",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Gramercy Court",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Gramercy East",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "New Amsterdam",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Washington Irving House",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "245 East 19th Street",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "210 East 22nd Street",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Gemma Gramercy",
+      "hood": "gramercy",
+      "url": "https://gemmagramercy.com/",
+      "adapter": "streeteasy",
+      "status": "pending",
+      "hints": [
+        "streeteasy-link",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://streeteasy.com/building/gemma-200-east-23rd-street-new_york"
+      ],
+      "yardiPropertyId": null
+    }
+  ]
+}

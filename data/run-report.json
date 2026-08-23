@@ -1,0 +1,464 @@
+{
+  "generatedAt": "2026-08-23T03:52:10.323Z",
+  "byAdapter": {
+    "jonah": 4,
+    "rentcafe": 9,
+    "wordpress": 6,
+    "none": 34,
+    "generic": 4,
+    "entrata": 3,
+    "streeteasy": 2,
+    "rockrose": 2,
+    "equity": 2,
+    "stonehenge": 1,
+    "related": 4,
+    "rose": 2,
+    "jsonld": 1
+  },
+  "buildings": [
+    {
+      "name": "The Rollins",
+      "adapter": "jonah",
+      "status": "ok",
+      "count": 13
+    },
+    {
+      "name": "The Suffolk",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Essex",
+      "adapter": "jonah",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "name": "The Artisan",
+      "adapter": "jonah",
+      "status": "ok",
+      "count": 11
+    },
+    {
+      "name": "The Ludlow",
+      "adapter": "jonah",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "name": "The Chrystie",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Sioné",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Jones L.E.S.",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "155 Attorney Street",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Orchard",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Stella LES",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Gotham Court",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "275 South Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Madison Jackson",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Norfolk",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "EVGB",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "2 Cooper Square",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Nathaniel",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Steiner East Village",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Avalon Bowery Place I",
+      "adapter": "entrata",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "name": "Avalon Bowery Place II",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Eleventh & Third",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Adele",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "250 E Houston (Red Square)",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "152 Second Avenue",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "EVE",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Arabella 101",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Bloom 62",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Deco East",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "CD280",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Sky East",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Tompkins Square Plaza",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Hudson East",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Eastville Gardens",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Houston",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "name": "The East",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "298 Mulberry",
+      "adapter": "streeteasy",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "227 Mulberry",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Archive",
+      "adapter": "rockrose",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "name": "600 Washington",
+      "adapter": "equity",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "110 Horatio Street",
+      "adapter": "rockrose",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "name": "The Printing House",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "name": "756 Washington",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "56 Seventh Avenue",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "780 Greenwich Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "95 Christopher Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "101 West 15th Street",
+      "adapter": "stonehenge",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "name": "The Westminster",
+      "adapter": "related",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "name": "Chelsea Landmark",
+      "adapter": "rose",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Arthur",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Tate",
+      "adapter": "related",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "name": "Ten23",
+      "adapter": "equity",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Caledonia",
+      "adapter": "related",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "name": "AVA High Line",
+      "adapter": "entrata",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "name": "Avalon West Chelsea",
+      "adapter": "entrata",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "name": "Abington House",
+      "adapter": "related",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "name": "Highline 537",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Chelsea Grande",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Port 10",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "London Terrace Gardens",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Maverick Chelsea",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Ruby Chelsea",
+      "adapter": "rose",
+      "status": "ok",
+      "count": 15
+    },
+    {
+      "name": "Chelsea Canvas",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "name": "Instrata Gramercy",
+      "adapter": "jsonld",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Gramercy Starck",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Park 23",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Hatten House",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Gramercy Court",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Gramercy East",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "New Amsterdam",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Washington Irving House",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "245 East 19th Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "210 East 22nd Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Gemma Gramercy",
+      "adapter": "streeteasy",
+      "status": "skipped",
+      "count": 0
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-23T02:55:00.645Z",
+  "buildings": [
+    {
+      "name": "The Rollins",
+      "address": "145 Clinton St",
+      "hood": "les",
+      "url": "https://therollinsnyc.com/",
+      "adapter": "jonah",
+      "status": "pending",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "New York apartments for rent | The Rollins"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://therollinsnyc.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://therollinsnyc.com/"
+    },
+    {
+      "name": "The Suffolk",
+      "address": "55 Suffolk St",
+      "hood": "les",
+      "url": "https://thesuffolk.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Apartments in Lower East Side - Lower East Side Apts For Rent Apartments in Lower East Side &#8211; Lower East Side Apts For Rent"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://thesuffolk.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://thesuffolk.com/"
+    },
+    {
+      "name": "The Essex",
+      "address": "125 Delancey St",
+      "hood": "les",
+      "url": "https://theessexnyc.com/",
+      "adapter": "jonah",
+      "status": "pending",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "New York apartments for rent | The Essex"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://theessexnyc.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://theessexnyc.com/"
+    },
+    {
+      "name": "The Artisan",
+      "address": "180 Broome St",
+      "hood": "les",
+      "url": "https://theartisannyc.com/",
+      "adapter": "jonah",
+      "status": "pending",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "New York apartments for rent | The Artisan"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://theartisannyc.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://theartisannyc.com/"
+    },
+    {
+      "name": "The Ludlow",
+      "address": "188 Ludlow St",
+      "hood": "les",
+      "url": "https://www.theludlownyc.com/",
+      "adapter": "jonah",
+      "status": "pending",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "New York apartments for rent | The Ludlow"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://theludlownyc.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://theludlownyc.com/"
+    },
+    {
+      "name": "The Chrystie",
+      "address": "229 Chrystie St",
+      "hood": "les",
+      "url": "https://thechrystie.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Home - The Chrystie"
+      },
+      "availabilityUrls": [
+        "https://thechrystie.com/residences/",
+        "https://thechrystie.com/availability/",
+        "https://thechrystie.com/wp-content/uploads/2024/07/Residences.jpg"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://thechrystie.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://thechrystie.com/"
+    },
+    {
+      "name": "Sioné",
+      "address": "171 Suffolk St",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Jones L.E.S.",
+      "address": "331 E Houston St",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "155 Attorney Street",
+      "address": "155 Attorney St",
+      "hood": "les",
+      "url": "http://www.155attorneystreet.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-210717",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "155 Attorney Street"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "http://www.155attorneystreet.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": "210717",
+      "sourceUrl": "http://www.155attorneystreet.com/"
+    },
+    {
+      "name": "The Orchard",
+      "address": "118 Orchard St",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Stella LES",
+      "address": "251 E 2nd St",
+      "hood": "les",
+      "url": "http://stellales.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-379412"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Stella LES | Lower East Side Luxury Apartments for Rent"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": "379412",
+      "sourceUrl": "https://stellales.com/"
+    },
+    {
+      "name": "Gotham Court",
+      "address": "152 Ludlow St",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "275 South Street",
+      "address": "275 South St",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Madison Jackson",
+      "address": "371 Madison St",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Norfolk",
+      "address": "60 Norfolk St",
+      "hood": "les",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "EVGB",
+      "address": "510 E 14th St",
+      "hood": "ev",
+      "url": "https://rentevgb.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "known-feed:rentcafe",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "EVGB | East Village Apartments"
+      },
+      "availabilityUrls": [
+        "https://evgb-rentcafewebsite.securecafe.com/onlineleasing/evgb/floorplans.aspx",
+        "https://rentevgb.com/residences/",
+        "https://rentevgb.com/availability/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "http://rentevgb.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://rentevgb.com/"
+    },
+    {
+      "name": "2 Cooper Square",
+      "address": "2 Cooper Sq",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Nathaniel",
+      "address": "138 E 12th St",
+      "hood": "ev",
+      "url": "https://www.thenathanielny.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-168618",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "East Village Apartments | The Nathaniel NYC"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.thenathanielny.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": "168618",
+      "sourceUrl": "https://www.thenathanielny.com/"
+    },
+    {
+      "name": "Steiner East Village",
+      "address": "438 E 12th St",
+      "hood": "ev",
+      "url": "http://www.steinereastvillage.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "Luxury East Village Condos | Steiner East Village"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.steinereastvillage.com/"
+    },
+    {
+      "name": "Avalon Bowery Place I",
+      "address": "11 E 1st St",
+      "hood": "ev",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place",
+      "adapter": "entrata",
+      "status": "pending",
+      "hints": [
+        "avalon-entrata",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Avalon Bowery Place -  Apartments in New York, NY | AvalonBay Communities | AvalonBay Communities"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.avaloncommunities.com/arc/outboundfeeds/avb-sitemap/?outputType=xml&_website=avalon-communities"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place/"
+    },
+    {
+      "name": "Avalon Bowery Place II",
+      "address": "22 E 1st St",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Eleventh & Third",
+      "address": "200 E 11th St",
+      "hood": "ev",
+      "url": "https://www.eleventhandthird.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-379488",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Eleventh and Third | East Village"
+      },
+      "availabilityUrls": [
+        "https://www.eleventhandthird.com/availabilities"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.eleventhandthird.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": "379488",
+      "sourceUrl": "https://www.eleventhandthird.com/"
+    },
+    {
+      "name": "The Adele",
+      "address": "310 E 2nd St",
+      "hood": "ev",
+      "url": "http://www.adelenyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "The Adele - 310 East 2nd Street"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "http://adelenyc.com/sitemap.xml",
+          "http://adelenyc.com/sitemap.rss"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "http://adelenyc.com/"
+    },
+    {
+      "name": "250 E Houston (Red Square)",
+      "address": "250 E Houston St",
+      "hood": "ev",
+      "url": "http://250ehouston.com/",
+      "adapter": "none",
+      "status": "dead",
+      "hints": [
+        "site-dead"
+      ],
+      "fetch": {
+        "status": "dead",
+        "error": "HTTP 404 for http://250ehouston.com/"
+      },
+      "availabilityUrls": [],
+      "robots": null,
+      "yardiPropertyId": null
+    },
+    {
+      "name": "152 Second Avenue",
+      "address": "152 Second Ave",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "EVE",
+      "address": "433 E 13th St",
+      "hood": "ev",
+      "url": "https://eve.nyc/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "rentcafe-securecafe",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "East Village Luxury Apartments | Experience Eve East Village"
+      },
+      "availabilityUrls": [
+        "https://rosenyc.securecafe.com/onlineleasing/eve-residential-property-list/floorplans"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://eve.nyc/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://eve.nyc/"
+    },
+    {
+      "name": "Arabella 101",
+      "address": "101 Avenue D",
+      "hood": "ev",
+      "url": "http://www.arabella101.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Arabella 101"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "unavailable"
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.dermotcompany.com/building/arabella-101"
+    },
+    {
+      "name": "Bloom 62",
+      "address": "62 Avenue B",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Deco East",
+      "address": "222 E 3rd St",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "CD280",
+      "address": "280 E 2nd St",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Sky East",
+      "address": "636 E 11th St",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Tompkins Square Plaza",
+      "address": "190 E 7th St",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Hudson East",
+      "address": "225 E 6th St",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Eastville Gardens",
+      "address": "342 E 8th St",
+      "hood": "ev",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Houston",
+      "address": "280 E Houston St",
+      "hood": "ev",
+      "url": "https://thehoustonnyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": null
+      },
+      "availabilityUrls": [
+        "https://thehoustonnyc.com/availability/",
+        "https://thehoustonnyc.com/the-houston-nyc-new-luxury-residences-at-lower-east-side/",
+        "https://thehoustonnyc.com/residences/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://thehoustonnyc.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://thehoustonnyc.com/"
+    },
+    {
+      "name": "The East",
+      "address": "644 E 14th St",
+      "hood": "ev",
+      "url": "https://theeastnyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Home - The East"
+      },
+      "availabilityUrls": [
+        "https://theeastnyc.com/residences",
+        "https://theeastnyc.com/availability",
+        "https://theeastnyc.com/residences/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://theeastnyc.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://theeastnyc.com/"
+    },
+    {
+      "name": "298 Mulberry",
+      "address": "298 Mulberry St",
+      "hood": "nolita",
+      "url": "https://www.298mulberryst.com/",
+      "adapter": "streeteasy",
+      "status": "auto",
+      "hints": [
+        "jonah-digital",
+        "has-sitemap",
+        "floorplans-redirects-to-streeteasy"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "298 Mulberry is a pet-friendly apartment community in New York, NY"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://298mulberryst.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://298mulberryst.com/"
+    },
+    {
+      "name": "227 Mulberry",
+      "address": "227 Mulberry St",
+      "hood": "nolita",
+      "url": "https://www.hakimian.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "rentcafe-securecafe"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "The Hakimian Organization"
+      },
+      "availabilityUrls": [
+        "https://hakimian-reslisting.securecafe.com/residentservices/apartmentsforrent/userlogin.aspx"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.hakimian.com/"
+    },
+    {
+      "name": "The Archive",
+      "address": "666 Greenwich St",
+      "hood": "wv",
+      "url": "https://rockrose.com/building/the-archive/",
+      "adapter": "rockrose",
+      "status": "pending",
+      "hints": [
+        "rockrose"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "The Archive | Rockrose"
+      },
+      "availabilityUrls": [
+        "https://rockrose.com/availabilities/",
+        "https://rockrose.com/retail-availabilities/"
+      ],
+      "robots": {
+        "status": "unavailable"
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://rockrose.com/building/the-archive/"
+    },
+    {
+      "name": "600 Washington",
+      "address": "600 Washington St",
+      "hood": "wv",
+      "url": "http://www.equityapartments.com/new-york-city/west-village/600-washington-apartments",
+      "adapter": "equity",
+      "status": "pending",
+      "hints": [
+        "equity-residential"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "600 Washington Apartments in West Village - 600 Washington Street | EquityApartments.com"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.equityapartments.com/new-york-city/west-village/600-washington-apartments"
+    },
+    {
+      "name": "110 Horatio Street",
+      "address": "110 Horatio St",
+      "hood": "wv",
+      "url": "https://rockrose.com/building/110-horatio-st/",
+      "adapter": "rockrose",
+      "status": "pending",
+      "hints": [
+        "rockrose"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "110 Horatio Street | Rockrose"
+      },
+      "availabilityUrls": [
+        "https://rockrose.com/availabilities/",
+        "https://rockrose.com/retail-availabilities/"
+      ],
+      "robots": {
+        "status": "unavailable"
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://rockrose.com/building/110-horatio-street/"
+    },
+    {
+      "name": "The Printing House",
+      "address": "421 Hudson St",
+      "hood": "wv",
+      "url": "http://printinghousewestvillage.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Mode Under Maintenance"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://printinghousewestvillage.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://printinghousewestvillage.com/"
+    },
+    {
+      "name": "756 Washington",
+      "address": "756 Washington St",
+      "hood": "wv",
+      "url": "http://www.hellerorg.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "Home page"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://hellerorg.com/"
+    },
+    {
+      "name": "56 Seventh Avenue",
+      "address": "56 Seventh Ave",
+      "hood": "wv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "780 Greenwich Street",
+      "address": "780 Greenwich St",
+      "hood": "wv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "95 Christopher Street",
+      "address": "95 Christopher St",
+      "hood": "wv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "101 West 15th Street",
+      "address": "101 W 15th St",
+      "hood": "chelsea",
+      "url": "https://www.stonehengenyc.com/buildings/101w15",
+      "adapter": "stonehenge",
+      "status": "pending",
+      "hints": [
+        "stonehenge",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "101 West 15th Street Apartments | Chelsea NYC Rentals"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://stonehenge-nyc-930c47.webflow.io/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.stonehengenyc.com/buildings/101w15"
+    },
+    {
+      "name": "The Westminster",
+      "address": "180 W 20th St",
+      "hood": "chelsea",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "The Westminster Luxury Rental Apartments in Chelsea, New York City"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
+    },
+    {
+      "name": "Chelsea Landmark",
+      "address": "55 W 25th St",
+      "hood": "chelsea",
+      "url": "http://www.chelsealandmark.com/",
+      "adapter": "rose",
+      "status": "pending",
+      "hints": [
+        "rose-associates",
+        "yardi-property-46133"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Chelsea Landmark"
+      },
+      "availabilityUrls": [
+        "https://availability.rosenyc.com/availability/msdigldp/"
+      ],
+      "robots": {
+        "status": "unavailable"
+      },
+      "yardiPropertyId": "46133",
+      "sourceUrl": "https://www.chelsealandmark.com/"
+    },
+    {
+      "name": "The Arthur",
+      "address": "245 W 25th St",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Tate",
+      "address": "535 W 23rd St",
+      "hood": "chelsea",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-tate",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "The Tate Luxury Rental Apartments in Chelsea, New York City"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-tate"
+    },
+    {
+      "name": "Ten23",
+      "address": "500 W 23rd St",
+      "hood": "chelsea",
+      "url": "http://www.equityapartments.com/new-york-city/chelsea/ten23-apartments",
+      "adapter": "equity",
+      "status": "pending",
+      "hints": [
+        "equity-residential"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Ten23 Apartments in Chelsea - 500 West 23rd Street | EquityApartments.com"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.equityapartments.com/new-york-city/chelsea/ten23-apartments"
+    },
+    {
+      "name": "The Caledonia",
+      "address": "450 W 17th St",
+      "hood": "chelsea",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-caledonia",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "The Caledonia Luxury Rental Apartments in Chelsea, New York City"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-caledonia"
+    },
+    {
+      "name": "AVA High Line",
+      "address": "525 W 28th St",
+      "hood": "chelsea",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line",
+      "adapter": "entrata",
+      "status": "pending",
+      "hints": [
+        "avalon-entrata",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "AVA High Line -  Apartments in New York City, NY | AvalonBay Communities | AvalonBay Communities"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.avaloncommunities.com/arc/outboundfeeds/avb-sitemap/?outputType=xml&_website=avalon-communities"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line/"
+    },
+    {
+      "name": "Avalon West Chelsea",
+      "address": "282 Eleventh Ave",
+      "hood": "chelsea",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea",
+      "adapter": "entrata",
+      "status": "pending",
+      "hints": [
+        "avalon-entrata",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Avalon West Chelsea -  Apartments in New York City, NY | AvalonBay Communities | AvalonBay Communities"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.avaloncommunities.com/arc/outboundfeeds/avb-sitemap/?outputType=xml&_website=avalon-communities"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea/"
+    },
+    {
+      "name": "Abington House",
+      "address": "500 W 30th St",
+      "hood": "chelsea",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Abington House Luxury Rental Apartments in Hudson Yards, New York City"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.relatedrentals.com/apartment-rentals/new-york-city/hudson-yards/abington-house"
+    },
+    {
+      "name": "Highline 537",
+      "address": "537 W 27th St",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Chelsea Grande",
+      "address": "460 W 20th St",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Port 10",
+      "address": "303 Tenth Ave",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "London Terrace Gardens",
+      "address": "415 W 23rd St",
+      "hood": "chelsea",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Maverick Chelsea",
+      "address": "225 W 28th St",
+      "hood": "chelsea",
+      "url": "https://225west28th.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "HOME | 225 West 28th"
+      },
+      "availabilityUrls": [
+        "https://225west28th.com/availability/",
+        "https://225west28th.com/residences/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://225west28th.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://225west28th.com/"
+    },
+    {
+      "name": "Ruby Chelsea",
+      "address": "243 W 28th St",
+      "hood": "chelsea",
+      "url": "https://rubychelsea.com/",
+      "adapter": "rose",
+      "status": "pending",
+      "hints": [
+        "known-feed:rose",
+        "yardi-property-507035"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "RUBY"
+      },
+      "availabilityUrls": [
+        "https://availability.rosenyc.com/availability/hgpiehrt/"
+      ],
+      "robots": {
+        "status": "unavailable"
+      },
+      "yardiPropertyId": "507035",
+      "sourceUrl": "https://rubychelsea.com/"
+    },
+    {
+      "name": "Chelsea Canvas",
+      "address": "280 W 24th St",
+      "hood": "chelsea",
+      "url": "https://chelseacanvasnyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Chelsea Canvas | Luxury Apartments For Rent in Manhattan"
+      },
+      "availabilityUrls": [
+        "https://chelseacanvasnyc.com/availability/",
+        "https://chelseacanvasnyc.com/residences/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://chelseacanvasnyc.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://chelseacanvasnyc.com/"
+    },
+    {
+      "name": "Instrata Gramercy",
+      "address": "290 Third Ave",
+      "hood": "gramercy",
+      "url": "https://www.instratagramercy.com/",
+      "adapter": "jsonld",
+      "status": "pending",
+      "hints": [
+        "jsonld-units",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Luxury Apartments NYC | INSTRATA Gramercy"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.instratagramercy.com/Googlesitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.instratagramercy.com/"
+    },
+    {
+      "name": "Gramercy Starck",
+      "address": "340 E 23rd St",
+      "hood": "gramercy",
+      "url": "https://www.gramercystarckny.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "Gramercy Starck - 340 East 23rd Street Condominium in Gramercy Park, Manhattan | NYC Real Estate Brokerage"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.gramercystarckny.com/"
+    },
+    {
+      "name": "Park 23",
+      "address": "295 Park Ave S",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Hatten House",
+      "address": "200 E 15th St",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Gramercy Court",
+      "address": "245 E 21st St",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Gramercy East",
+      "address": "321 E 22nd St",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "New Amsterdam",
+      "address": "320 E 23rd St",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Washington Irving House",
+      "address": "145 E 16th St",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "245 East 19th Street",
+      "address": "245 E 19th St",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "210 East 22nd Street",
+      "address": "210 E 22nd St",
+      "hood": "gramercy",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Gemma Gramercy",
+      "address": "200 E 23rd St",
+      "hood": "gramercy",
+      "url": "https://gemmagramercy.com/",
+      "adapter": "streeteasy",
+      "status": "pending",
+      "hints": [
+        "streeteasy-link",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Gemma Gramercy - Luxury Residences Now Leasing"
+      },
+      "availabilityUrls": [
+        "https://streeteasy.com/building/gemma-200-east-23rd-street-new_york"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://gemmagramercy.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://gemmagramercy.com/"
+    }
+  ]
+}

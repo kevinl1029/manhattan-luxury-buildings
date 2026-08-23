@@ -1,0 +1,13 @@
+{
+  "name": "manhattan-luxury-buildings",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "discover": "node scrape/discover.js",
+    "scrape": "node scrape/run.js",
+    "test": "node --test 'scrape/test/*.test.js'"
+  }
+}

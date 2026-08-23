@@ -189,6 +189,49 @@
   .card-foot a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--hue);padding-bottom:1px;}
   .card-foot a:hover{background:var(--hue);color:var(--sheet);border-color:var(--hue);}
 
+  /* ---------- live listings (units view) ---------- */
+  .avail-line{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);
+    margin:0 0 12px;letter-spacing:.04em;
+  }
+  .avail-line b,.pop-avail b{color:#A4572D;font-weight:700;}
+  .pop-avail{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);margin:0 0 10px;
+  }
+  .ugrid{grid-template-columns:repeat(auto-fill,minmax(280px,1fr));}
+  .ucard{
+    background:var(--sheet);padding:16px 18px 14px;display:flex;flex-direction:column;
+  }
+  .uhead{display:flex;align-items:center;gap:8px;margin-bottom:9px;}
+  .uprice{
+    margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:16px;font-weight:700;
+    letter-spacing:.02em;
+  }
+  .drop-badge{
+    font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.06em;
+    color:#fff;background:#A4572D;padding:2px 6px;white-space:nowrap;
+  }
+  .uname{
+    font-size:19px;font-stretch:112%;font-weight:700;letter-spacing:-.01em;
+    line-height:1.15;margin:0 0 2px;
+  }
+  .ubldg{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--hue);
+    text-transform:uppercase;letter-spacing:.07em;margin:0 0 7px;
+  }
+  .umeta{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);
+    margin:0 0 11px;
+  }
+  .ufoot{
+    display:flex;align-items:baseline;gap:12px;border-top:1px solid var(--rule-soft);
+    padding-top:9px;margin-top:auto;
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);
+  }
+  .ufoot a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--hue);padding-bottom:1px;margin-left:auto;}
+  .ufoot a:hover{background:var(--hue);color:var(--sheet);border-color:var(--hue);}
+  #lrows select{max-width:170px;}
+
   /* ---------- empty ---------- */
   .empty{
     display:none;padding:60px 20px;text-align:center;
@@ -269,7 +312,7 @@
   <header class="masthead">
     <p class="eyebrow" id="tally">Doorman &amp; full-service rental stock · six neighborhoods</p>
     <h1>Full-service<span class="thin">Manhattan</span></h1>
-    <p class="standfirst">Every doorman, concierge, and full-amenity building I could find across the Lower East Side, East Village, Nolita, West Village, Chelsea, and Gramercy. <b>Filter by neighborhood, search by name or street, star the ones worth a tour.</b> Availability and pricing change weekly — check the leasing site before you plan around anything here.</p>
+    <p class="standfirst">Every doorman, concierge, and full-amenity building I could find across the Lower East Side, East Village, Nolita, West Village, Chelsea, and Gramercy. <b>Filter by neighborhood, search by name or street, star the ones worth a tour.</b> The <b>Listings</b> tab shows live availability pulled daily from the buildings' own leasing sites — prices move, so confirm on the leasing site before you plan around anything here.</p>
     <p class="legend">
       <span><span class="legend-swatch"></span>Each hairline is one floor</span>
       <span>Dashed = floor count unverified</span>
@@ -282,7 +325,8 @@
     <div class="control-row">
       <div class="view-toggle" role="tablist" aria-label="Switch view">
         <button class="pill view-btn" type="button" data-view="map" aria-pressed="true" role="tab">Map</button>
-        <button class="pill view-btn" type="button" data-view="list" aria-pressed="false" role="tab">Listing</button>
+        <button class="pill view-btn" type="button" data-view="list" aria-pressed="false" role="tab">Buildings</button>
+        <button class="pill view-btn" type="button" data-view="units" aria-pressed="false" role="tab">Listings</button>
       </div>
       <span class="count" id="count"></span>
     </div>
@@ -296,6 +340,25 @@
       </select>
       <button class="pill" id="starred" aria-pressed="false"><span class="dot" style="--hue:var(--ink)"></span>Starred only</button>
     </div>
+    <div class="control-row" id="lrows" hidden>
+      <select id="lbeds" aria-label="Filter listings by beds">
+        <option value="any">Any size</option>
+        <option value="0">Studio</option>
+        <option value="1">1 bed</option>
+        <option value="2">2 beds</option>
+        <option value="3">3+ beds</option>
+      </select>
+      <select id="lprice" aria-label="Filter listings by max price">
+        <option value="any">Any price</option>
+        <option value="4000">Under $4,000</option>
+        <option value="5000">Under $5,000</option>
+        <option value="6000">Under $6,000</option>
+        <option value="8000">Under $8,000</option>
+        <option value="10000">Under $10,000</option>
+        <option value="15000">Under $15,000</option>
+      </select>
+      <button class="pill" id="ldrops" aria-pressed="false"><span class="dot" style="--hue:var(--ink)"></span>Price drops</button>
+    </div>
   </div>
 </div>
 
@@ -305,13 +368,15 @@
     <span class="map-hint">Scroll to zoom · click a pin for details</span>
   </div>
   <div class="grid" id="grid" hidden></div>
+  <div class="grid ugrid" id="lgrid" hidden></div>
   <div class="empty" id="empty">
     <h2>Nothing matches that</h2>
     <p>Clear the search box or pick a different neighborhood.</p>
   </div>
   <footer>
     Compiled Aug 2026 from CityRealty, NYBits, 6sqft and building leasing sites.<br>
-    Floor and unit counts are as-published. Notes in italics are my read on the block, not the listing's.
+    Floor and unit counts are as-published. Notes in italics are my read on the block, not the listing's.<br>
+    <span id="freshtxt"></span>
   </footer>
 </div>
 
@@ -578,8 +643,9 @@ async function persist(){
 
 /* ---------- render ---------- */
 const grid = document.getElementById("grid");
+const lgrid = document.getElementById("lgrid");
 const pillbar = document.getElementById("pills");
-const state = {hood:"all", q:"", sort:"hood", starOnly:false, view:"map"};
+const state = {hood:"all", q:"", sort:"hood", starOnly:false, view:"map", beds:"any", maxp:"any", dropsOnly:false};
 
 function pill(id, label, n, hue){
   const b = document.createElement("button");
@@ -604,6 +670,109 @@ Object.entries(HOODS)
 document.getElementById("tally").textContent =
   `${B.length} buildings · ${Object.keys(HOODS).length} neighborhoods · compiled Aug 2026`;
 
+/* ---------- live listings data ---------- */
+const LG = [];
+let META = null;
+const byName = Object.fromEntries(B.map(b=>[b.n, b]));
+
+async function loadListings(){
+  try{
+    const r1 = await fetch("data/listings.json", {cache:"no-store"});
+    if(r1.ok) LG.push(...((await r1.json()).listings || []));
+  }catch(e){ /* offline or first run */ }
+  try{
+    const r2 = await fetch("data/meta.json", {cache:"no-store"});
+    if(r2.ok) META = await r2.json();
+  }catch(e){}
+  renderFresh();
+}
+
+function buildingAvail(b){
+  const ls = LG.filter(l=>l.building === b.n);
+  if(!ls.length) return null;
+  const prices = ls.map(l=>l.price).filter(v=>v != null);
+  const min = prices.length ? Math.min(...prices) : null;
+  const drops = ls.filter(l=>l.dropFrom).length;
+  return {count: ls.length, min, drops};
+}
+
+function renderFresh(){
+  const el = document.getElementById("freshtxt");
+  if(!META?.lastRun || !LG.length){ el.textContent = ""; return; }
+  const mins = Math.round((Date.now() - new Date(META.lastRun).getTime())/60000);
+  const ago = mins < 60 ? `${mins} min ago` : mins < 1440 ? `${Math.round(mins/60)}h ago` : `${Math.round(mins/1440)}d ago`;
+  const buildings = new Set(LG.map(l=>l.building)).size;
+  el.textContent = `Live listings refreshed ${ago} — ${LG.length} units across ${buildings} buildings, pulled daily from the buildings' own leasing sites.`;
+}
+
+function fmtBeds(n){
+  if(n == null) return "Size n/a";
+  if(n === 0) return "Studio";
+  if(n === 0.5) return "Studio+";
+  return `${n} bed${n > 1 ? "s" : ""}`;
+}
+
+function fmtAvail(a){
+  if(!a) return null;
+  const s = String(a);
+  if(/immediate|now/i.test(s)) return "Available now";
+  const m = s.match(/\d{1,2}\/\d{1,2}\/\d{4}/);
+  if(m) return `Move-in ${m[0]}`;
+  return s;
+}
+
+function unitCard(l){
+  const b = byName[l.building];
+  const h = b ? HOODS[b.h] : {label:"", hue:"var(--ink)"};
+  const el = document.createElement("article");
+  el.className = "ucard";
+  el.style.setProperty("--hue", h.hue);
+  const drop = l.dropFrom
+    ? `<span class="drop-badge" title="Was $${l.dropFrom.toLocaleString()}">↓ $${(l.dropFrom - l.price).toLocaleString()}</span>`
+    : "";
+  const av = fmtAvail(l.availability);
+  const meta = [fmtBeds(l.beds), l.baths != null ? `${l.baths} bath${l.baths > 1 ? "s" : ""}` : null, l.sqft ? `${l.sqft.toLocaleString()} sq ft` : null]
+    .filter(Boolean).join(" · ");
+  el.innerHTML = `
+    <div class="uhead">
+      <span class="chip">${h.label}</span>
+      ${drop}
+      <span class="uprice">${l.price != null ? "$" + l.price.toLocaleString() : "Call for price"}</span>
+    </div>
+    <h4 class="uname">${escapeHtml(l.unit)}</h4>
+    <p class="ubldg">${escapeHtml(l.building)}</p>
+    <p class="umeta">${escapeHtml(meta)}</p>
+    <div class="ufoot">
+      <span class="uavail">${av ? escapeHtml(av) : ""}</span>
+      ${l.url ? `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener">Leasing site ↗</a>` : ""}
+    </div>`;
+  return el;
+}
+
+function drawUnits(){
+  const q = state.q.trim().toLowerCase();
+  let list = LG.filter(l=>{
+    const b = byName[l.building];
+    if(state.hood !== "all" && (!b || b.h !== state.hood)) return false;
+    if(state.starOnly && (!b || !saved.has(b.n))) return false;
+    if(q){
+      const hay = `${b ? b.n + " " + b.a : l.building} ${l.unit}`.toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    if(state.beds !== "any"){
+      const want = Number(state.beds);
+      if(want === 3 ? (l.beds ?? 99) < 3 : l.beds !== want) return false;
+    }
+    if(state.maxp !== "any" && l.price != null && l.price >= Number(state.maxp)) return false;
+    if(state.dropsOnly && !l.dropFrom) return false;
+    return true;
+  });
+  list.sort((a,b)=> (a.price ?? 1e9) - (b.price ?? 1e9) || a.building.localeCompare(b.building));
+  lgrid.replaceChildren(...list.map(unitCard));
+  document.getElementById("count").textContent = `${list.length} of ${LG.length} units shown`;
+  return list.length > 0;
+}
+
 function card(b){
   const h = HOODS[b.h];
   const el = document.createElement("article");
@@ -621,6 +790,10 @@ function card(b){
 
   const id = b.n;
   const on = saved.has(id);
+  const av = buildingAvail(b);
+  const avLine = av
+    ? `<p class="avail-line">${av.count} ${av.count === 1 ? "unit" : "units"}${av.min != null ? ` · from $${av.min.toLocaleString()}` : ""}${av.drops ? ` · <b>${av.drops} ↓</b>` : ""}</p>`
+    : "";
 
   el.innerHTML = `
     <div class="elev" aria-hidden="true">${elev}</div>
@@ -633,6 +806,7 @@ function card(b){
       <p class="addr">${b.a}</p>
       <p class="note"><i>${b.note}</i></p>
       <ul class="tags">${b.t.map(t=>`<li>${t}</li>`).join("")}</ul>
+      ${avLine}
       <div class="card-foot">
         <span>${meta.join(" · ") || "Counts unpublished"}</span>
         ${b.url ? `<a href="${b.url}" target="_blank" rel="noopener">Leasing site ↗</a>` : ""}
@@ -662,16 +836,21 @@ const HOME_BOUNDS = L.latLngBounds(B.map(b=>[b.lat, b.lon]));
 map.fitBounds(HOME_BOUNDS, {padding:[30,30]});
 
 function escapeHtml(s){
-  return s.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 
 function popupHtml(b){
   const h = HOODS[b.h];
+  const av = buildingAvail(b);
+  const avLine = av
+    ? `<p class="pop-avail">${av.count} ${av.count === 1 ? "unit" : "units"}${av.min != null ? ` · from $${av.min.toLocaleString()}` : ""}${av.drops ? ` · <b>${av.drops} ↓</b>` : ""}</p>`
+    : "";
   return `
     <div style="--hue:${h.hue}">
       <span class="pop-chip">${h.label}</span>
       <p class="pop-name">${escapeHtml(b.n)}</p>
       <p class="pop-addr">${escapeHtml(b.a)}</p>
+      ${avLine}
       <p class="pop-note"><i>${b.note}</i></p>
       <div class="pop-links">
         <button type="button" class="js-view-listing" data-name="${escapeHtml(b.n)}">View in listing ↓</button>
@@ -737,6 +916,18 @@ function draw(){
 
   markerLayer.clearLayers();
   list.forEach(b=> markerLayer.addLayer(marker(b)));
+
+  document.getElementById("lrows").hidden = true;
+
+  if(state.view === "units"){
+    const n = drawUnits();
+    document.getElementById("mapwrap").hidden = true;
+    grid.hidden = true;
+    lgrid.hidden = !n;
+    document.getElementById("empty").dataset.on = n ? "false" : "true";
+    return;
+  }
+
   if(list.length){
     map.fitBounds(L.latLngBounds(list.map(b=>[b.lat,b.lon])), {padding:[40,40], maxZoom:16});
   }
@@ -745,6 +936,7 @@ function draw(){
   const showGrid = state.view === "list" && list.length > 0;
   document.getElementById("mapwrap").hidden = !showMap;
   grid.hidden = !showGrid;
+  lgrid.hidden = true;
   document.getElementById("empty").dataset.on = list.length ? "false" : "true";
   if(showMap) requestAnimationFrame(()=> map.invalidateSize());
 
@@ -759,8 +951,18 @@ document.getElementById("starred").addEventListener("click", e=>{
   e.currentTarget.setAttribute("aria-pressed", state.starOnly);
   draw();
 });
+document.getElementById("lbeds").addEventListener("change", e=>{ state.beds = e.target.value; draw(); });
+document.getElementById("lprice").addEventListener("change", e=>{ state.maxp = e.target.value; draw(); });
+document.getElementById("ldrops").addEventListener("click", e=>{
+  state.dropsOnly = !state.dropsOnly;
+  e.currentTarget.setAttribute("aria-pressed", state.dropsOnly);
+  draw();
+});
 
-loadSaved().then(draw);
+loadSaved().then(loadListings).then(()=>{
+  const initView = new URLSearchParams(location.search).get("view");
+  if(["map","list","units"].includes(initView)) setView(initView); else draw();
+});
 </script>
 </body>
 </html>
