@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-23T02:55:00.645Z",
+  "generatedAt": "2026-08-23T04:51:32.131Z",
   "buildings": [
     {
       "name": "The Rollins",
@@ -641,12 +641,11 @@
       "address": "298 Mulberry St",
       "hood": "nolita",
       "url": "https://www.298mulberryst.com/",
-      "adapter": "streeteasy",
-      "status": "auto",
+      "adapter": "jonah",
+      "status": "pending",
       "hints": [
         "jonah-digital",
-        "has-sitemap",
-        "floorplans-redirects-to-streeteasy"
+        "has-sitemap"
       ],
       "fetch": {
         "status": "ok",
@@ -687,6 +686,53 @@
       "sourceUrl": "https://www.hakimian.com/"
     },
     {
+      "name": "Mulberry House",
+      "address": "290 Mulberry St",
+      "hood": "nolita",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Soho Abbey",
+      "address": "284 Mott St",
+      "hood": "nolita",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "SPRING",
+      "address": "225 Lafayette St",
+      "hood": "nolita",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Nolita Place Condominiums",
+      "address": "199 Bowery",
+      "hood": "nolita",
+      "url": "https://www.199bowerynyc.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "Nolita Place - 199 Bowery Condominium in Nolita, Manhattan | NYC Real Estate Brokerage"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.199bowerynyc.com/"
+    },
+    {
       "name": "The Archive",
       "address": "666 Greenwich St",
       "hood": "wv",
@@ -715,22 +761,16 @@
       "address": "600 Washington St",
       "hood": "wv",
       "url": "http://www.equityapartments.com/new-york-city/west-village/600-washington-apartments",
-      "adapter": "equity",
-      "status": "pending",
-      "hints": [
-        "equity-residential"
-      ],
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
       "fetch": {
-        "status": "ok",
-        "title": "600 Washington Apartments in West Village - 600 Washington Street | EquityApartments.com"
+        "status": "error",
+        "error": "HTTP 403 for http://www.equityapartments.com/new-york-city/west-village/600-washington-apartments"
       },
       "availabilityUrls": [],
-      "robots": {
-        "status": "ok",
-        "sitemaps": []
-      },
-      "yardiPropertyId": null,
-      "sourceUrl": "https://www.equityapartments.com/new-york-city/west-village/600-washington-apartments"
+      "robots": null,
+      "yardiPropertyId": null
     },
     {
       "name": "110 Horatio Street",
@@ -934,22 +974,16 @@
       "address": "500 W 23rd St",
       "hood": "chelsea",
       "url": "http://www.equityapartments.com/new-york-city/chelsea/ten23-apartments",
-      "adapter": "equity",
-      "status": "pending",
-      "hints": [
-        "equity-residential"
-      ],
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
       "fetch": {
-        "status": "ok",
-        "title": "Ten23 Apartments in Chelsea - 500 West 23rd Street | EquityApartments.com"
+        "status": "error",
+        "error": "HTTP 403 for http://www.equityapartments.com/new-york-city/chelsea/ten23-apartments"
       },
       "availabilityUrls": [],
-      "robots": {
-        "status": "ok",
-        "sitemaps": []
-      },
-      "yardiPropertyId": null,
-      "sourceUrl": "https://www.equityapartments.com/new-york-city/chelsea/ten23-apartments"
+      "robots": null,
+      "yardiPropertyId": null
     },
     {
       "name": "The Caledonia",
@@ -1304,6 +1338,1360 @@
       },
       "yardiPropertyId": null,
       "sourceUrl": "https://gemmagramercy.com/"
+    },
+    {
+      "name": "55 Thompson",
+      "address": "55 Thompson St",
+      "hood": "soho",
+      "url": "https://manhattanskyline.com/buildings/soho/55-thompson",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "55 Thompson | SoHo No Fee Luxury Rentals | Manhattan Skyline &reg;"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://manhattanskyline.com/buildings/soho/55-thompson"
+    },
+    {
+      "name": "261 Hudson",
+      "address": "261 Hudson St",
+      "hood": "soho",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/west-soho/261-hudson",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "261 Hudson Luxury Rental Apartments in West SoHo, New York City"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.relatedrentals.com/apartment-rentals/new-york-city/west-soho/261-hudson"
+    },
+    {
+      "name": "111 Varick",
+      "address": "111 Varick St",
+      "hood": "soho",
+      "url": "https://111varick.com",
+      "adapter": "spa",
+      "status": "pending",
+      "hints": [
+        "js-spa"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "111 Varick - Hudson Square New Luxury Rentals NYC | Downtown Manhattan New Studio Apartments"
+      },
+      "availabilityUrls": [
+        "https://111varick.com/availability/",
+        "https://111varick.com/residences/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://111varick.com/"
+    },
+    {
+      "name": "70 Charlton",
+      "address": "70 Charlton St",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "505 Greenwich Street",
+      "address": "505 Greenwich St",
+      "hood": "soho",
+      "url": "https://www.505greenwich.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "505 Greenwich Street - 505 Greenwich Street Condominium in Soho, Manhattan | NYC Real Estate Brokerage"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.505greenwich.com/"
+    },
+    {
+      "name": "The Greenwich Street Project",
+      "address": "497 Greenwich St",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "40 Mercer Residences",
+      "address": "40 Mercer St",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "One Kenmare Square",
+      "address": "210 Lafayette St",
+      "hood": "soho",
+      "url": "https://one-kenmare-square.com/",
+      "adapter": "jsonld",
+      "status": "pending",
+      "hints": [
+        "jsonld-units"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "One Kenmare Square Condominium | 210 Lafayette Street, New York, NY, 10012 | Soho NYC"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://one-kenmare-square.com/"
+    },
+    {
+      "name": "11 Greene Street",
+      "address": "11 Greene St",
+      "hood": "soho",
+      "url": "https://11greene.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "11 Greene"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://11greene.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://11greene.com/"
+    },
+    {
+      "name": "68 Spring Street",
+      "address": "68 Spring St",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Renwick Modern",
+      "address": "22 Renwick St",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Independence Plaza",
+      "address": "310 Greenwich St",
+      "hood": "tribeca",
+      "url": "https://www.stellarmanagement.com/no-fee-NYC-rentals/new-york-city-neighborhoods/Tribeca-rental-apartment-listings-Independence-Plaza",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Independence Plaza – Apartments for Rent in Tribeca, Manhattan, New York | Stellar Management, NYC Real Estate Developer"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.stellarmanagement.com/no-fee-NYC-rentals/new-york-city-neighborhoods/Tribeca-rental-apartment-listings-Independence-Plaza"
+    },
+    {
+      "name": "Tribeca House",
+      "address": "50 Murray St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Barclay Tower",
+      "address": "10 Barclay St",
+      "hood": "tribeca",
+      "url": "https://www.glenwoodnyc.com/properties/downtown/barclay-tower/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Barclay Tower NYC Luxury Apartment Rentals | Glenwood Management"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.glenwoodnyc.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.glenwoodnyc.com/properties/downtown/barclay-tower/"
+    },
+    {
+      "name": "Tribeca Tower",
+      "address": "105 Duane St",
+      "hood": "tribeca",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Tribeca Tower Luxury Rental Apartments in Tribeca &amp; Battery Park City, New York City"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower"
+    },
+    {
+      "name": "Truffles Tribeca",
+      "address": "34 Desbrosses St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "89 Murray Street",
+      "address": "89 Murray St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "88 Leonard Street",
+      "address": "88 Leonard St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "456 Washington Street",
+      "address": "456 Washington St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "440 Washington Street",
+      "address": "440 Washington St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "101 Warren Street",
+      "address": "101 Warren St",
+      "hood": "tribeca",
+      "url": "https://www.101-warren.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "101 Warren - 99 Warren Street And 101 Warren Street Condominium in Tribeca, Manhattan | NYC Real Estate Brokerage"
+      },
+      "availabilityUrls": [
+        "https://www.hlres.com/buildings/nyc/w-downtown-hotel-residences-123-washington-street/293752/condo",
+        "https://www.hlres.com/buildings/nyc/four-seasons-private-residences-30-park-place/293878/condo"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.101-warren.com/"
+    },
+    {
+      "name": "111 Murray Street",
+      "address": "111 Murray St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "56 Leonard Street",
+      "address": "56 Leonard St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Woolworth Tower Residences",
+      "address": "2 Park Place",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "200 Chambers Street",
+      "address": "200 Chambers St",
+      "hood": "tribeca",
+      "url": "https://www.200chambers.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "200 Chambers Street - 200 Chambers Street Condominium in Tribeca, Manhattan | NYC Real Estate Brokerage"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.200chambers.com/"
+    },
+    {
+      "name": "Reade Chambers",
+      "address": "71 Reade St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "River Lofts",
+      "address": "92 Laight St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Ice House",
+      "address": "27 North Moore St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "91 Leonard Street",
+      "address": "91 Leonard St",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Gateway Plaza",
+      "address": "345 South End Ave",
+      "hood": "bpc",
+      "url": "https://www.gatewayny.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Luxury Apartments in Battery Park City, NYC | Gateway"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.gatewayny.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.gatewayny.com/"
+    },
+    {
+      "name": "Liberty House",
+      "address": "377 Rector Pl",
+      "hood": "bpc",
+      "url": "https://www.libertyhouse.info/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "libertyhouse.info for sale — descriptive .info domain"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://expireddomains.com/domain/libertyhouse.info?utm_source=redi"
+    },
+    {
+      "name": "Le Rivage",
+      "address": "21 West St",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Tribeca Pointe",
+      "address": "41 River Terrace",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Riverwatch",
+      "address": "70 Battery Place",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "South Cove Plaza",
+      "address": "50 Battery Place",
+      "hood": "bpc",
+      "url": "https://www.southcoveplaza.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "South Cove Plaza | The Luxurious Side of The Waterside"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.southcoveplaza.com/wp-sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.southcoveplaza.com/"
+    },
+    {
+      "name": "The Solaire",
+      "address": "20 River Terrace",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Tribeca Green",
+      "address": "325 North End Ave",
+      "hood": "bpc",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-green",
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
+      "fetch": {
+        "status": "error",
+        "error": "HTTP 403 for https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-green"
+      },
+      "availabilityUrls": [],
+      "robots": null,
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Tribeca Park",
+      "address": "400 Chambers St",
+      "hood": "bpc",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-park",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Tribeca Park Luxury Rental Apartments in Tribeca &amp; Battery Park City, New York City"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-park"
+    },
+    {
+      "name": "Tribeca Bridge Tower",
+      "address": "450 North End Ave",
+      "hood": "bpc",
+      "url": "https://www.glenwoodnyc.com/properties/downtown/tribeca-bridge-tower/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Tribeca Bridge Tower NYC Luxury Apartment Rentals | Glenwood Management"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.glenwoodnyc.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.glenwoodnyc.com/properties/downtown/tribeca-bridge-tower/"
+    },
+    {
+      "name": "The Verdesian",
+      "address": "211 North End Ave",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "22 River Terrace",
+      "address": "22 River Terrace",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty Court",
+      "address": "200 Rector Pl",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty Terrace",
+      "address": "380 Rector Pl",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty View",
+      "address": "99 Battery Pl",
+      "hood": "bpc",
+      "url": "https://milfordrentals.com/buildings/liberty-view/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "Liberty View / 99 Battery Place, Manhattan, NY / Milford Management"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "unavailable"
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://milfordrentals.com/buildings/liberty-view/"
+    },
+    {
+      "name": "Liberty Luxe",
+      "address": "200 North End Ave",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty Green",
+      "address": "300 North End Ave",
+      "hood": "bpc",
+      "url": "https://milfordrentals.com/buildings/liberty-green/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "Liberty Green / 200 North End Avenue, Manhattan, NY 10282 / Milford Management"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "unavailable"
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://milfordrentals.com/buildings/liberty-green/"
+    },
+    {
+      "name": "The Visionaire",
+      "address": "70 Little West St",
+      "hood": "bpc",
+      "url": "https://the-visionaire.com/",
+      "adapter": "jsonld",
+      "status": "pending",
+      "hints": [
+        "jsonld-units"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "The Visionaire Condominium | 70 Little West Street, New York, NY, 10004 | Battery Park City NYC"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://the-visionaire.com/"
+    },
+    {
+      "name": "Riverhouse",
+      "address": "2 River Terrace",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Ritz-Carlton Residences",
+      "address": "10 Little West St",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Regatta",
+      "address": "21 South End Ave",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Millennium Tower Residences",
+      "address": "30 West St",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Soundings",
+      "address": "280 Rector Pl",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "New York by Gehry",
+      "address": "8 Spruce Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Twenty Exchange",
+      "address": "20 Exchange Place",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "One Wall Street",
+      "address": "1 Wall Street",
+      "hood": "fidi",
+      "url": "https://onewallstreet.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "One Wall Street | Condominium Residences | Lower Manhattan"
+      },
+      "availabilityUrls": [
+        "https://onewallstreet.com/residences/",
+        "https://onewallstreet.com/availability/",
+        "https://onewallstreet.com/availability"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://onewallstreet.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://onewallstreet.com/"
+    },
+    {
+      "name": "70 Pine",
+      "address": "70 Pine Street",
+      "hood": "fidi",
+      "url": "https://70pine.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-171174",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Luxury Rentals with 22,000 sq/ft of curated amenities - 70 Pine"
+      },
+      "availabilityUrls": [
+        "https://70pine.com/availability/",
+        "https://70pine.com/residences/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://70pinestnyc.com/sitemap.xml",
+          "https://70pinestnyc.com/header.php?sitemap.xml",
+          "https://70pinestnyc.com/links.php?sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": "171174",
+      "sourceUrl": "https://70pine.com/"
+    },
+    {
+      "name": "90 West",
+      "address": "90 West Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "200 Water Street",
+      "address": "200 Water Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "180 Water Street",
+      "address": "180 Water Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "2 Gold Street",
+      "address": "2 Gold Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "63 Wall Street",
+      "address": "63 Wall Street",
+      "hood": "fidi",
+      "url": "https://www.63wallstreet.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-267503",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Financial District, NY Apartments | 63 Wall Street | Home"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.63wallstreet.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": "267503",
+      "sourceUrl": "https://www.63wallstreet.com/63-wall-street-new-york-ny"
+    },
+    {
+      "name": "100 Maiden Lane",
+      "address": "100 Maiden Lane",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "10 Hanover Square",
+      "address": "10 Hanover Square",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "19 Dutch Street",
+      "address": "19 Dutch Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Broad Exchange Building",
+      "address": "25 Broad Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty Plaza",
+      "address": "10 Liberty Street",
+      "hood": "fidi",
+      "url": "https://www.glenwoodnyc.com/properties/downtown/liberty-plaza/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Liberty Plaza NYC Luxury Apartment Rentals | Glenwood Management"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://www.glenwoodnyc.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.glenwoodnyc.com/properties/downtown/liberty-plaza/"
+    },
+    {
+      "name": "7 Dey",
+      "address": "7 Dey Street",
+      "hood": "fidi",
+      "url": "https://7deynyc.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "rentcafe-securecafe",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "7 Dey | Luxury Downtown Apartments for Rent"
+      },
+      "availabilityUrls": [
+        "https://7deynyc.securecafe.com/onlineleasing/7-dey-street/floorplans.aspx",
+        "https://7deynyc.com/availability/",
+        "https://7deynyc.com/residences/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://7deynyc.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://7deynyc.com/"
+    },
+    {
+      "name": "Ocean",
+      "address": "1 West Street",
+      "hood": "fidi",
+      "url": "https://www.liveatonewestnyc.com/",
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
+      "fetch": {
+        "status": "error",
+        "error": "HTTP 403 for https://www.liveatonewestnyc.com/"
+      },
+      "availabilityUrls": [],
+      "robots": null,
+      "yardiPropertyId": null
+    },
+    {
+      "name": "116 John Street",
+      "address": "116 John Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "45 Wall Street",
+      "address": "45 Wall Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "37 Wall Street",
+      "address": "37 Wall Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "95 Wall",
+      "address": "95 Wall Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "75 Wall Street",
+      "address": "75 Wall Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Bridgeview House",
+      "address": "50 Bayard Street",
+      "hood": "chinatown",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Hester Gardens",
+      "address": "158 Hester Street",
+      "hood": "chinatown",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "One Manhattan Square",
+      "address": "252 South Street",
+      "hood": "twobridges",
+      "url": "https://onemanhattansquare.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "One Manhattan Square | Lower East Side Apartments For Sale"
+      },
+      "availabilityUrls": [
+        "https://onemanhattansquare.com/residences/",
+        "https://onemanhattansquare.com/availability/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://onemanhattansquare.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://onemanhattansquare.com/"
+    },
+    {
+      "name": "247 Cherry Street",
+      "address": "247 Cherry Street",
+      "hood": "twobridges",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Crossroads",
+      "address": "10 Rutgers Street",
+      "hood": "twobridges",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "1 University Place",
+      "address": "1 University Pl",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Greenwich",
+      "address": "65 West 13th St",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "24 Fifth Avenue",
+      "address": "24 Fifth Ave",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "25 Fifth Avenue",
+      "address": "25 Fifth Ave",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Devonshire House",
+      "address": "28 East 10th St",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "11 Waverly Place",
+      "address": "11 Waverly Pl",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "2 Fifth Avenue",
+      "address": "2 Fifth Ave",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "1 Fifth Avenue",
+      "address": "1 Fifth Ave",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Villager",
+      "address": "450 Sixth Ave",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "7W21",
+      "address": "7 West 21st St",
+      "hood": "flatiron",
+      "url": "https://www.7w21.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-205316",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "7w21– Flatiron Luxury Rental Apartments"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "http://7w21.com/sitemap.xml"
+        ]
+      },
+      "yardiPropertyId": "205316",
+      "sourceUrl": "https://www.7w21.com/"
+    },
+    {
+      "name": "Echelon Chelsea",
+      "address": "37 West 21st St",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Vanguard Chelsea",
+      "address": "77 West 24th St",
+      "hood": "flatiron",
+      "url": "https://www.vanguardchelsea.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": null
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.vanguardchelsea.com/"
+    },
+    {
+      "name": "The Capitol at Chelsea",
+      "address": "55 West 26th St",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Grand Madison",
+      "address": "225 Fifth Ave",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Flatiron 18",
+      "address": "30 West 18th St",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Caroline",
+      "address": "60 West 23rd St",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Stanford",
+      "address": "45 East 25th St",
+      "hood": "flatiron",
+      "url": "https://www.thestanfordnyc.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "The Stanford - 45 East 25th Street Condominium in Flatiron, Manhattan | NYC Real Estate Brokerage"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.thestanfordnyc.com/"
+    },
+    {
+      "name": "Flatiron House",
+      "address": "39 West 23rd St",
+      "hood": "flatiron",
+      "url": "https://flatironhousenyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "fetch": {
+        "status": "ok",
+        "title": "Flatiron House at 39 W 23rd: Brand New Luxury Condominiums"
+      },
+      "availabilityUrls": [
+        "https://flatironhousenyc.com/the-residences/",
+        "https://flatironhousenyc.com/floorplans/"
+      ],
+      "robots": {
+        "status": "ok",
+        "sitemaps": [
+          "https://flatironhousenyc.com/sitemap_index.xml"
+        ]
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://flatironhousenyc.com/"
+    },
+    {
+      "name": "Bank of the Metropolis",
+      "address": "31 Union Square West",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "15 Union Square West",
+      "address": "15 Union Square W",
+      "hood": "flatiron",
+      "url": "https://www.15unionsqwest.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "fetch": {
+        "status": "ok",
+        "title": "15 Union Square West - 15 Union Square West Condominium in Union Square, Manhattan | NYC Real Estate Brokerage"
+      },
+      "availabilityUrls": [],
+      "robots": {
+        "status": "ok",
+        "sitemaps": []
+      },
+      "yardiPropertyId": null,
+      "sourceUrl": "https://www.15unionsqwest.com/"
+    },
+    {
+      "name": "800 Sixth Avenue",
+      "address": "800 Sixth Ave",
+      "hood": "flatiron",
+      "url": "https://www.800sixth.com/",
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
+      "fetch": {
+        "status": "error",
+        "error": "HTTP 403 for https://www.800sixth.com/"
+      },
+      "availabilityUrls": [],
+      "robots": null,
+      "yardiPropertyId": null
+    },
+    {
+      "name": "1 Union Square South",
+      "address": "1 Union Square S",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
     }
   ]
 }

@@ -1,19 +1,20 @@
 {
-  "generatedAt": "2026-08-23T04:11:15.841Z",
+  "generatedAt": "2026-08-23T04:58:00.548Z",
   "byAdapter": {
-    "jonah": 4,
-    "rentcafe": 9,
-    "wordpress": 6,
-    "none": 34,
-    "generic": 4,
+    "jonah": 5,
+    "rentcafe": 14,
+    "wordpress": 13,
+    "none": 104,
+    "generic": 17,
     "entrata": 3,
-    "streeteasy": 2,
     "rockrose": 2,
-    "equity": 2,
+    "unknown": 5,
     "stonehenge": 1,
-    "related": 4,
+    "related": 7,
     "rose": 2,
-    "jsonld": 1
+    "jsonld": 3,
+    "streeteasy": 1,
+    "spa": 1
   },
   "buildings": [
     {
@@ -234,13 +235,38 @@
     },
     {
       "name": "298 Mulberry",
-      "adapter": "streeteasy",
-      "status": "skipped",
-      "count": 0
+      "adapter": "jonah",
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
     },
     {
       "name": "227 Mulberry",
       "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Mulberry House",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Soho Abbey",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "SPRING",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Nolita Place Condominiums",
+      "adapter": "generic",
       "status": "ok",
       "count": 0
     },
@@ -252,7 +278,7 @@
     },
     {
       "name": "600 Washington",
-      "adapter": "equity",
+      "adapter": "unknown",
       "status": "skipped",
       "count": 0
     },
@@ -324,7 +350,7 @@
     },
     {
       "name": "Ten23",
-      "adapter": "equity",
+      "adapter": "unknown",
       "status": "skipped",
       "count": 0
     },
@@ -457,6 +483,606 @@
     {
       "name": "Gemma Gramercy",
       "adapter": "streeteasy",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "55 Thompson",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "261 Hudson",
+      "adapter": "related",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "111 Varick",
+      "adapter": "spa",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "70 Charlton",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "505 Greenwich Street",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Greenwich Street Project",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "40 Mercer Residences",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "One Kenmare Square",
+      "adapter": "jsonld",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "11 Greene Street",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "68 Spring Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Renwick Modern",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Independence Plaza",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Tribeca House",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Barclay Tower",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Tribeca Tower",
+      "adapter": "related",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "name": "Truffles Tribeca",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "89 Murray Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "88 Leonard Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "456 Washington Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "440 Washington Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "101 Warren Street",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "111 Murray Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "56 Leonard Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Woolworth Tower Residences",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "200 Chambers Street",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Reade Chambers",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "River Lofts",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Ice House",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "91 Leonard Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Gateway Plaza",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Liberty House",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "name": "Le Rivage",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Tribeca Pointe",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Riverwatch",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "South Cove Plaza",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Solaire",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Tribeca Green",
+      "adapter": "unknown",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Tribeca Park",
+      "adapter": "related",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "name": "Tribeca Bridge Tower",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Verdesian",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "22 River Terrace",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Liberty Court",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Liberty Terrace",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Liberty View",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Liberty Luxe",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Liberty Green",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Visionaire",
+      "adapter": "jsonld",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Riverhouse",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Ritz-Carlton Residences",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Regatta",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Millennium Tower Residences",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Soundings",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "New York by Gehry",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Twenty Exchange",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "One Wall Street",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "70 Pine",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "90 West",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "200 Water Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "180 Water Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "2 Gold Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "63 Wall Street",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "100 Maiden Lane",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "10 Hanover Square",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "19 Dutch Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Broad Exchange Building",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Liberty Plaza",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "7 Dey",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Ocean",
+      "adapter": "unknown",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "116 John Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "45 Wall Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "37 Wall Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "95 Wall",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "75 Wall Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Bridgeview House",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Hester Gardens",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "One Manhattan Square",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "247 Cherry Street",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Crossroads",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "1 University Place",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Greenwich",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "24 Fifth Avenue",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "25 Fifth Avenue",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Devonshire House",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "11 Waverly Place",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "2 Fifth Avenue",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "1 Fifth Avenue",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Villager",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "7W21",
+      "adapter": "rentcafe",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Echelon Chelsea",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Vanguard Chelsea",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "The Capitol at Chelsea",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Grand Madison",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "Flatiron 18",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Caroline",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "The Stanford",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Flatiron House",
+      "adapter": "wordpress",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "Bank of the Metropolis",
+      "adapter": "none",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "15 Union Square West",
+      "adapter": "generic",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "name": "800 Sixth Avenue",
+      "adapter": "unknown",
+      "status": "skipped",
+      "count": 0
+    },
+    {
+      "name": "1 Union Square South",
+      "adapter": "none",
       "status": "skipped",
       "count": 0
     }

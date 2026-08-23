@@ -1,20 +1,21 @@
 {
-  "generatedAt": "2026-08-23T02:55:00.645Z",
-  "total": 74,
+  "generatedAt": "2026-08-23T04:51:32.131Z",
+  "total": 178,
   "byAdapter": {
     "jonah": 5,
-    "rentcafe": 9,
-    "wordpress": 6,
-    "none": 34,
-    "generic": 4,
+    "rentcafe": 14,
+    "wordpress": 13,
+    "none": 104,
+    "generic": 17,
     "entrata": 3,
     "rockrose": 2,
-    "equity": 2,
+    "unknown": 5,
     "stonehenge": 1,
-    "related": 4,
+    "related": 7,
     "rose": 2,
-    "jsonld": 1,
-    "streeteasy": 1
+    "jsonld": 3,
+    "streeteasy": 1,
+    "spa": 1
   },
   "buildings": [
     {
@@ -446,6 +447,40 @@
       "yardiPropertyId": null
     },
     {
+      "name": "Mulberry House",
+      "hood": "nolita",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Soho Abbey",
+      "hood": "nolita",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "SPRING",
+      "hood": "nolita",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Nolita Place Condominiums",
+      "hood": "nolita",
+      "url": "https://www.199bowerynyc.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
       "name": "The Archive",
       "hood": "wv",
       "url": "https://rockrose.com/building/the-archive/",
@@ -464,11 +499,9 @@
       "name": "600 Washington",
       "hood": "wv",
       "url": "http://www.equityapartments.com/new-york-city/west-village/600-washington-apartments",
-      "adapter": "equity",
-      "status": "pending",
-      "hints": [
-        "equity-residential"
-      ],
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
       "availabilityUrls": [],
       "yardiPropertyId": null
     },
@@ -597,11 +630,9 @@
       "name": "Ten23",
       "hood": "chelsea",
       "url": "http://www.equityapartments.com/new-york-city/chelsea/ten23-apartments",
-      "adapter": "equity",
-      "status": "pending",
-      "hints": [
-        "equity-residential"
-      ],
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
       "availabilityUrls": [],
       "yardiPropertyId": null
     },
@@ -835,6 +866,949 @@
         "https://streeteasy.com/building/gemma-200-east-23rd-street-new_york"
       ],
       "yardiPropertyId": null
+    },
+    {
+      "name": "55 Thompson",
+      "hood": "soho",
+      "url": "https://manhattanskyline.com/buildings/soho/55-thompson",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "261 Hudson",
+      "hood": "soho",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/west-soho/261-hudson",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "111 Varick",
+      "hood": "soho",
+      "url": "https://111varick.com",
+      "adapter": "spa",
+      "status": "pending",
+      "hints": [
+        "js-spa"
+      ],
+      "availabilityUrls": [
+        "https://111varick.com/availability/",
+        "https://111varick.com/residences/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "70 Charlton",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "505 Greenwich Street",
+      "hood": "soho",
+      "url": "https://www.505greenwich.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Greenwich Street Project",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "40 Mercer Residences",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "One Kenmare Square",
+      "hood": "soho",
+      "url": "https://one-kenmare-square.com/",
+      "adapter": "jsonld",
+      "status": "pending",
+      "hints": [
+        "jsonld-units"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "11 Greene Street",
+      "hood": "soho",
+      "url": "https://11greene.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "68 Spring Street",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Renwick Modern",
+      "hood": "soho",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Independence Plaza",
+      "hood": "tribeca",
+      "url": "https://www.stellarmanagement.com/no-fee-NYC-rentals/new-york-city-neighborhoods/Tribeca-rental-apartment-listings-Independence-Plaza",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Tribeca House",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Barclay Tower",
+      "hood": "tribeca",
+      "url": "https://www.glenwoodnyc.com/properties/downtown/barclay-tower/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Tribeca Tower",
+      "hood": "tribeca",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Truffles Tribeca",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "89 Murray Street",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "88 Leonard Street",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "456 Washington Street",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "440 Washington Street",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "101 Warren Street",
+      "hood": "tribeca",
+      "url": "https://www.101-warren.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [
+        "https://www.hlres.com/buildings/nyc/w-downtown-hotel-residences-123-washington-street/293752/condo",
+        "https://www.hlres.com/buildings/nyc/four-seasons-private-residences-30-park-place/293878/condo"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "111 Murray Street",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "56 Leonard Street",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Woolworth Tower Residences",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "200 Chambers Street",
+      "hood": "tribeca",
+      "url": "https://www.200chambers.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Reade Chambers",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "River Lofts",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Ice House",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "91 Leonard Street",
+      "hood": "tribeca",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Gateway Plaza",
+      "hood": "bpc",
+      "url": "https://www.gatewayny.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Liberty House",
+      "hood": "bpc",
+      "url": "https://www.libertyhouse.info/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Le Rivage",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Tribeca Pointe",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Riverwatch",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "South Cove Plaza",
+      "hood": "bpc",
+      "url": "https://www.southcoveplaza.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Solaire",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Tribeca Green",
+      "hood": "bpc",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-green",
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Tribeca Park",
+      "hood": "bpc",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-park",
+      "adapter": "related",
+      "status": "pending",
+      "hints": [
+        "related-rentals"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Tribeca Bridge Tower",
+      "hood": "bpc",
+      "url": "https://www.glenwoodnyc.com/properties/downtown/tribeca-bridge-tower/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Verdesian",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "22 River Terrace",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty Court",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty Terrace",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty View",
+      "hood": "bpc",
+      "url": "https://milfordrentals.com/buildings/liberty-view/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Liberty Luxe",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty Green",
+      "hood": "bpc",
+      "url": "https://milfordrentals.com/buildings/liberty-green/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Visionaire",
+      "hood": "bpc",
+      "url": "https://the-visionaire.com/",
+      "adapter": "jsonld",
+      "status": "pending",
+      "hints": [
+        "jsonld-units"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Riverhouse",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Ritz-Carlton Residences",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Regatta",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Millennium Tower Residences",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Soundings",
+      "hood": "bpc",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "New York by Gehry",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Twenty Exchange",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "One Wall Street",
+      "hood": "fidi",
+      "url": "https://onewallstreet.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://onewallstreet.com/residences/",
+        "https://onewallstreet.com/availability/",
+        "https://onewallstreet.com/availability"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "70 Pine",
+      "hood": "fidi",
+      "url": "https://70pine.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-171174",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://70pine.com/availability/",
+        "https://70pine.com/residences/"
+      ],
+      "yardiPropertyId": "171174"
+    },
+    {
+      "name": "90 West",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "200 Water Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "180 Water Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "2 Gold Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "63 Wall Street",
+      "hood": "fidi",
+      "url": "https://www.63wallstreet.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-267503",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": "267503"
+    },
+    {
+      "name": "100 Maiden Lane",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "10 Hanover Square",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "19 Dutch Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Broad Exchange Building",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Liberty Plaza",
+      "hood": "fidi",
+      "url": "https://www.glenwoodnyc.com/properties/downtown/liberty-plaza/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "7 Dey",
+      "hood": "fidi",
+      "url": "https://7deynyc.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "rentcafe-securecafe",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://7deynyc.securecafe.com/onlineleasing/7-dey-street/floorplans.aspx",
+        "https://7deynyc.com/availability/",
+        "https://7deynyc.com/residences/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Ocean",
+      "hood": "fidi",
+      "url": "https://www.liveatonewestnyc.com/",
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "116 John Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "45 Wall Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "37 Wall Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "95 Wall",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "75 Wall Street",
+      "hood": "fidi",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Bridgeview House",
+      "hood": "chinatown",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Hester Gardens",
+      "hood": "chinatown",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "One Manhattan Square",
+      "hood": "twobridges",
+      "url": "https://onemanhattansquare.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://onemanhattansquare.com/residences/",
+        "https://onemanhattansquare.com/availability/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "247 Cherry Street",
+      "hood": "twobridges",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Crossroads",
+      "hood": "twobridges",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "1 University Place",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Greenwich",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "24 Fifth Avenue",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "25 Fifth Avenue",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Devonshire House",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "11 Waverly Place",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "2 Fifth Avenue",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "1 Fifth Avenue",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Villager",
+      "hood": "gv",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "7W21",
+      "hood": "flatiron",
+      "url": "https://www.7w21.com/",
+      "adapter": "rentcafe",
+      "status": "pending",
+      "hints": [
+        "yardi-onsite",
+        "yardi-property-205316",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [],
+      "yardiPropertyId": "205316"
+    },
+    {
+      "name": "Echelon Chelsea",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Vanguard Chelsea",
+      "hood": "flatiron",
+      "url": "https://www.vanguardchelsea.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "The Capitol at Chelsea",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Grand Madison",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "Flatiron 18",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Caroline",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "The Stanford",
+      "hood": "flatiron",
+      "url": "https://www.thestanfordnyc.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Flatiron House",
+      "hood": "flatiron",
+      "url": "https://flatironhousenyc.com/",
+      "adapter": "wordpress",
+      "status": "pending",
+      "hints": [
+        "wordpress",
+        "has-sitemap"
+      ],
+      "availabilityUrls": [
+        "https://flatironhousenyc.com/the-residences/",
+        "https://flatironhousenyc.com/floorplans/"
+      ],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "Bank of the Metropolis",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
+    },
+    {
+      "name": "15 Union Square West",
+      "hood": "flatiron",
+      "url": "https://www.15unionsqwest.com/",
+      "adapter": "generic",
+      "status": "pending",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "800 Sixth Avenue",
+      "hood": "flatiron",
+      "url": "https://www.800sixth.com/",
+      "adapter": "unknown",
+      "status": "error",
+      "hints": [],
+      "availabilityUrls": [],
+      "yardiPropertyId": null
+    },
+    {
+      "name": "1 Union Square South",
+      "hood": "flatiron",
+      "url": null,
+      "adapter": "none",
+      "status": "none",
+      "hints": []
     }
   ]
 }
