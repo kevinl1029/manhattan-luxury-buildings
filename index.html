@@ -240,18 +240,14 @@
     color:var(--muted);letter-spacing:.03em;
   }
 
+  .hood-select{display:none;}
   @media (max-width:640px){
     .masthead{padding:36px 0 22px;}
     .count{margin-left:0;width:100%;}
     .grid{grid-template-columns:1fr;}
     .controls{padding:10px 0;}
-    #pills{
-      flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
-      padding-bottom:4px;margin:0 -20px;padding-left:20px;padding-right:20px;
-      scrollbar-width:none;
-    }
-    #pills::-webkit-scrollbar{display:none;}
-    #pills .pill{flex:none;}
+    #pills{display:none;}
+    .hood-select{display:block;width:100%;}
   }
   @media (prefers-reduced-motion:reduce){
     *{transition:none !important;animation:none !important;}
@@ -334,6 +330,9 @@
         <button class="pill view-btn" type="button" data-view="units" aria-pressed="false" role="tab">Listings</button>
       </div>
       <span class="count" id="count"></span>
+    </div>
+    <div class="control-row">
+      <select class="hood-select" id="hoodSelect" aria-label="Filter by neighborhood"></select>
     </div>
     <div class="control-row" id="pills"></div>
     <div class="control-row">
@@ -999,7 +998,15 @@ async function setStar(id, on){
 const grid = document.getElementById("grid");
 const lgrid = document.getElementById("lgrid");
 const pillbar = document.getElementById("pills");
+const hoodSelect = document.getElementById("hoodSelect");
 const state = {hood:"all", q:"", sort:"hood", starOnly:false, view:"map", beds:"any", maxp:"any", dropsOnly:false};
+
+function setHood(id){
+  state.hood = id;
+  [...pillbar.children].forEach(c=>c.setAttribute("aria-pressed", c.dataset.hood===id ? "true":"false"));
+  hoodSelect.value = id;
+  draw();
+}
 
 function pill(id, label, n, hue){
   const b = document.createElement("button");
@@ -1008,18 +1015,26 @@ function pill(id, label, n, hue){
   b.setAttribute("aria-pressed", id === "all" ? "true" : "false");
   if(hue) b.style.setProperty("--hue", hue);
   b.innerHTML = `<span class="dot"></span>${label}<span class="n">${n}</span>`;
-  b.addEventListener("click", ()=>{
-    state.hood = id;
-    [...pillbar.children].forEach(c=>c.setAttribute("aria-pressed", c.dataset.hood===id ? "true":"false"));
-    draw();
-  });
+  b.addEventListener("click", ()=> setHood(id));
   return b;
 }
 
+function hoodOption(id, label, n){
+  const o = document.createElement("option");
+  o.value = id;
+  o.textContent = n != null ? `${label} (${n})` : label;
+  return o;
+}
+
 pillbar.appendChild(pill("all","All", B.length, "var(--ink)"));
+hoodSelect.appendChild(hoodOption("all","All", B.length));
 Object.entries(HOODS)
   .sort((a,b)=>a[1].order-b[1].order)
-  .forEach(([id,h])=> pillbar.appendChild(pill(id, h.label, B.filter(x=>x.h===id).length, h.hue)));
+  .forEach(([id,h])=>{
+    pillbar.appendChild(pill(id, h.label, B.filter(x=>x.h===id).length, h.hue));
+    hoodSelect.appendChild(hoodOption(id, h.label, B.filter(x=>x.h===id).length));
+  });
+hoodSelect.addEventListener("change", ()=> setHood(hoodSelect.value));
 
 document.getElementById("tally").textContent =
   `${B.length} buildings · ${Object.keys(HOODS).length} neighborhoods · compiled Aug 2026`;
