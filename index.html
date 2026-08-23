@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Full-Service Manhattan — building index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin=""></script>
+<style>
+  :root{
+    --ground:#E4E6E0;
+    --sheet:#F4F5F1;
+    --ink:#191C18;
+    --muted:#6B6F68;
+    --rule:#C7CBC1;
+    --rule-soft:#D6D9D2;
+
+    --les:#B4472E;
+    --ev:#B57A1E;
+    --nolita:#66782F;
+    --wv:#2F6B63;
+    --chelsea:#38598C;
+    --gramercy:#6B4C8A;
+
+    --max:1240px;
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--ground);
+    color:var(--ink);
+    font-family:"Archivo",system-ui,sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    /* drafting sheet: faint grid */
+    background-image:
+      linear-gradient(to right, rgba(25,28,24,.045) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(25,28,24,.045) 1px, transparent 1px);
+    background-size:28px 28px;
+  }
+
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 20px;}
+
+  /* ---------- masthead ---------- */
+  .masthead{padding:56px 0 30px;}
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 18px;
+  }
+  h1{
+    font-size:clamp(44px,10.5vw,116px);
+    font-stretch:125%;
+    font-weight:800;
+    line-height:.86;
+    letter-spacing:-.02em;
+    margin:0;
+    text-transform:uppercase;
+  }
+  h1 .thin{font-weight:400;font-stretch:112%;display:block;color:var(--muted);}
+  .standfirst{
+    max-width:52ch;margin:26px 0 0;font-size:16.5px;color:#3A3E38;
+  }
+  .standfirst b{font-weight:600;}
+
+  .legend{
+    display:flex;gap:22px;flex-wrap:wrap;align-items:center;
+    margin-top:26px;padding-top:18px;border-top:1px solid var(--rule);
+    font-family:"IBM Plex Mono",monospace;font-size:11px;
+    letter-spacing:.06em;color:var(--muted);text-transform:uppercase;
+  }
+  .legend-swatch{
+    display:inline-block;width:9px;height:26px;vertical-align:-8px;margin-right:8px;
+    background-image:repeating-linear-gradient(to top,var(--ink) 0 1px,transparent 1px 4px);
+    background-color:rgba(25,28,24,.07);
+  }
+
+  /* ---------- controls ---------- */
+  .controls{
+    position:sticky;top:0;z-index:20;
+    background:rgba(228,230,224,.94);
+    backdrop-filter:blur(8px);
+    border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);
+    padding:14px 0;
+    margin-top:34px;
+  }
+  .control-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
+  .control-row + .control-row{margin-top:12px;}
+
+  .pill{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;
+    background:transparent;color:var(--ink);
+    border:1px solid var(--rule);border-radius:0;
+    padding:8px 12px;cursor:pointer;
+    display:inline-flex;align-items:center;gap:8px;
+    transition:background .12s ease,border-color .12s ease,color .12s ease;
+  }
+  .pill:hover{border-color:var(--ink);}
+  .pill .dot{width:9px;height:9px;border-radius:50%;background:var(--hue,var(--ink));flex:none;}
+  .pill .n{color:var(--muted);font-size:10.5px;}
+  .pill[aria-pressed="true"]{background:var(--ink);color:var(--sheet);border-color:var(--ink);}
+  .pill[aria-pressed="true"] .n{color:rgba(244,245,241,.62);}
+  .pill:focus-visible,select:focus-visible,input:focus-visible,.star:focus-visible,a:focus-visible{
+    outline:2px solid var(--ink);outline-offset:2px;
+  }
+
+  .search{
+    flex:1 1 220px;min-width:180px;
+    font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+    padding:9px 12px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);
+  }
+  .search::placeholder{color:#9AA096;}
+  select{
+    font-family:"IBM Plex Mono",monospace;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;
+    padding:9px 10px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);
+  }
+  .count{
+    font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.09em;
+    text-transform:uppercase;color:var(--muted);margin-left:auto;
+  }
+
+  /* ---------- grid ---------- */
+  .grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    gap:1px;background:var(--rule-soft);
+    border:1px solid var(--rule-soft);
+    margin:34px 0 0;
+  }
+  .card{
+    background:var(--sheet);
+    display:flex;gap:16px;padding:20px 20px 18px;
+    position:relative;
+  }
+  .card[hidden]{display:none;}
+  .grid[hidden]{display:none;}
+
+  /* signature: elevation strip — hairline per floor, scaled to the tallest building here */
+  .elev{flex:none;width:11px;display:flex;flex-direction:column;justify-content:flex-end;}
+  .elev-bar{
+    width:100%;
+    background-color:rgba(25,28,24,.06);
+    background-image:repeating-linear-gradient(to top,var(--hue) 0 1px,transparent 1px 4px);
+  }
+  .elev-none{
+    width:100%;height:14px;border-top:1px dashed var(--rule);
+  }
+
+  .card-body{min-width:0;flex:1;}
+  .card-top{display:flex;align-items:flex-start;gap:10px;margin-bottom:9px;}
+  .chip{
+    font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--hue);
+    border:1px solid currentColor;padding:3px 6px;white-space:nowrap;
+  }
+  .star{
+    margin-left:auto;background:none;border:0;cursor:pointer;padding:0 2px;
+    font-size:17px;line-height:1;color:var(--rule);
+  }
+  .star:hover{color:var(--muted);}
+  .star[aria-pressed="true"]{color:var(--hue);}
+
+  .card h3{
+    font-size:22px;font-stretch:112%;font-weight:700;letter-spacing:-.01em;
+    line-height:1.1;margin:0 0 3px;
+  }
+  .addr{
+    font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);
+    margin:0 0 11px;
+  }
+  .note{font-size:14.5px;line-height:1.45;margin:0 0 12px;color:#33372F;}
+  .tags{list-style:none;display:flex;flex-wrap:wrap;gap:5px;padding:0;margin:0 0 12px;}
+  .tags li{
+    font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.05em;
+    text-transform:uppercase;color:var(--muted);
+    background:rgba(25,28,24,.05);padding:3px 6px;
+  }
+  .card-foot{
+    display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;
+    border-top:1px solid var(--rule-soft);padding-top:10px;
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);
+  }
+  .card-foot a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--hue);padding-bottom:1px;}
+  .card-foot a:hover{background:var(--hue);color:var(--sheet);border-color:var(--hue);}
+
+  /* ---------- empty ---------- */
+  .empty{
+    display:none;padding:60px 20px;text-align:center;
+    border:1px dashed var(--rule);margin-top:34px;background:var(--sheet);
+  }
+  .empty h2{font-size:20px;font-stretch:112%;margin:0 0 8px;}
+  .empty p{margin:0;color:var(--muted);font-size:14.5px;}
+  .empty[data-on="true"]{display:block;}
+
+  footer{
+    margin:44px 0 60px;padding-top:18px;border-top:1px solid var(--rule);
+    font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:1.7;
+    color:var(--muted);letter-spacing:.03em;
+  }
+
+  @media (max-width:640px){
+    .masthead{padding:36px 0 22px;}
+    .count{margin-left:0;width:100%;}
+    .grid{grid-template-columns:1fr;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none !important;animation:none !important;}
+  }
+
+  /* ---------- view toggle ---------- */
+  .view-toggle{display:flex;gap:0;border:1px solid var(--rule);}
+  .view-toggle .pill{border:0;border-right:1px solid var(--rule);}
+  .view-toggle .pill:last-child{border-right:0;}
+
+  /* ---------- map ---------- */
+  .mapwrap{
+    margin:34px 0 0;border:1px solid var(--rule-soft);background:var(--sheet);
+    position:relative;
+  }
+  .mapwrap[hidden]{display:none;}
+  #map{width:100%;height:min(72vh,680px);background:var(--sheet);}
+  .map-hint{
+    position:absolute;top:12px;right:12px;z-index:400;
+    font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.05em;
+    text-transform:uppercase;color:var(--muted);
+    background:rgba(244,245,241,.9);border:1px solid var(--rule);padding:5px 9px;
+    pointer-events:none;
+  }
+  .leaflet-popup-content-wrapper{
+    background:var(--sheet);color:var(--ink);border:1px solid var(--ink);
+    border-radius:0;box-shadow:2px 2px 0 rgba(25,28,24,.12);
+  }
+  .leaflet-popup-tip{background:var(--sheet);border:1px solid var(--ink);box-shadow:none;}
+  .leaflet-popup-content{margin:14px 16px;font-family:"Archivo",system-ui,sans-serif;}
+  .pop-chip{
+    font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;
+    color:var(--hue);border:1px solid currentColor;padding:2px 5px;display:inline-block;margin-bottom:7px;
+  }
+  .pop-name{font-size:17px;font-weight:700;font-stretch:112%;letter-spacing:-.01em;margin:0 0 2px;line-height:1.15;}
+  .pop-addr{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted);margin:0 0 8px;}
+  .pop-note{font-size:13.5px;line-height:1.4;margin:0 0 10px;color:#33372F;}
+  .pop-links{display:flex;gap:14px;font-family:"IBM Plex Mono",monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;}
+  .pop-links a,.pop-links button{
+    color:var(--ink);text-decoration:none;border-bottom:1px solid var(--hue);padding-bottom:1px;
+    background:none;border-top:0;border-left:0;border-right:0;font:inherit;cursor:pointer;
+  }
+  .pop-links a:hover,.pop-links button:hover{background:var(--hue);color:var(--sheet);}
+
+  .card.flash{animation:flash 1.6s ease;}
+  @keyframes flash{
+    0%,100%{background:var(--sheet);}
+    20%{background:rgba(25,28,24,.09);}
+  }
+
+  @media (max-width:640px){
+    #map{height:62vh;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow" id="tally">Doorman &amp; full-service rental stock · six neighborhoods</p>
+    <h1>Full-service<span class="thin">Manhattan</span></h1>
+    <p class="standfirst">Every doorman, concierge, and full-amenity building I could find across the Lower East Side, East Village, Nolita, West Village, Chelsea, and Gramercy. <b>Filter by neighborhood, search by name or street, star the ones worth a tour.</b> Availability and pricing change weekly — check the leasing site before you plan around anything here.</p>
+    <p class="legend">
+      <span><span class="legend-swatch"></span>Each hairline is one floor</span>
+      <span>Dashed = floor count unverified</span>
+    </p>
+  </header>
+</div>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="control-row">
+      <div class="view-toggle" role="tablist" aria-label="Switch view">
+        <button class="pill view-btn" type="button" data-view="map" aria-pressed="true" role="tab">Map</button>
+        <button class="pill view-btn" type="button" data-view="list" aria-pressed="false" role="tab">Listing</button>
+      </div>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="control-row" id="pills"></div>
+    <div class="control-row">
+      <input class="search" id="q" type="search" placeholder="Search name or street…" aria-label="Search buildings by name or street">
+      <select id="sort" aria-label="Sort buildings">
+        <option value="hood">Sort: neighborhood</option>
+        <option value="name">Sort: name</option>
+        <option value="tall">Sort: tallest first</option>
+      </select>
+      <button class="pill" id="starred" aria-pressed="false"><span class="dot" style="--hue:var(--ink)"></span>Starred only</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="mapwrap" id="mapwrap">
+    <div id="map"></div>
+    <span class="map-hint">Scroll to zoom · click a pin for details</span>
+  </div>
+  <div class="grid" id="grid" hidden></div>
+  <div class="empty" id="empty">
+    <h2>Nothing matches that</h2>
+    <p>Clear the search box or pick a different neighborhood.</p>
+  </div>
+  <footer>
+    Compiled Aug 2026 from CityRealty, NYBits, 6sqft and building leasing sites.<br>
+    Floor and unit counts are as-published. Notes in italics are my read on the block, not the listing's.
+  </footer>
+</div>
+
+<script>
+const HOODS = {
+  les:      {label:"Lower East Side", hue:"var(--les)",      order:1},
+  ev:       {label:"East Village",    hue:"var(--ev)",       order:2},
+  nolita:   {label:"Nolita",          hue:"var(--nolita)",   order:3},
+  wv:       {label:"West Village",    hue:"var(--wv)",       order:4},
+  chelsea:  {label:"Chelsea",         hue:"var(--chelsea)",  order:5},
+  gramercy: {label:"Gramercy",        hue:"var(--gramercy)", order:6}
+};
+
+const B = [
+  // ---------- LOWER EAST SIDE ----------
+  {n:"The Rollins", a:"145 Clinton St", h:"les", lat:40.7165265, lon:-73.9867476, u:null, f:null,
+   note:"Essex Crossing flagship. Trader Joe's and Target in the retail base — the most self-contained building on the list.",
+   t:["Concierge","Resident lounge","Pet spa","Roof terrace","Gym"], url:"https://therollinsnyc.com/"},
+  {n:"The Suffolk", a:"55 Suffolk St", h:"les", lat:40.7187456, lon:-73.9863221, u:378, f:30,
+   note:"Rooftop pool and fitness club. Three floors are Abode micro-units at 315–350 sq ft — confirm which layout you're touring.",
+   t:["Rooftop pool","Gym","Co-working","W/D in unit"], url:"https://thesuffolk.com/"},
+  {n:"The Essex", a:"125 Delancey St", h:"les", lat:40.7179242, lon:-73.9880515, u:null, f:null,
+   note:"One of the tallest on the LES. Sits directly on Delancey, which is the loudest stretch in the neighborhood.",
+   t:["Social lounge","Gym","Roof terrace","Urban farm plots"], url:"https://theessexnyc.com/"},
+  {n:"The Artisan", a:"180 Broome St", h:"les", lat:40.7173649, lon:-73.9864555, u:null, f:null,
+   note:"Largest building in the Essex Crossing plan; rentals start on the sixth floor. VITAL climbing gym downstairs.",
+   t:["Gym","Lounge","Sky deck","W/D in unit"], url:"https://theartisannyc.com/"},
+  {n:"The Ludlow", a:"188 Ludlow St", h:"les", lat:40.7220808, lon:-73.9870474, u:243, f:23,
+   note:"Next door to Katz's on the busiest nightlife block downtown. Valet service and a yoga/Pilates studio.",
+   t:["24h doorman","Valet","Gym","Roof sundeck","Billiards"], url:"https://www.theludlownyc.com/"},
+  {n:"The Chrystie", a:"229 Chrystie St", h:"les", lat:40.7227548, lon:-73.9915875, u:361, f:14,
+   note:"Arquitectonica and SLCE. Recently renovated, and on the Bowery side rather than deep in the LES.",
+   t:["24h doorman","Gym","Roof sundeck","Game room"], url:"https://thechrystie.com/"},
+  {n:"Sioné", a:"171 Suffolk St", h:"les", lat:40.7213597, lon:-73.9851059, u:88, f:14,
+   note:"Loft-scale windows, white oak floors, smart entry and thermostats. Walnut cabinetry and Bosch appliances.",
+   t:["Doorman","Gym","Outdoor terraces","Smart entry"], url:null},
+  {n:"Jones L.E.S.", a:"331 E Houston St", h:"les", lat:40.7208143, lon:-73.9825855, u:78, f:13,
+   note:"Condo-quality finishes — soaking tubs, custom Italian cabinetry. Roof terrace has an outdoor screening area.",
+   t:["Doorman","Gym","Private garden","Roof terrace"], url:null},
+  {n:"155 Attorney Street", a:"155 Attorney St", h:"les", lat:40.720597, lon:-73.9836168, u:37, f:7,
+   note:"Boutique. Virtual doorman rather than a staffed desk — worth knowing if package handling matters to you.",
+   t:["Virtual doorman","Roof terrace","W/D in unit","Bike storage"], url:"http://www.155attorneystreet.com/"},
+  {n:"The Orchard", a:"118 Orchard St", h:"les", lat:40.7192707, lon:-73.9894832, u:29, f:null,
+   note:"Small and discreet at Orchard & Delancey. Private outdoor space in every apartment.",
+   t:["Private outdoor space","High-end finishes"], url:null},
+  {n:"Stella LES", a:"251 E 2nd St", h:"les", lat:40.7210895, lon:-73.9815585, u:null, f:null,
+   note:"On the EV/LES seam. Keyless entry and in-duct air purification; resident reviews are hard on management.",
+   t:["Gym","Lounge","Roof deck","W/D in unit"], url:"http://stellales.com/"},
+  {n:"Gotham Court", a:"152 Ludlow St", h:"les", lat:40.7208163, lon:-73.9877831, u:22, f:7,
+   note:"Small doorman mid-rise with high ceilings, a block off Houston.",
+   t:["Doorman","Laundry","High ceilings"], url:null},
+  {n:"275 South Street", a:"275 South St", h:"les", lat:40.7107934, lon:-73.98769, u:256, f:19,
+   note:"Converted post-war high-rise with East River and Brooklyn views. Renovated interiors, frequent leasing specials.",
+   t:["Doorman","Roof deck","Waterfront views"], url:null},
+  {n:"The Madison Jackson", a:"371 Madison St", h:"les", lat:40.7137313, lon:-73.9814188, u:117, f:6,
+   note:"Far southeast corner of the neighborhood, near the bridges. One of the few LES buildings with a pool.",
+   t:["Doorman","Gym","Pool"], url:null},
+
+  // ---------- EAST VILLAGE ----------
+  {n:"EVGB", a:"510 E 14th St", h:"ev", lat:40.7298527, lon:-73.9794421, u:null, f:null,
+   note:"Extell. A 19,000 sq ft roof deck with fire pits, plus a pool. Target and Trader Joe's are steps away.",
+   t:["24h doorman","Pool","Gym","Roof deck","W/D in unit"], url:"https://rentevgb.com/"},
+  {n:"2 Cooper Square", a:"2 Cooper Sq", h:"ev", lat:40.72748, lon:-73.9918242, u:null, f:null,
+   note:"Astor Place edge — the best transit access of anything downtown on this list. Roof deck with a swimming pool.",
+   t:["24h lobby","Pool","Gym","Cinema room","Club lounge"], url:null},
+  {n:"The Nathaniel", a:"138 E 12th St", h:"ev", lat:40.7319984, lon:-73.9884554, u:85, f:9,
+   note:"E 12th near Third Ave, which reads more Gramercy than East Village. Courtyard, reflecting pool, club lounge.",
+   t:["24h lobby","Gym","Roof deck","W/D in unit"], url:"https://www.thenathanielny.com/"},
+  {n:"Steiner East Village", a:"438 E 12th St", h:"ev", lat:40.729573, lon:-73.9827037, u:null, f:null,
+   note:"Condo at Ave A & E 12th; units come up as rentals through owners. Concierge, but no leasing office to walk into.",
+   t:["Condo","Concierge","High-end finishes"], url:"http://www.steinereastvillage.com/"},
+  {n:"Avalon Bowery Place I", a:"11 E 1st St", h:"ev", lat:40.7243888, lon:-73.9917313, u:206, f:9,
+   note:"2007 vintage but generous floorplates and a deep amenity package. Arguably the most polished block in the EV.",
+   t:["Doorman","Gym","Garage","Valet","Roof terrace"], url:"https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"},
+  {n:"Avalon Bowery Place II", a:"22 E 1st St", h:"ev", lat:40.7244899, lon:-73.9911087, u:90, f:7,
+   note:"Smaller sibling across the street, sharing the Bowery Place location without the garage.",
+   t:["Doorman","Gym","Laundry"], url:null},
+  {n:"Eleventh & Third", a:"200 E 11th St", h:"ev", lat:40.7310089, lon:-73.9881799, u:55, f:12,
+   note:"Boutique, renovated 2014 — concrete counters, walnut floors. Recent reviews say new management cut the night doorman.",
+   t:["Roof deck","Gym","Yoga studio","Laundry"], url:"https://www.eleventhandthird.com/"},
+  {n:"The Adele", a:"310 E 2nd St", h:"ev", lat:40.7203674, lon:-73.9788547, u:136, f:12,
+   note:"Deep in Alphabet City near Ave C. Rooftop with a lawn and panoramic views, but a 15-minute walk to a train.",
+   t:["24h doorman","Gym","Garage","Roof terrace"], url:"http://www.adelenyc.com/"},
+  {n:"250 E Houston (Red Square)", a:"250 E Houston St", h:"ev", lat:40.7221984, lon:-73.9852982, u:null, f:null,
+   note:"The Tibor Kalman clock building, renovated throughout. Wi-Fi lounge with a private conference room.",
+   t:["Doorman","Gym","Private garden","Roof terrace"], url:"http://250ehouston.com/"},
+  {n:"152 Second Avenue", a:"152 Second Ave", h:"ev", lat:40.7293547, lon:-73.9866878, u:25, f:null,
+   note:"Paris Forino interiors — whitewashed oak, limed brick, private balconies. Small and quiet.",
+   t:["Balconies","W/D in unit","Roof deck","Bike storage"], url:null},
+  {n:"EVE", a:"433 E 13th St", h:"ev", lat:40.7304052, lon:-73.9822512, u:96, f:8,
+   note:"Trader Joe's is the retail tenant. Scandinavian-leaning interiors, courtyard, pet grooming station.",
+   t:["Doorman","Gym","Billiards lounge","Roof terrace"], url:"https://eve.nyc/"},
+  {n:"Arabella 101", a:"101 Avenue D", h:"ev", lat:40.7232973, lon:-73.9764403, u:null, f:null,
+   note:"Far east on Ave D. LEED certified, skyline views, herb garden on the roof. Residents rate the staff highly.",
+   t:["Gym","Rec room","Roof deck","LEED"], url:"http://www.arabella101.com/"},
+  {n:"Bloom 62", a:"62 Avenue B", h:"ev", lat:40.7237332, lon:-73.9825263, u:81, f:6,
+   note:"Post-war mid-rise on Ave B facing Tompkins Square. Doorman and gym, modest amenity set.",
+   t:["Doorman","Gym"], url:null},
+  {n:"Deco East", a:"222 E 3rd St", h:"ev", lat:40.7222323, lon:-73.9823733, u:61, f:8,
+   note:"Doorman mid-rise where rent includes heat and hot water — rare at this tier.",
+   t:["Doorman","Gym","Laundry","Utilities included"], url:null},
+  {n:"CD280", a:"280 E 2nd St", h:"ev", lat:40.720901, lon:-73.9805895, u:102, f:11,
+   note:"Studios and one-bedrooms only, with rent-stabilized units in the mix. Unusual value for the amenity level.",
+   t:["Elevator","Studios & 1BR"], url:null},
+  {n:"The Sky East", a:"636 E 11th St", h:"ev", lat:40.7266743, lon:-73.9780466, u:null, f:null,
+   note:"Doorman mid-rise deep in Alphabet City, near the Ave C corridor.",
+   t:["Doorman","Laundry"], url:null},
+  {n:"Tompkins Square Plaza", a:"190 E 7th St", h:"ev", lat:40.7248222, lon:-73.9808389, u:null, f:null,
+   note:"Two towers separated by a plaza and fountain — a rare setback from the street in this part of the EV.",
+   t:["Doorman","Plaza"], url:null},
+  {n:"The Hudson East", a:"225 E 6th St", h:"ev", lat:40.7278707, lon:-73.9892146, u:86, f:6,
+   note:"Mixed-income building with rooftop terraces, rear garden patios, and duplex live/work spaces.",
+   t:["Roof terraces","Garden patios","Live/work duplexes"], url:null},
+  {n:"Eastville Gardens", a:"342 E 8th St", h:"ev", lat:40.7248126, lon:-73.9789758, u:70, f:7,
+   note:"Quiet block between Aves B and C. Doorman elevator building with a gym.",
+   t:["Doorman","Gym"], url:null},
+
+  // ---------- NOLITA ----------
+  {n:"298 Mulberry", a:"298 Mulberry St", h:"nolita", lat:40.7251915, lon:-73.9946756, u:100, f:7,
+   note:"One of only two real doorman rentals in Nolita — historic-district rules kept everything else low-rise walk-ups. Staff reviews are exceptional.",
+   t:["Doorman","Laundry","High ceilings"], url:"https://www.298mulberryst.com/"},
+  {n:"227 Mulberry", a:"227 Mulberry St", h:"nolita", lat:40.7225891, lon:-73.9962916, u:54, f:7,
+   note:"The other one. Doorman elevator building with a gym, in the middle of the Mulberry restaurant strip.",
+   t:["Doorman","Gym","Laundry"], url:"https://www.hakimian.com/"},
+
+  // ---------- WEST VILLAGE ----------
+  {n:"The Archive", a:"666 Greenwich St", h:"wv", lat:40.7322447, lon:-74.0079469, u:479, f:11,
+   note:"Landmark warehouse conversion taking the whole block — double-height arched windows, high ceilings, and by far the largest inventory in the West Village.",
+   t:["Doorman","Laundry","High ceilings","Landmark"], url:"https://rockrose.com/building/the-archive/"},
+  {n:"600 Washington", a:"600 Washington St", h:"wv", lat:40.7305714, lon:-74.0092065, u:135, f:7,
+   note:"Part of the Morton Square complex. Studios through two-bedrooms; some second-floor units sit above a gym and get bass noise.",
+   t:["Doorman","Gym","Studios–2BR"], url:"http://www.equityapartments.com/new-york-city/west-village/600-washington-apartments"},
+  {n:"110 Horatio Street", a:"110 Horatio St", h:"wv", lat:40.7385494, lon:-74.009334, u:null, f:null,
+   note:"Doorman mid-rise with high ceilings, near the south end of the High Line.",
+   t:["Doorman","High ceilings"], url:"https://rockrose.com/building/110-horatio-st/"},
+  {n:"The Printing House", a:"421 Hudson St", h:"wv", lat:40.7298569, lon:-74.0072597, u:null, f:null,
+   note:"Condo on Hudson with a full health club on site. Rentals come through individual owners.",
+   t:["Condo","Health club","Doorman"], url:"http://printinghousewestvillage.com/"},
+  {n:"756 Washington", a:"756 Washington St", h:"wv", lat:40.7371024, lon:-74.0084917, u:67, f:11,
+   note:"Small doorman building at the High Line's southern end. No-frills, well-run.",
+   t:["Doorman"], url:"http://www.hellerorg.com/"},
+  {n:"56 Seventh Avenue", a:"56 Seventh Ave", h:"wv", lat:40.7315519, lon:-74.0043385, u:159, f:20,
+   note:"One of the few genuine high-rises in the West Village. Doorman and gym, on a busy avenue.",
+   t:["Doorman","Gym"], url:null},
+  {n:"780 Greenwich Street", a:"780 Greenwich St", h:"wv", lat:40.7368382, lon:-74.006639, u:90, f:6,
+   note:"Post-war landmark mid-rise on a quiet Greenwich Street block.",
+   t:["Doorman","Landmark"], url:null},
+  {n:"95 Christopher Street", a:"95 Christopher St", h:"wv", lat:40.733412, lon:-74.0046981, u:null, f:null,
+   note:"Pre-war landmark doorman high-rise in the middle of Christopher Street.",
+   t:["Doorman","Pre-war","Landmark"], url:null},
+
+  // ---------- CHELSEA ----------
+  {n:"101 West 15th Street", a:"101 W 15th St", h:"chelsea", lat:40.7382115, lon:-73.9964804, u:null, f:null,
+   note:"Studios and one-bedrooms only, in the former St. Vincent's staff housing. Every unit has a balcony or terrace and in-unit laundry.",
+   t:["Concierge","Gym","Courtyard","W/D in unit","Balconies"], url:"https://www.stonehengenyc.com/buildings/101w15"},
+  {n:"The Westminster", a:"180 W 20th St", h:"chelsea", lat:40.7419763, lon:-73.9968226, u:null, f:null,
+   note:"Related-managed, smoke-free, in the heart of Chelsea with the West Village and Flatiron each ten minutes away.",
+   t:["24h doorman","Gym","Roof terrace","W/D in unit","Smoke-free"], url:"http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"},
+  {n:"Chelsea Landmark", a:"55 W 25th St", h:"chelsea", lat:40.7443062, lon:-73.9912086, u:null, f:null,
+   note:"Sits where Chelsea, NoMad and Flatiron meet. Attended garage, building-wide Wi-Fi, and one of the better roof decks in the city.",
+   t:["24h doorman","Concierge","Garage","Roof deck","Co-working"], url:"http://www.chelsealandmark.com/"},
+  {n:"The Arthur", a:"245 W 25th St", h:"chelsea", lat:40.7463341, lon:-73.9965162, u:null, f:null,
+   note:"Renovated Art Deco that kept its generous pre-war floor plans — the best space-per-dollar bet in Chelsea.",
+   t:["24h doorman","Live-in super","Roof deck","Bike room"], url:null},
+  {n:"The Tate", a:"535 W 23rd St", h:"chelsea", lat:40.7482437, lon:-74.0052615, u:313, f:null,
+   note:"Two towers in the gallery district, Ismael Leyva with Rockwell Group interiors. Oak parquet floors, oversized windows.",
+   t:["24h doorman","Concierge","Gym","Sun terrace","W/D in unit"], url:"https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-tate"},
+  {n:"Ten23", a:"500 W 23rd St", h:"chelsea", lat:40.7475405, lon:-74.0046894, u:111, f:null,
+   note:"Right on the High Line with a CVS in the base. Floor-to-ceiling windows; residents flag recurring elevator problems.",
+   t:["24h concierge","Gym","Roof deck","Bike room","Pet friendly"], url:"http://www.equityapartments.com/new-york-city/chelsea/ten23-apartments"},
+  {n:"The Caledonia", a:"450 W 17th St", h:"chelsea", lat:40.743401, lon:-74.0054686, u:null, f:null,
+   note:"On the High Line with a bamboo garden level. Courtyard-facing units get noticeably less light — ask for an exposure.",
+   t:["24h doorman","Gym","Pool","Garden","W/D in unit"], url:"http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-caledonia"},
+  {n:"AVA High Line", a:"525 W 28th St", h:"chelsea", lat:40.7513668, lon:-74.0029392, u:710, f:30,
+   note:"Big, LEED-certified, and consistently well-reviewed. Far west, so the blocks empty out completely after dark.",
+   t:["24h concierge","Gym","Roof deck","LEED"], url:"https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"},
+  {n:"Avalon West Chelsea", a:"282 Eleventh Ave", h:"chelsea", lat:40.7518827, lon:-74.0037922, u:null, f:13,
+   note:"Sister building to AVA next door, on Eleventh Ave. Same staff and standards, same after-dark quiet.",
+   t:["24h concierge","Gym","Roof deck","Pet friendly"], url:"https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"},
+  {n:"Abington House", a:"500 W 30th St", h:"chelsea", lat:40.7520118, lon:-74.0014384, u:390, f:33,
+   note:"Related's High Line tower at the Hudson Yards edge — pool, bowling alley, multiple roof decks. Only a few floorplans are truly spacious.",
+   t:["24h concierge","Pool","Gym","Bowling","Roof decks"], url:"http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"},
+  {n:"Highline 537", a:"537 W 27th St", h:"chelsea", lat:40.7511512, lon:-74.0040704, u:29, f:5,
+   note:"Small low-rise doorman building in the gallery blocks. Gym, and not much else.",
+   t:["Doorman","Gym"], url:null},
+  {n:"The Chelsea Grande", a:"460 W 20th St", h:"chelsea", lat:40.7456024, lon:-74.005321, u:76, f:8,
+   note:"Landmark-district building in far west Chelsea, faced in sand-mold brick to match the block.",
+   t:["Doorman","Gym","Laundry","Landmark"], url:null},
+  {n:"Port 10", a:"303 Tenth Ave", h:"chelsea", lat:40.7506946, lon:-74.0023551, u:89, f:13,
+   note:"Doorman high-rise on Tenth Ave, north end of the gallery district.",
+   t:["Doorman"], url:null},
+  {n:"London Terrace Gardens", a:"415 W 23rd St", h:"chelsea", lat:40.746778, lon:-74.0017813, u:92, f:17,
+   note:"Pre-war complex spanning a full block, with a pool and garage shared across ten interior buildings. Roughly 900 rental units total.",
+   t:["Doorman","Pool","Garage","Pre-war"], url:null},
+
+  // ---------- GRAMERCY ----------
+  {n:"Instrata Gramercy", a:"290 Third Ave", h:"gramercy", lat:40.739065, lon:-73.9831412, u:166, f:33,
+   note:"The tall modern option in Gramercy. Doorman and gym, with unusually consistent praise for the building staff.",
+   t:["Doorman","Gym","Laundry"], url:"https://www.instratagramercy.com/"},
+  {n:"Gramercy Starck", a:"340 E 23rd St", h:"gramercy", lat:40.7373688, lon:-73.9799787, u:null, f:null,
+   note:"Philippe Starck-designed condo on the Gramercy/Murray Hill edge. Rentals come through owners, so inventory is sporadic.",
+   t:["Condo","Doorman","Amenity-rich"], url:"https://www.gramercystarckny.com/"},
+  {n:"Park 23", a:"295 Park Ave S", h:"gramercy", lat:40.7398357, lon:-73.986375, u:178, f:16,
+   note:"Turn-of-the-century doorman high-rise on Park Avenue South, a block from Gramercy Park itself.",
+   t:["Doorman","Laundry","Pre-war"], url:null},
+  {n:"Hatten House", a:"200 E 15th St", h:"gramercy", lat:40.7337026, lon:-73.9863718, u:213, f:17,
+   note:"Post-war high-rise near Stuyvesant Square, walking distance to Union Square.",
+   t:["Doorman","Elevator"], url:null},
+  {n:"Gramercy Court", a:"245 E 21st St", h:"gramercy", lat:40.7368026, lon:-73.9819931, u:91, f:16,
+   note:"Pre-war doorman high-rise directly east of Gramercy Park.",
+   t:["Doorman","Pre-war"], url:null},
+  {n:"Gramercy East", a:"321 E 22nd St", h:"gramercy", lat:40.7369702, lon:-73.980291, u:115, f:6,
+   note:"Post-war mid-rise; some units have the high ceilings the pre-war stock is known for.",
+   t:["Doorman","Laundry","High ceilings"], url:null},
+  {n:"New Amsterdam", a:"320 E 23rd St", h:"gramercy", lat:40.7372684, lon:-73.9799867, u:210, f:16,
+   note:"Large post-war doorman high-rise on E 23rd, at the Gramercy/Kips Bay line.",
+   t:["Doorman","Laundry"], url:null},
+  {n:"The Washington Irving House", a:"145 E 16th St", h:"gramercy", lat:40.7348352, lon:-73.98647, u:234, f:19,
+   note:"Post-war high-rise steps from Union Square, with a garage. Among the most transit-convenient on this list.",
+   t:["Doorman","Garage"], url:null},
+  {n:"245 East 19th Street", a:"245 E 19th St", h:"gramercy", lat:40.7357162, lon:-73.9830312, u:292, f:20,
+   note:"Big post-war doorman building on a quiet residential block near the park.",
+   t:["Doorman"], url:null},
+  {n:"210 East 22nd Street", a:"210 E 22nd St", h:"gramercy", lat:40.7377391, lon:-73.9830981, u:88, f:8,
+   note:"Doorman mid-rise with high ceilings; rent includes heat, hot water and cooking gas.",
+   t:["Doorman","Laundry","Utilities included","High ceilings"], url:null}
+];
+
+const MAXF = B.reduce((m,b)=>Math.max(m, b.f||0), 0);
+
+/* ---------- shortlist storage (persists if available, session-only if not) ---------- */
+const KEY = "shortlist:v1";
+let saved = new Set();
+async function loadSaved(){
+  try{
+    const r = await window.storage.get(KEY);
+    if(r && r.value) saved = new Set(JSON.parse(r.value));
+  }catch(e){ /* first run or storage unavailable — start empty */ }
+}
+async function persist(){
+  try{ await window.storage.set(KEY, JSON.stringify([...saved])); }catch(e){}
+}
+
+/* ---------- render ---------- */
+const grid = document.getElementById("grid");
+const pillbar = document.getElementById("pills");
+const state = {hood:"all", q:"", sort:"hood", starOnly:false, view:"map"};
+
+function pill(id, label, n, hue){
+  const b = document.createElement("button");
+  b.className = "pill"; b.type = "button";
+  b.dataset.hood = id;
+  b.setAttribute("aria-pressed", id === "all" ? "true" : "false");
+  if(hue) b.style.setProperty("--hue", hue);
+  b.innerHTML = `<span class="dot"></span>${label}<span class="n">${n}</span>`;
+  b.addEventListener("click", ()=>{
+    state.hood = id;
+    [...pillbar.children].forEach(c=>c.setAttribute("aria-pressed", c.dataset.hood===id ? "true":"false"));
+    draw();
+  });
+  return b;
+}
+
+pillbar.appendChild(pill("all","All", B.length, "var(--ink)"));
+Object.entries(HOODS)
+  .sort((a,b)=>a[1].order-b[1].order)
+  .forEach(([id,h])=> pillbar.appendChild(pill(id, h.label, B.filter(x=>x.h===id).length, h.hue)));
+
+document.getElementById("tally").textContent =
+  `${B.length} buildings · ${Object.keys(HOODS).length} neighborhoods · compiled Aug 2026`;
+
+function card(b){
+  const h = HOODS[b.h];
+  const el = document.createElement("article");
+  el.className = "card";
+  el.dataset.name = b.n;
+  el.style.setProperty("--hue", h.hue);
+
+  const meta = [];
+  if(b.f) meta.push(`${b.f} floors`);
+  if(b.u) meta.push(`${b.u} units`);
+
+  const elev = b.f
+    ? `<div class="elev-bar" style="height:${Math.max(8, Math.round(b.f/MAXF*100))}%"></div>`
+    : `<div class="elev-none"></div>`;
+
+  const id = b.n;
+  const on = saved.has(id);
+
+  el.innerHTML = `
+    <div class="elev" aria-hidden="true">${elev}</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="chip">${h.label}</span>
+        <button class="star" type="button" aria-pressed="${on}" aria-label="Star ${b.n}">${on ? "★" : "☆"}</button>
+      </div>
+      <h3>${b.n}</h3>
+      <p class="addr">${b.a}</p>
+      <p class="note"><i>${b.note}</i></p>
+      <ul class="tags">${b.t.map(t=>`<li>${t}</li>`).join("")}</ul>
+      <div class="card-foot">
+        <span>${meta.join(" · ") || "Counts unpublished"}</span>
+        ${b.url ? `<a href="${b.url}" target="_blank" rel="noopener">Leasing site ↗</a>` : ""}
+      </div>
+    </div>`;
+
+  el.querySelector(".star").addEventListener("click", (e)=>{
+    const btn = e.currentTarget;
+    if(saved.has(id)) saved.delete(id); else saved.add(id);
+    const now = saved.has(id);
+    btn.setAttribute("aria-pressed", now);
+    btn.textContent = now ? "★" : "☆";
+    persist();
+    if(state.starOnly) draw();
+  });
+  return el;
+}
+
+/* ---------- map ---------- */
+const map = L.map("map", {scrollWheelZoom:true}).setView([40.731, -73.994], 13.5);
+L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+  maxZoom: 19
+}).addTo(map);
+const markerLayer = L.layerGroup().addTo(map);
+const HOME_BOUNDS = L.latLngBounds(B.map(b=>[b.lat, b.lon]));
+map.fitBounds(HOME_BOUNDS, {padding:[30,30]});
+
+function escapeHtml(s){
+  return s.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+function popupHtml(b){
+  const h = HOODS[b.h];
+  return `
+    <div style="--hue:${h.hue}">
+      <span class="pop-chip">${h.label}</span>
+      <p class="pop-name">${escapeHtml(b.n)}</p>
+      <p class="pop-addr">${escapeHtml(b.a)}</p>
+      <p class="pop-note"><i>${b.note}</i></p>
+      <div class="pop-links">
+        <button type="button" class="js-view-listing" data-name="${escapeHtml(b.n)}">View in listing ↓</button>
+        ${b.url ? `<a href="${b.url}" target="_blank" rel="noopener">Leasing site ↗</a>` : ""}
+      </div>
+    </div>`;
+}
+
+function marker(b){
+  const h = HOODS[b.h];
+  const r = 6 + (b.f ? Math.round((b.f/MAXF)*9) : 0);
+  const m = L.circleMarker([b.lat, b.lon], {
+    radius: r,
+    color: "#191C18",
+    weight: saved.has(b.n) ? 2.5 : 1,
+    fillColor: h.hue.startsWith("var(") ? getComputedStyle(document.documentElement).getPropertyValue(h.hue.slice(4,-1)).trim() : h.hue,
+    fillOpacity: 0.82
+  });
+  m.bindTooltip(b.n, {direction:"top", offset:[0,-r]});
+  m.bindPopup(popupHtml(b));
+  return m;
+}
+
+map.on("popupopen", e=>{
+  const btn = e.popup._contentNode.querySelector(".js-view-listing");
+  if(btn) btn.addEventListener("click", ()=> viewInListing(btn.dataset.name));
+});
+
+function viewInListing(name){
+  setView("list");
+  requestAnimationFrame(()=>{
+    const el = grid.querySelector(`[data-name="${CSS.escape(name)}"]`);
+    if(!el) return;
+    el.scrollIntoView({behavior:"smooth", block:"center"});
+    el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+  });
+}
+
+function setView(v){
+  state.view = v;
+  document.querySelectorAll(".view-btn").forEach(btn=>
+    btn.setAttribute("aria-pressed", btn.dataset.view === v ? "true" : "false"));
+  draw();
+}
+
+document.querySelectorAll(".view-btn").forEach(btn=>
+  btn.addEventListener("click", ()=> setView(btn.dataset.view)));
+
+function draw(){
+  const q = state.q.trim().toLowerCase();
+  let list = B.filter(b=>{
+    if(state.hood !== "all" && b.h !== state.hood) return false;
+    if(state.starOnly && !saved.has(b.n)) return false;
+    if(q && !(b.n.toLowerCase().includes(q) || b.a.toLowerCase().includes(q))) return false;
+    return true;
+  });
+
+  if(state.sort === "name") list.sort((a,b)=>a.n.localeCompare(b.n));
+  else if(state.sort === "tall") list.sort((a,b)=>(b.f||0)-(a.f||0));
+  else list.sort((a,b)=> HOODS[a.h].order-HOODS[b.h].order || a.n.localeCompare(b.n));
+
+  grid.replaceChildren(...list.map(card));
+
+  markerLayer.clearLayers();
+  list.forEach(b=> markerLayer.addLayer(marker(b)));
+  if(list.length){
+    map.fitBounds(L.latLngBounds(list.map(b=>[b.lat,b.lon])), {padding:[40,40], maxZoom:16});
+  }
+
+  const showMap = state.view === "map" && list.length > 0;
+  const showGrid = state.view === "list" && list.length > 0;
+  document.getElementById("mapwrap").hidden = !showMap;
+  grid.hidden = !showGrid;
+  document.getElementById("empty").dataset.on = list.length ? "false" : "true";
+  if(showMap) requestAnimationFrame(()=> map.invalidateSize());
+
+  document.getElementById("count").textContent =
+    `${list.length} of ${B.length} shown`;
+}
+
+document.getElementById("q").addEventListener("input", e=>{ state.q = e.target.value; draw(); });
+document.getElementById("sort").addEventListener("change", e=>{ state.sort = e.target.value; draw(); });
+document.getElementById("starred").addEventListener("click", e=>{
+  state.starOnly = !state.starOnly;
+  e.currentTarget.setAttribute("aria-pressed", state.starOnly);
+  draw();
+});
+
+loadSaved().then(draw);
+</script>
+</body>
+</html>
