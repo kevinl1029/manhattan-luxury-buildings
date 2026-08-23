@@ -982,17 +982,29 @@ const B = [
 
 const MAXF = B.reduce((m,b)=>Math.max(m, b.f||0), 0);
 
-/* ---------- shortlist storage (persists if available, session-only if not) ---------- */
-const KEY = "shortlist:v1";
+/* ---------- shortlist storage (Neon Postgres via /api/stars, synced across devices) ---------- */
 let saved = new Set();
 async function loadSaved(){
   try{
-    const r = await window.storage.get(KEY);
-    if(r && r.value) saved = new Set(JSON.parse(r.value));
-  }catch(e){ /* first run or storage unavailable — start empty */ }
+    const r = await fetch("/api/stars");
+    if(r.ok){
+      const {starred} = await r.json();
+      saved = new Set(starred);
+    }
+  }catch(e){ /* offline or API unavailable — start empty */ }
 }
-async function persist(){
-  try{ await window.storage.set(KEY, JSON.stringify([...saved])); }catch(e){}
+async function setStar(id, on){
+  try{
+    if(on){
+      await fetch("/api/stars", {
+        method: "POST",
+        headers: {"Content-Type":"application/json"},
+        body: JSON.stringify({building:id})
+      });
+    }else{
+      await fetch(`/api/stars?building=${encodeURIComponent(id)}`, {method:"DELETE"});
+    }
+  }catch(e){ /* best effort — local state already updated */ }
 }
 
 /* ---------- render ---------- */
@@ -1169,11 +1181,11 @@ function card(b){
 
   el.querySelector(".star").addEventListener("click", (e)=>{
     const btn = e.currentTarget;
-    if(saved.has(id)) saved.delete(id); else saved.add(id);
-    const now = saved.has(id);
+    const now = !saved.has(id);
+    if(now) saved.add(id); else saved.delete(id);
     btn.setAttribute("aria-pressed", now);
     btn.textContent = now ? "★" : "☆";
-    persist();
+    setStar(id, now);
     if(state.starOnly) draw();
   });
   return el;
