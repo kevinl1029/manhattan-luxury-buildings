@@ -369,6 +369,9 @@ const B = [
   {n:"The Madison Jackson", a:"371 Madison St", h:"les", lat:40.7137313, lon:-73.9814188, u:117, f:6,
    note:"Far southeast corner of the neighborhood, near the bridges. One of the few LES buildings with a pool.",
    t:["Doorman","Gym","Pool"], url:null},
+  {n:"The Norfolk", a:"60 Norfolk St", h:"les", lat:40.7169742, lon:-73.9879832, u:115, f:16,
+   note:"2023-built tower near Grand St, paired with Gotham Organization's 64 Norfolk senior housing next door. No staffed doorman.",
+   t:["Lounge","Courtyard","Roof deck","Bike room","Laundry"], url:null},
 
   // ---------- EAST VILLAGE ----------
   {n:"EVGB", a:"510 E 14th St", h:"ev", lat:40.7298527, lon:-73.9794421, u:null, f:null,
@@ -428,6 +431,12 @@ const B = [
   {n:"Eastville Gardens", a:"342 E 8th St", h:"ev", lat:40.7248126, lon:-73.9789758, u:70, f:7,
    note:"Quiet block between Aves B and C. Doorman elevator building with a gym.",
    t:["Doorman","Gym"], url:null},
+  {n:"The Houston", a:"280 E Houston St", h:"ev", lat:40.720849, lon:-73.9802615, u:157, f:12,
+   note:"Hill West infill between Aves A and B; 40 of the 157 units are income-restricted. Virtual doorman rather than a staffed desk.",
+   t:["Virtual doorman","Gym","Business center","Lounge","Roof terrace","W/D in unit"], url:"https://thehoustonnyc.com/"},
+  {n:"The East", a:"644 E 14th St", h:"ev", lat:40.7284448, lon:-73.9761427, u:196, f:24,
+   note:"Madison Realty Capital tower next to the Con Ed plant near Ave C; 30% of the 196 units are set aside as affordable.",
+   t:["Elevator","Gym","Roof terrace","Resident lounge","Bike room"], url:"https://theeastnyc.com/"},
 
   // ---------- NOLITA ----------
   {n:"298 Mulberry", a:"298 Mulberry St", h:"nolita", lat:40.7251915, lon:-73.9946756, u:100, f:7,
@@ -506,6 +515,15 @@ const B = [
   {n:"London Terrace Gardens", a:"415 W 23rd St", h:"chelsea", lat:40.746778, lon:-74.0017813, u:92, f:17,
    note:"Pre-war complex spanning a full block, with a pool and garage shared across ten interior buildings. Roughly 900 rental units total.",
    t:["Doorman","Pool","Garage","Pre-war"], url:null},
+  {n:"Maverick Chelsea", a:"225 W 28th St", h:"chelsea", lat:40.7478329, lon:-73.9945066, u:111, f:21,
+   note:"Wellness-themed hybrid rental-condo tower from HAP/DXA Studio, with a 60-foot lap pool and a facaded diamond pattern.",
+   t:["24h attended lobby","Pool","Sauna & steam","Gym","Roof terrace","W/D in unit"], url:"https://225west28th.com/"},
+  {n:"Ruby Chelsea", a:"243 W 28th St", h:"chelsea", lat:40.748185, lon:-73.995335, u:480, f:22,
+   note:"COOKFOX-designed two-tower development named for fashion designer Ruby Bailey. 30% of units are affordable under Affordable NY.",
+   t:["24h doorman","Rooftop pool","Gym","Co-working","Courtyard garden","Pet grooming"], url:"https://rubychelsea.com/"},
+  {n:"Chelsea Canvas", a:"280 W 24th St", h:"chelsea", lat:40.7455089, lon:-73.9979126, u:190, f:14,
+   note:"Spans the full block between 23rd and 24th St, with a ground-floor Target. 12-foot ceilings and white oak finishes throughout.",
+   t:["Concierge","Gym","Co-working lounge","Roof terrace","Courtyard","Pet friendly"], url:"https://chelseacanvasnyc.com/"},
 
   // ---------- GRAMERCY ----------
   {n:"Instrata Gramercy", a:"290 Third Ave", h:"gramercy", lat:40.739065, lon:-73.9831412, u:166, f:33,
@@ -537,7 +555,10 @@ const B = [
    t:["Doorman"], url:null},
   {n:"210 East 22nd Street", a:"210 E 22nd St", h:"gramercy", lat:40.7377391, lon:-73.9830981, u:88, f:8,
    note:"Doorman mid-rise with high ceilings; rent includes heat, hot water and cooking gas.",
-   t:["Doorman","Laundry","Utilities included","High ceilings"], url:null}
+   t:["Doorman","Laundry","Utilities included","High ceilings"], url:null},
+  {n:"Gemma Gramercy", a:"200 E 23rd St", h:"gramercy", lat:40.7385135, lon:-73.9828107, u:108, f:20,
+   note:"Hill West's first Passive House project — triple-glazed windows, continuous air barrier, and energy-recovery ventilation in every unit.",
+   t:["24h doorman","Gym","Co-working","Roof deck","Passive House","W/D in unit"], url:"https://gemmagramercy.com/"}
 ];
 
 const MAXF = B.reduce((m,b)=>Math.max(m, b.f||0), 0);
