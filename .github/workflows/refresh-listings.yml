@@ -15,7 +15,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -27,6 +27,22 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+      - name: Discover buildings
+        run: |
+          node --input-type=module -e "
+            import { loadBuildings } from './scrape/buildings.js';
+            import { readFileSync } from 'node:fs';
+            const known = new Set(loadBuildings().filter((b) => b.url).map((b) => b.n));
+            let have = new Set();
+            try { have = new Set(JSON.parse(readFileSync('data/sources.json', 'utf8')).buildings.map((b) => b.name)); } catch {}
+            const missing = [...known].filter((n) => !have.has(n));
+            if (missing.length > 0) {
+              console.log('DISCOVER: ' + missing.length + ' new building(s) since last run');
+              process.exit(1);
+            }
+            console.log('DISCOVER: sources.json up to date');
+          " || node scrape/discover.js
 
       - name: Scrape listings
         run: node scrape/run.js
