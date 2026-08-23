@@ -283,6 +283,15 @@
     background:rgba(244,245,241,.9);border:1px solid var(--rule);padding:5px 9px;
     pointer-events:none;
   }
+  .map-fullscreen-btn{
+    position:absolute;bottom:12px;left:12px;z-index:400;
+    background:rgba(244,245,241,.9);
+  }
+  .mapwrap.is-fullscreen{
+    position:fixed;inset:0;z-index:2000;margin:0;border:0;
+  }
+  .mapwrap.is-fullscreen #map{height:100vh;height:100dvh;}
+  body.map-fullscreen-active{overflow:hidden;}
   .leaflet-popup-content-wrapper{
     background:var(--sheet);color:var(--ink);border:1px solid var(--ink);
     border-radius:0;box-shadow:2px 2px 0 rgba(25,28,24,.12);
@@ -373,6 +382,7 @@
 <div class="wrap">
   <div class="mapwrap" id="mapwrap">
     <div id="map"></div>
+    <button class="pill map-fullscreen-btn" id="mapFullscreenBtn" type="button" aria-pressed="false">⤢ Fullscreen</button>
     <span class="map-hint">Scroll to zoom · click a pin for details</span>
   </div>
   <div class="grid" id="grid" hidden></div>
@@ -1179,6 +1189,20 @@ const markerLayer = L.layerGroup().addTo(map);
 const HOME_BOUNDS = L.latLngBounds(B.map(b=>[b.lat, b.lon]));
 map.fitBounds(HOME_BOUNDS, {padding:[30,30]});
 
+const mapwrapEl = document.getElementById("mapwrap");
+const fsBtn = document.getElementById("mapFullscreenBtn");
+function setMapFullscreen(on){
+  mapwrapEl.classList.toggle("is-fullscreen", on);
+  document.body.classList.toggle("map-fullscreen-active", on);
+  fsBtn.setAttribute("aria-pressed", on);
+  fsBtn.textContent = on ? "✕ Close" : "⤢ Fullscreen";
+  requestAnimationFrame(() => map.invalidateSize());
+}
+fsBtn.addEventListener("click", () => setMapFullscreen(!mapwrapEl.classList.contains("is-fullscreen")));
+document.addEventListener("keydown", (e) => {
+  if(e.key === "Escape" && mapwrapEl.classList.contains("is-fullscreen")) setMapFullscreen(false);
+});
+
 function escapeHtml(s){
   return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
@@ -1265,6 +1289,7 @@ function draw(){
 
   if(state.view === "units"){
     const n = drawUnits();
+    setMapFullscreen(false);
     document.getElementById("mapwrap").hidden = true;
     grid.hidden = true;
     lgrid.hidden = !n;
@@ -1278,6 +1303,7 @@ function draw(){
 
   const showMap = state.view === "map" && list.length > 0;
   const showGrid = state.view === "list" && list.length > 0;
+  if(!showMap) setMapFullscreen(false);
   document.getElementById("mapwrap").hidden = !showMap;
   grid.hidden = !showGrid;
   lgrid.hidden = true;
