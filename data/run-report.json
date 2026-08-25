@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T11:24:14.451Z",
+  "generatedAt": "2026-08-25T11:24:37.463Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -358,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "AVA High Line",
