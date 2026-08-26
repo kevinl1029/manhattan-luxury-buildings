@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-25T11:24:37.463Z",
-  "count": 102,
+  "generatedAt": "2026-08-26T11:26:38.851Z",
+  "count": 101,
   "byBuilding": {
     "The Rollins": 13,
     "The Essex": 8,
-    "The Artisan": 11,
-    "The Ludlow": 2,
+    "The Artisan": 10,
+    "The Ludlow": 1,
     "Avalon Bowery Place I": 6,
     "The Houston": 6,
     "The Archive": 1,
@@ -17,11 +17,11 @@
     "AVA High Line": 6,
     "Avalon West Chelsea": 6,
     "Abington House": 2,
-    "Ruby Chelsea": 15,
+    "Ruby Chelsea": 17,
     "Chelsea Canvas": 4,
     "Tribeca Tower": 4,
     "Liberty House": 1,
-    "Tribeca Park": 4
+    "Tribeca Park": 3
   },
   "listings": [
     {
@@ -257,17 +257,6 @@
     },
     {
       "building": "The Artisan",
-      "unit": "2001",
-      "beds": 0,
-      "baths": 1,
-      "sqft": 430,
-      "price": 4645,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theartisannyc.com/floorplans/unit-3a6a4b55157096df93c240801e94d562/"
-    },
-    {
-      "building": "The Artisan",
       "unit": "1607",
       "beds": 1,
       "baths": 1,
@@ -388,17 +377,6 @@
       "url": "https://www.theludlownyc.com/floorplans/unit-b215952e839c97c28955df90d58be0c0/"
     },
     {
-      "building": "The Ludlow",
-      "unit": "6N",
-      "beds": 1,
-      "baths": 1,
-      "sqft": 783,
-      "price": 6600,
-      "availability": "Available Dec 07",
-      "source": "jonah",
-      "url": "https://www.theludlownyc.com/floorplans/unit-a40c3a9ef69290610c7d50a85a1a63ce/"
-    },
-    {
       "building": "Avalon Bowery Place I",
       "unit": "Studio • 1 bath • 420 sqft • Classic Package",
       "beds": 0,
@@ -437,7 +415,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 667,
-      "price": 7170,
+      "price": 7165,
       "availability": "Oct 06",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
@@ -448,7 +426,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 721,
-      "price": 7330,
+      "price": 7325,
       "availability": "Sep 15",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
@@ -459,7 +437,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 702,
-      "price": 7663,
+      "price": 7648,
       "availability": "Sep 10",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
@@ -532,14 +510,14 @@
     },
     {
       "building": "The Archive",
-      "unit": "#PH-18",
+      "unit": "#PH-02",
       "beds": 1,
       "baths": 2,
       "sqft": null,
-      "price": 13700,
+      "price": 13685,
       "availability": null,
       "source": "rockrose",
-      "url": "https://rockrose.com/listing/ph-18/"
+      "url": "https://rockrose.com/listing/ph-02-2/"
     },
     {
       "building": "110 Horatio Street",
@@ -702,7 +680,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4724,
-      "availability": "Aug 26",
+      "availability": "Aug 27",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -713,7 +691,7 @@
       "baths": 1,
       "sqft": 548,
       "price": 4915,
-      "availability": "Aug 26",
+      "availability": "Aug 27",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -746,7 +724,7 @@
       "baths": 1,
       "sqft": 672,
       "price": 4957,
-      "availability": "Aug 26",
+      "availability": "Aug 27",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -851,6 +829,17 @@
     },
     {
       "building": "Ruby Chelsea",
+      "unit": "S-11G",
+      "beds": 0,
+      "baths": 1,
+      "sqft": null,
+      "price": 4810,
+      "availability": "10/2/2026",
+      "source": "rose",
+      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
+    },
+    {
+      "building": "Ruby Chelsea",
       "unit": "S-10G",
       "beds": 0,
       "baths": 1,
@@ -868,6 +857,17 @@
       "sqft": null,
       "price": 4906,
       "availability": "9/9/2026",
+      "source": "rose",
+      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
+    },
+    {
+      "building": "Ruby Chelsea",
+      "unit": "N-16M",
+      "beds": 0,
+      "baths": 1,
+      "sqft": null,
+      "price": 5055,
+      "availability": "10/1/2026",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
     },
@@ -899,7 +899,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": null,
-      "price": 6267,
+      "price": 6268,
       "availability": "9/21/2026",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
@@ -910,7 +910,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": null,
-      "price": 6277,
+      "price": 6278,
       "availability": "9/7/2026",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
@@ -1060,17 +1060,6 @@
     },
     {
       "building": "Tribeca Tower",
-      "unit": "Tribeca Tower: Corner 1.5 Bedroom, 1.5 Bath",
-      "beds": 1.5,
-      "baths": 1.5,
-      "sqft": null,
-      "price": 8125,
-      "availability": "Now",
-      "source": "related",
-      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower"
-    },
-    {
-      "building": "Tribeca Tower",
       "unit": "Tribeca Tower: Corner Alcove Studio, 1 Bath",
       "beds": 0.5,
       "baths": 1,
@@ -1092,6 +1081,17 @@
       "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower"
     },
     {
+      "building": "Tribeca Tower",
+      "unit": "Tribeca Tower: Studio, 1 Bath",
+      "beds": 0,
+      "baths": 1,
+      "sqft": null,
+      "price": 4975,
+      "availability": "10/06",
+      "source": "related",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower"
+    },
+    {
       "building": "Liberty House",
       "unit": null,
       "beds": null,
@@ -1101,17 +1101,6 @@
       "availability": "Available",
       "source": "generic",
       "url": "/domain/libertyhouse.info/backlink?hash=5064d8"
-    },
-    {
-      "building": "Tribeca Park",
-      "unit": "Tribeca Park: 1.5 Bedroom, 1.5 Bath",
-      "beds": 1.5,
-      "baths": 1.5,
-      "sqft": null,
-      "price": 7395,
-      "availability": "Now",
-      "source": "related",
-      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-park"
     },
     {
       "building": "Tribeca Park",

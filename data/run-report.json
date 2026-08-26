@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T11:24:37.463Z",
+  "generatedAt": "2026-08-26T11:26:38.851Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -39,13 +39,13 @@
       "name": "The Artisan",
       "adapter": "jonah",
       "status": "ok",
-      "count": 11
+      "count": 10
     },
     {
       "name": "The Ludlow",
       "adapter": "jonah",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "The Chrystie",
@@ -238,7 +238,7 @@
       "adapter": "jonah",
       "status": "error",
       "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "error": "fetch failed"
     },
     {
       "name": "227 Mulberry",
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Chelsea Canvas",
@@ -712,7 +712,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Tribeca Bridge Tower",
