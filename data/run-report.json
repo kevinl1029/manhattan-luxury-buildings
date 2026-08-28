@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T20:56:28.850Z",
+  "generatedAt": "2026-08-28T21:26:22.001Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 14
+      "count": 13
     },
     {
       "name": "The Suffolk",
@@ -33,13 +33,13 @@
       "name": "The Essex",
       "adapter": "jonah",
       "status": "ok",
-      "count": 8
+      "count": 7
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
       "status": "ok",
-      "count": 8
+      "count": 7
     },
     {
       "name": "The Ludlow",
@@ -267,14 +267,15 @@
     {
       "name": "Nolita Place Condominiums",
       "adapter": "generic",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 45000ms"
     },
     {
       "name": "The Archive",
       "adapter": "rockrose",
       "status": "ok",
-      "count": 1
+      "count": 3
     },
     {
       "name": "600 Washington",
@@ -412,7 +413,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 18
+      "count": 14
     },
     {
       "name": "Chelsea Canvas",
@@ -429,8 +430,9 @@
     {
       "name": "Gramercy Starck",
       "adapter": "generic",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 45000ms"
     },
     {
       "name": "Park 23",
@@ -513,8 +515,9 @@
     {
       "name": "505 Greenwich Street",
       "adapter": "generic",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 45001ms"
     },
     {
       "name": "The Greenwich Street Project",
@@ -574,7 +577,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Truffles Tribeca",
@@ -609,8 +612,9 @@
     {
       "name": "101 Warren Street",
       "adapter": "generic",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 44999ms"
     },
     {
       "name": "111 Murray Street",
@@ -633,8 +637,9 @@
     {
       "name": "200 Chambers Street",
       "adapter": "generic",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 45001ms"
     },
     {
       "name": "Reade Chambers",
@@ -1053,8 +1058,9 @@
     {
       "name": "The Stanford",
       "adapter": "generic",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 45000ms"
     },
     {
       "name": "Flatiron House",
@@ -1071,8 +1077,9 @@
     {
       "name": "15 Union Square West",
       "adapter": "generic",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 44999ms"
     },
     {
       "name": "800 Sixth Avenue",

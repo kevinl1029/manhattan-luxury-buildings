@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-27T20:56:28.850Z",
-  "count": 102,
+  "generatedAt": "2026-08-28T21:26:22.001Z",
+  "count": 96,
   "byBuilding": {
-    "The Rollins": 14,
-    "The Essex": 8,
-    "The Artisan": 8,
+    "The Rollins": 13,
+    "The Essex": 7,
+    "The Artisan": 7,
     "The Ludlow": 2,
     "Avalon Bowery Place I": 6,
     "The Houston": 6,
-    "The Archive": 1,
+    "The Archive": 3,
     "110 Horatio Street": 4,
     "101 West 15th Street": 3,
     "The Westminster": 4,
@@ -17,9 +17,9 @@
     "AVA High Line": 6,
     "Avalon West Chelsea": 6,
     "Abington House": 2,
-    "Ruby Chelsea": 18,
+    "Ruby Chelsea": 14,
     "Chelsea Canvas": 4,
-    "Tribeca Tower": 4,
+    "Tribeca Tower": 3,
     "Liberty House": 1,
     "Tribeca Park": 2
   },
@@ -114,17 +114,6 @@
     },
     {
       "building": "The Rollins",
-      "unit": "09F",
-      "beds": 0,
-      "baths": 1,
-      "sqft": 599,
-      "price": 4265,
-      "availability": "Available Aug 31",
-      "source": "jonah",
-      "url": "https://therollinsnyc.com/floorplans/unit-eb4c8c376630fa8790bc15d9bbd279f8/"
-    },
-    {
-      "building": "The Rollins",
       "unit": "06N",
       "beds": 1,
       "baths": 1,
@@ -191,17 +180,6 @@
     },
     {
       "building": "The Essex",
-      "unit": "1509",
-      "beds": 3,
-      "baths": 2,
-      "sqft": 1002,
-      "price": 9775,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theessexnyc.com/floorplans/unit-4f5e39caf84b18d44323418dd639075e/"
-    },
-    {
-      "building": "The Essex",
       "unit": "0902",
       "beds": 2,
       "baths": 2,
@@ -240,7 +218,7 @@
       "baths": 2,
       "sqft": 898,
       "price": 8075,
-      "availability": "Available Aug 28",
+      "availability": "Available Now",
       "source": "jonah",
       "url": "https://theessexnyc.com/floorplans/unit-a5397e475881f56ac37de94ed4688f52/"
     },
@@ -276,17 +254,6 @@
       "availability": "Available Now",
       "source": "jonah",
       "url": "https://theartisannyc.com/floorplans/unit-23aa8c3d6a32beabf90bb689707cc190/"
-    },
-    {
-      "building": "The Artisan",
-      "unit": "2414",
-      "beds": 3,
-      "baths": 2,
-      "sqft": 1096,
-      "price": 9895,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theartisannyc.com/floorplans/unit-c825346c568a7c95fc9a2ea701eb19c7/"
     },
     {
       "building": "The Artisan",
@@ -510,6 +477,28 @@
     },
     {
       "building": "The Archive",
+      "unit": "#346",
+      "beds": 1,
+      "baths": 2,
+      "sqft": null,
+      "price": 10200,
+      "availability": null,
+      "source": "rockrose",
+      "url": "https://rockrose.com/listing/346/"
+    },
+    {
+      "building": "The Archive",
+      "unit": "#211",
+      "beds": 1,
+      "baths": 2,
+      "sqft": null,
+      "price": 9575,
+      "availability": null,
+      "source": "rockrose",
+      "url": "https://rockrose.com/listing/211-2/"
+    },
+    {
+      "building": "The Archive",
       "unit": "#PH-02",
       "beds": 1,
       "baths": 2,
@@ -702,7 +691,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4724,
-      "availability": "Aug 28",
+      "availability": "Aug 29",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -713,7 +702,7 @@
       "baths": 1,
       "sqft": 548,
       "price": 4915,
-      "availability": "Aug 28",
+      "availability": "Aug 29",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -851,28 +840,6 @@
     },
     {
       "building": "Ruby Chelsea",
-      "unit": "S-11G",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 4881,
-      "availability": "10/2/2026",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
-      "unit": "S-10G",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 4896,
-      "availability": "9/21/2026",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
       "unit": "S-04D",
       "beds": 0,
       "baths": 1,
@@ -884,34 +851,23 @@
     },
     {
       "building": "Ruby Chelsea",
+      "unit": "N-02M",
+      "beds": 0,
+      "baths": 1,
+      "sqft": null,
+      "price": 5069,
+      "availability": "10/7/2026",
+      "source": "rose",
+      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
+    },
+    {
+      "building": "Ruby Chelsea",
       "unit": "N-12K",
       "beds": 0,
       "baths": 1,
       "sqft": null,
       "price": 5070,
       "availability": "9/7/2026",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
-      "unit": "N-16M",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 5130,
-      "availability": "10/1/2026",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
-      "unit": "N-18P",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 5177,
-      "availability": "Immediate",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
     },
@@ -939,17 +895,6 @@
     },
     {
       "building": "Ruby Chelsea",
-      "unit": "N-09L",
-      "beds": 1,
-      "baths": 1,
-      "sqft": null,
-      "price": 6278,
-      "availability": "9/7/2026",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
       "unit": "S-12A",
       "beds": 1,
       "baths": 1,
@@ -966,7 +911,7 @@
       "baths": 1,
       "sqft": null,
       "price": 7386,
-      "availability": "4/7/2027",
+      "availability": "Immediate",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
     },
@@ -1068,17 +1013,6 @@
       "availability": null,
       "source": "generic",
       "url": "https://chelseacanvasnyc.com/"
-    },
-    {
-      "building": "Tribeca Tower",
-      "unit": "Tribeca Tower: Corner 1.5 Bedroom, 1.5 Bath",
-      "beds": 1.5,
-      "baths": 1.5,
-      "sqft": null,
-      "price": 8125,
-      "availability": "Now",
-      "source": "related",
-      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower"
     },
     {
       "building": "Tribeca Tower",
