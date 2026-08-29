@@ -1,0 +1,3063 @@
+{
+  "updated": "2026-08-29",
+  "buildings": [
+    {
+      "name": "The Rollins",
+      "address": "145 Clinton St",
+      "hood": "les",
+      "lat": 40.7165265,
+      "lon": -73.9867476,
+      "units": null,
+      "floors": null,
+      "note": "Essex Crossing flagship. Trader Joe's and Target in the retail base — the most self-contained building on the list.",
+      "tags": [
+        "Concierge",
+        "Resident lounge",
+        "Pet spa",
+        "Roof terrace",
+        "Gym"
+      ],
+      "url": "https://therollinsnyc.com/"
+    },
+    {
+      "name": "The Suffolk",
+      "address": "55 Suffolk St",
+      "hood": "les",
+      "lat": 40.7187456,
+      "lon": -73.9863221,
+      "units": 378,
+      "floors": 30,
+      "note": "Rooftop pool and fitness club. Three floors are Abode micro-units at 315–350 sq ft — confirm which layout you're touring.",
+      "tags": [
+        "Rooftop pool",
+        "Gym",
+        "Co-working",
+        "W/D in unit"
+      ],
+      "url": "https://thesuffolk.com/"
+    },
+    {
+      "name": "The Essex",
+      "address": "125 Delancey St",
+      "hood": "les",
+      "lat": 40.7179242,
+      "lon": -73.9880515,
+      "units": null,
+      "floors": null,
+      "note": "One of the tallest on the LES. Sits directly on Delancey, which is the loudest stretch in the neighborhood.",
+      "tags": [
+        "Social lounge",
+        "Gym",
+        "Roof terrace",
+        "Urban farm plots"
+      ],
+      "url": "https://theessexnyc.com/"
+    },
+    {
+      "name": "The Artisan",
+      "address": "180 Broome St",
+      "hood": "les",
+      "lat": 40.7173649,
+      "lon": -73.9864555,
+      "units": null,
+      "floors": null,
+      "note": "Largest building in the Essex Crossing plan; rentals start on the sixth floor. VITAL climbing gym downstairs.",
+      "tags": [
+        "Gym",
+        "Lounge",
+        "Sky deck",
+        "W/D in unit"
+      ],
+      "url": "https://theartisannyc.com/"
+    },
+    {
+      "name": "The Ludlow",
+      "address": "188 Ludlow St",
+      "hood": "les",
+      "lat": 40.7220808,
+      "lon": -73.9870474,
+      "units": 243,
+      "floors": 23,
+      "note": "Next door to Katz's on the busiest nightlife block downtown. Valet service and a yoga/Pilates studio.",
+      "tags": [
+        "24h doorman",
+        "Valet",
+        "Gym",
+        "Roof sundeck",
+        "Billiards"
+      ],
+      "url": "https://www.theludlownyc.com/"
+    },
+    {
+      "name": "The Chrystie",
+      "address": "229 Chrystie St",
+      "hood": "les",
+      "lat": 40.7227548,
+      "lon": -73.9915875,
+      "units": 361,
+      "floors": 14,
+      "note": "Arquitectonica and SLCE. Recently renovated, and on the Bowery side rather than deep in the LES.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Roof sundeck",
+        "Game room"
+      ],
+      "url": "https://thechrystie.com/"
+    },
+    {
+      "name": "Sioné",
+      "address": "171 Suffolk St",
+      "hood": "les",
+      "lat": 40.7213597,
+      "lon": -73.9851059,
+      "units": 88,
+      "floors": 14,
+      "note": "Loft-scale windows, white oak floors, smart entry and thermostats. Walnut cabinetry and Bosch appliances.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Outdoor terraces",
+        "Smart entry"
+      ],
+      "url": null
+    },
+    {
+      "name": "Jones L.E.S.",
+      "address": "331 E Houston St",
+      "hood": "les",
+      "lat": 40.7208143,
+      "lon": -73.9825855,
+      "units": 78,
+      "floors": 13,
+      "note": "Condo-quality finishes — soaking tubs, custom Italian cabinetry. Roof terrace has an outdoor screening area.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Private garden",
+        "Roof terrace"
+      ],
+      "url": null
+    },
+    {
+      "name": "155 Attorney Street",
+      "address": "155 Attorney St",
+      "hood": "les",
+      "lat": 40.720597,
+      "lon": -73.9836168,
+      "units": 37,
+      "floors": 7,
+      "note": "Boutique. Virtual doorman rather than a staffed desk — worth knowing if package handling matters to you.",
+      "tags": [
+        "Virtual doorman",
+        "Roof terrace",
+        "W/D in unit",
+        "Bike storage"
+      ],
+      "url": "http://www.155attorneystreet.com/"
+    },
+    {
+      "name": "The Orchard",
+      "address": "118 Orchard St",
+      "hood": "les",
+      "lat": 40.7192707,
+      "lon": -73.9894832,
+      "units": 29,
+      "floors": null,
+      "note": "Small and discreet at Orchard & Delancey. Private outdoor space in every apartment.",
+      "tags": [
+        "Private outdoor space",
+        "High-end finishes"
+      ],
+      "url": null
+    },
+    {
+      "name": "Stella LES",
+      "address": "251 E 2nd St",
+      "hood": "les",
+      "lat": 40.7210895,
+      "lon": -73.9815585,
+      "units": null,
+      "floors": null,
+      "note": "On the EV/LES seam. Keyless entry and in-duct air purification; resident reviews are hard on management.",
+      "tags": [
+        "Gym",
+        "Lounge",
+        "Roof deck",
+        "W/D in unit"
+      ],
+      "url": "http://stellales.com/"
+    },
+    {
+      "name": "Gotham Court",
+      "address": "152 Ludlow St",
+      "hood": "les",
+      "lat": 40.7208163,
+      "lon": -73.9877831,
+      "units": 22,
+      "floors": 7,
+      "note": "Small doorman mid-rise with high ceilings, a block off Houston.",
+      "tags": [
+        "Doorman",
+        "Laundry",
+        "High ceilings"
+      ],
+      "url": null
+    },
+    {
+      "name": "275 South Street",
+      "address": "275 South St",
+      "hood": "les",
+      "lat": 40.7107934,
+      "lon": -73.98769,
+      "units": 256,
+      "floors": 19,
+      "note": "Converted post-war high-rise with East River and Brooklyn views. Renovated interiors, frequent leasing specials.",
+      "tags": [
+        "Doorman",
+        "Roof deck",
+        "Waterfront views"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Madison Jackson",
+      "address": "371 Madison St",
+      "hood": "les",
+      "lat": 40.7137313,
+      "lon": -73.9814188,
+      "units": 117,
+      "floors": 6,
+      "note": "Far southeast corner of the neighborhood, near the bridges. One of the few LES buildings with a pool.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Pool"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Norfolk",
+      "address": "60 Norfolk St",
+      "hood": "les",
+      "lat": 40.7169742,
+      "lon": -73.9879832,
+      "units": 115,
+      "floors": 16,
+      "note": "2023-built tower near Grand St, paired with Gotham Organization's 64 Norfolk senior housing next door. No staffed doorman.",
+      "tags": [
+        "Lounge",
+        "Courtyard",
+        "Roof deck",
+        "Bike room",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "EVGB",
+      "address": "510 E 14th St",
+      "hood": "ev",
+      "lat": 40.7298527,
+      "lon": -73.9794421,
+      "units": null,
+      "floors": null,
+      "note": "Extell. A 19,000 sq ft roof deck with fire pits, plus a pool. Target and Trader Joe's are steps away.",
+      "tags": [
+        "24h doorman",
+        "Pool",
+        "Gym",
+        "Roof deck",
+        "W/D in unit"
+      ],
+      "url": "https://rentevgb.com/"
+    },
+    {
+      "name": "2 Cooper Square",
+      "address": "2 Cooper Sq",
+      "hood": "ev",
+      "lat": 40.72748,
+      "lon": -73.9918242,
+      "units": null,
+      "floors": null,
+      "note": "Astor Place edge — the best transit access of anything downtown on this list. Roof deck with a swimming pool.",
+      "tags": [
+        "24h lobby",
+        "Pool",
+        "Gym",
+        "Cinema room",
+        "Club lounge"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Nathaniel",
+      "address": "138 E 12th St",
+      "hood": "ev",
+      "lat": 40.7319984,
+      "lon": -73.9884554,
+      "units": 85,
+      "floors": 9,
+      "note": "E 12th near Third Ave, which reads more Gramercy than East Village. Courtyard, reflecting pool, club lounge.",
+      "tags": [
+        "24h lobby",
+        "Gym",
+        "Roof deck",
+        "W/D in unit"
+      ],
+      "url": "https://www.thenathanielny.com/"
+    },
+    {
+      "name": "Steiner East Village",
+      "address": "438 E 12th St",
+      "hood": "ev",
+      "lat": 40.729573,
+      "lon": -73.9827037,
+      "units": null,
+      "floors": null,
+      "note": "Condo at Ave A & E 12th; units come up as rentals through owners. Concierge, but no leasing office to walk into.",
+      "tags": [
+        "Condo",
+        "Concierge",
+        "High-end finishes"
+      ],
+      "url": "http://www.steinereastvillage.com/"
+    },
+    {
+      "name": "Avalon Bowery Place I",
+      "address": "11 E 1st St",
+      "hood": "ev",
+      "lat": 40.7243888,
+      "lon": -73.9917313,
+      "units": 206,
+      "floors": 9,
+      "note": "2007 vintage but generous floorplates and a deep amenity package. Arguably the most polished block in the EV.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Garage",
+        "Valet",
+        "Roof terrace"
+      ],
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
+    },
+    {
+      "name": "Avalon Bowery Place II",
+      "address": "22 E 1st St",
+      "hood": "ev",
+      "lat": 40.7244899,
+      "lon": -73.9911087,
+      "units": 90,
+      "floors": 7,
+      "note": "Smaller sibling across the street, sharing the Bowery Place location without the garage.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "Eleventh & Third",
+      "address": "200 E 11th St",
+      "hood": "ev",
+      "lat": 40.7310089,
+      "lon": -73.9881799,
+      "units": 55,
+      "floors": 12,
+      "note": "Boutique, renovated 2014 — concrete counters, walnut floors. Recent reviews say new management cut the night doorman.",
+      "tags": [
+        "Roof deck",
+        "Gym",
+        "Yoga studio",
+        "Laundry"
+      ],
+      "url": "https://www.eleventhandthird.com/"
+    },
+    {
+      "name": "The Adele",
+      "address": "310 E 2nd St",
+      "hood": "ev",
+      "lat": 40.7203674,
+      "lon": -73.9788547,
+      "units": 136,
+      "floors": 12,
+      "note": "Deep in Alphabet City near Ave C. Rooftop with a lawn and panoramic views, but a 15-minute walk to a train.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Garage",
+        "Roof terrace"
+      ],
+      "url": "http://www.adelenyc.com/"
+    },
+    {
+      "name": "250 E Houston (Red Square)",
+      "address": "250 E Houston St",
+      "hood": "ev",
+      "lat": 40.7221984,
+      "lon": -73.9852982,
+      "units": null,
+      "floors": null,
+      "note": "The Tibor Kalman clock building, renovated throughout. Wi-Fi lounge with a private conference room.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Private garden",
+        "Roof terrace"
+      ],
+      "url": "http://250ehouston.com/"
+    },
+    {
+      "name": "152 Second Avenue",
+      "address": "152 Second Ave",
+      "hood": "ev",
+      "lat": 40.7293547,
+      "lon": -73.9866878,
+      "units": 25,
+      "floors": null,
+      "note": "Paris Forino interiors — whitewashed oak, limed brick, private balconies. Small and quiet.",
+      "tags": [
+        "Balconies",
+        "W/D in unit",
+        "Roof deck",
+        "Bike storage"
+      ],
+      "url": null
+    },
+    {
+      "name": "EVE",
+      "address": "433 E 13th St",
+      "hood": "ev",
+      "lat": 40.7304052,
+      "lon": -73.9822512,
+      "units": 96,
+      "floors": 8,
+      "note": "Trader Joe's is the retail tenant. Scandinavian-leaning interiors, courtyard, pet grooming station.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Billiards lounge",
+        "Roof terrace"
+      ],
+      "url": "https://eve.nyc/"
+    },
+    {
+      "name": "Arabella 101",
+      "address": "101 Avenue D",
+      "hood": "ev",
+      "lat": 40.7232973,
+      "lon": -73.9764403,
+      "units": null,
+      "floors": null,
+      "note": "Far east on Ave D. LEED certified, skyline views, herb garden on the roof. Residents rate the staff highly.",
+      "tags": [
+        "Gym",
+        "Rec room",
+        "Roof deck",
+        "LEED"
+      ],
+      "url": "http://www.arabella101.com/"
+    },
+    {
+      "name": "Bloom 62",
+      "address": "62 Avenue B",
+      "hood": "ev",
+      "lat": 40.7237332,
+      "lon": -73.9825263,
+      "units": 81,
+      "floors": 6,
+      "note": "Post-war mid-rise on Ave B facing Tompkins Square. Doorman and gym, modest amenity set.",
+      "tags": [
+        "Doorman",
+        "Gym"
+      ],
+      "url": null
+    },
+    {
+      "name": "Deco East",
+      "address": "222 E 3rd St",
+      "hood": "ev",
+      "lat": 40.7222323,
+      "lon": -73.9823733,
+      "units": 61,
+      "floors": 8,
+      "note": "Doorman mid-rise where rent includes heat and hot water — rare at this tier.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Laundry",
+        "Utilities included"
+      ],
+      "url": null
+    },
+    {
+      "name": "CD280",
+      "address": "280 E 2nd St",
+      "hood": "ev",
+      "lat": 40.720901,
+      "lon": -73.9805895,
+      "units": 102,
+      "floors": 11,
+      "note": "Studios and one-bedrooms only, with rent-stabilized units in the mix. Unusual value for the amenity level.",
+      "tags": [
+        "Elevator",
+        "Studios & 1BR"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Sky East",
+      "address": "636 E 11th St",
+      "hood": "ev",
+      "lat": 40.7266743,
+      "lon": -73.9780466,
+      "units": null,
+      "floors": null,
+      "note": "Doorman mid-rise deep in Alphabet City, near the Ave C corridor.",
+      "tags": [
+        "Doorman",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "Tompkins Square Plaza",
+      "address": "190 E 7th St",
+      "hood": "ev",
+      "lat": 40.7248222,
+      "lon": -73.9808389,
+      "units": null,
+      "floors": null,
+      "note": "Two towers separated by a plaza and fountain — a rare setback from the street in this part of the EV.",
+      "tags": [
+        "Doorman",
+        "Plaza"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Hudson East",
+      "address": "225 E 6th St",
+      "hood": "ev",
+      "lat": 40.7278707,
+      "lon": -73.9892146,
+      "units": 86,
+      "floors": 6,
+      "note": "Mixed-income building with rooftop terraces, rear garden patios, and duplex live/work spaces.",
+      "tags": [
+        "Roof terraces",
+        "Garden patios",
+        "Live/work duplexes"
+      ],
+      "url": null
+    },
+    {
+      "name": "Eastville Gardens",
+      "address": "342 E 8th St",
+      "hood": "ev",
+      "lat": 40.7248126,
+      "lon": -73.9789758,
+      "units": 70,
+      "floors": 7,
+      "note": "Quiet block between Aves B and C. Doorman elevator building with a gym.",
+      "tags": [
+        "Doorman",
+        "Gym"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Houston",
+      "address": "280 E Houston St",
+      "hood": "ev",
+      "lat": 40.720849,
+      "lon": -73.9802615,
+      "units": 157,
+      "floors": 12,
+      "note": "Hill West infill between Aves A and B; 40 of the 157 units are income-restricted. Virtual doorman rather than a staffed desk.",
+      "tags": [
+        "Virtual doorman",
+        "Gym",
+        "Business center",
+        "Lounge",
+        "Roof terrace",
+        "W/D in unit"
+      ],
+      "url": "https://thehoustonnyc.com/"
+    },
+    {
+      "name": "The East",
+      "address": "644 E 14th St",
+      "hood": "ev",
+      "lat": 40.7284448,
+      "lon": -73.9761427,
+      "units": 196,
+      "floors": 24,
+      "note": "Madison Realty Capital tower next to the Con Ed plant near Ave C; 30% of the 196 units are set aside as affordable.",
+      "tags": [
+        "Elevator",
+        "Gym",
+        "Roof terrace",
+        "Resident lounge",
+        "Bike room"
+      ],
+      "url": "https://theeastnyc.com/"
+    },
+    {
+      "name": "298 Mulberry",
+      "address": "298 Mulberry St",
+      "hood": "nolita",
+      "lat": 40.7251915,
+      "lon": -73.9946756,
+      "units": 100,
+      "floors": 7,
+      "note": "One of only two real doorman rentals in Nolita — historic-district rules kept everything else low-rise walk-ups. Staff reviews are exceptional.",
+      "tags": [
+        "Doorman",
+        "Laundry",
+        "High ceilings"
+      ],
+      "url": "https://www.298mulberryst.com/"
+    },
+    {
+      "name": "227 Mulberry",
+      "address": "227 Mulberry St",
+      "hood": "nolita",
+      "lat": 40.7225891,
+      "lon": -73.9962916,
+      "units": 54,
+      "floors": 7,
+      "note": "The other one. Doorman elevator building with a gym, in the middle of the Mulberry restaurant strip.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Laundry"
+      ],
+      "url": "https://www.hakimian.com/"
+    },
+    {
+      "name": "Mulberry House",
+      "address": "290 Mulberry St",
+      "hood": "nolita",
+      "lat": 40.7246645,
+      "lon": -73.9948783,
+      "units": 8,
+      "floors": 8,
+      "note": "SHoP Architects-designed with a rippling brown-brick facade, directly across from the landmark Puck Building. A genuine third Nolita doorman rental, but with only 8 full-floor loft units, vacancies are rare.",
+      "tags": [
+        "Full-time doorman",
+        "Concierge",
+        "Private elevator",
+        "W/D in unit",
+        "Terraces"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Soho Abbey",
+      "address": "284 Mott St",
+      "hood": "nolita",
+      "lat": 40.7243643,
+      "lon": -73.9942102,
+      "units": 160,
+      "floors": 10,
+      "note": "Despite the \"SoHo\" marketing name, its Mott/Houston/Elizabeth corner address places it firmly in Nolita — one of the largest doorman buildings in the immediate area. No pets allowed.",
+      "tags": [
+        "Doorman",
+        "Live-in super",
+        "Laundry",
+        "Courtyard"
+      ],
+      "url": null
+    },
+    {
+      "name": "SPRING",
+      "address": "225 Lafayette St",
+      "hood": "nolita",
+      "lat": 40.7219002,
+      "lon": -73.9971112,
+      "units": 40,
+      "floors": 14,
+      "note": "Originally the 1927 East River Savings Bank designed by Cass Gilbert, converted to residential in 2004 with its Beaux-Arts limestone facade intact. Sits on Nolita's western edge, so some sites file it under SoHo.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Roof deck",
+        "Pet friendly"
+      ],
+      "url": null
+    },
+    {
+      "name": "Nolita Place Condominiums",
+      "address": "199 Bowery",
+      "hood": "nolita",
+      "lat": 40.7210487,
+      "lon": -73.993252,
+      "units": 65,
+      "floors": 12,
+      "note": "Fronts Bowery, Nolita's eastern boundary, which is why some sites tag it Lower East Side instead. Some units have unusually large private terraces — up to roughly 760 sq ft.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Roof deck",
+        "Bike room"
+      ],
+      "url": "https://www.199bowerynyc.com/"
+    },
+    {
+      "name": "The Archive",
+      "address": "666 Greenwich St",
+      "hood": "wv",
+      "lat": 40.7322447,
+      "lon": -74.0079469,
+      "units": 479,
+      "floors": 11,
+      "note": "Landmark warehouse conversion taking the whole block — double-height arched windows, high ceilings, and by far the largest inventory in the West Village.",
+      "tags": [
+        "Doorman",
+        "Laundry",
+        "High ceilings",
+        "Landmark"
+      ],
+      "url": "https://rockrose.com/building/the-archive/"
+    },
+    {
+      "name": "600 Washington",
+      "address": "600 Washington St",
+      "hood": "wv",
+      "lat": 40.7305714,
+      "lon": -74.0092065,
+      "units": 135,
+      "floors": 7,
+      "note": "Part of the Morton Square complex. Studios through two-bedrooms; some second-floor units sit above a gym and get bass noise.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Studios–2BR"
+      ],
+      "url": "http://www.equityapartments.com/new-york-city/west-village/600-washington-apartments"
+    },
+    {
+      "name": "110 Horatio Street",
+      "address": "110 Horatio St",
+      "hood": "wv",
+      "lat": 40.7385494,
+      "lon": -74.009334,
+      "units": null,
+      "floors": null,
+      "note": "Doorman mid-rise with high ceilings, near the south end of the High Line.",
+      "tags": [
+        "Doorman",
+        "High ceilings"
+      ],
+      "url": "https://rockrose.com/building/110-horatio-st/"
+    },
+    {
+      "name": "The Printing House",
+      "address": "421 Hudson St",
+      "hood": "wv",
+      "lat": 40.7298569,
+      "lon": -74.0072597,
+      "units": null,
+      "floors": null,
+      "note": "Condo on Hudson with a full health club on site. Rentals come through individual owners.",
+      "tags": [
+        "Condo",
+        "Health club",
+        "Doorman"
+      ],
+      "url": "http://printinghousewestvillage.com/"
+    },
+    {
+      "name": "756 Washington",
+      "address": "756 Washington St",
+      "hood": "wv",
+      "lat": 40.7371024,
+      "lon": -74.0084917,
+      "units": 67,
+      "floors": 11,
+      "note": "Small doorman building at the High Line's southern end. No-frills, well-run.",
+      "tags": [
+        "Doorman"
+      ],
+      "url": "http://www.hellerorg.com/"
+    },
+    {
+      "name": "56 Seventh Avenue",
+      "address": "56 Seventh Ave",
+      "hood": "wv",
+      "lat": 40.7315519,
+      "lon": -74.0043385,
+      "units": 159,
+      "floors": 20,
+      "note": "One of the few genuine high-rises in the West Village. Doorman and gym, on a busy avenue.",
+      "tags": [
+        "Doorman",
+        "Gym"
+      ],
+      "url": null
+    },
+    {
+      "name": "780 Greenwich Street",
+      "address": "780 Greenwich St",
+      "hood": "wv",
+      "lat": 40.7368382,
+      "lon": -74.006639,
+      "units": 90,
+      "floors": 6,
+      "note": "Post-war landmark mid-rise on a quiet Greenwich Street block.",
+      "tags": [
+        "Doorman",
+        "Landmark"
+      ],
+      "url": null
+    },
+    {
+      "name": "95 Christopher Street",
+      "address": "95 Christopher St",
+      "hood": "wv",
+      "lat": 40.733412,
+      "lon": -74.0046981,
+      "units": null,
+      "floors": null,
+      "note": "Pre-war landmark doorman high-rise in the middle of Christopher Street.",
+      "tags": [
+        "Doorman",
+        "Pre-war",
+        "Landmark"
+      ],
+      "url": null
+    },
+    {
+      "name": "101 West 15th Street",
+      "address": "101 W 15th St",
+      "hood": "chelsea",
+      "lat": 40.7382115,
+      "lon": -73.9964804,
+      "units": null,
+      "floors": null,
+      "note": "Studios and one-bedrooms only, in the former St. Vincent's staff housing. Every unit has a balcony or terrace and in-unit laundry.",
+      "tags": [
+        "Concierge",
+        "Gym",
+        "Courtyard",
+        "W/D in unit",
+        "Balconies"
+      ],
+      "url": "https://www.stonehengenyc.com/buildings/101w15"
+    },
+    {
+      "name": "The Westminster",
+      "address": "180 W 20th St",
+      "hood": "chelsea",
+      "lat": 40.7419763,
+      "lon": -73.9968226,
+      "units": null,
+      "floors": null,
+      "note": "Related-managed, smoke-free, in the heart of Chelsea with the West Village and Flatiron each ten minutes away.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Roof terrace",
+        "W/D in unit",
+        "Smoke-free"
+      ],
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
+    },
+    {
+      "name": "Chelsea Landmark",
+      "address": "55 W 25th St",
+      "hood": "chelsea",
+      "lat": 40.7443062,
+      "lon": -73.9912086,
+      "units": null,
+      "floors": null,
+      "note": "Sits where Chelsea, NoMad and Flatiron meet. Attended garage, building-wide Wi-Fi, and one of the better roof decks in the city.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Garage",
+        "Roof deck",
+        "Co-working"
+      ],
+      "url": "http://www.chelsealandmark.com/"
+    },
+    {
+      "name": "The Arthur",
+      "address": "245 W 25th St",
+      "hood": "chelsea",
+      "lat": 40.7463341,
+      "lon": -73.9965162,
+      "units": null,
+      "floors": null,
+      "note": "Renovated Art Deco that kept its generous pre-war floor plans — the best space-per-dollar bet in Chelsea.",
+      "tags": [
+        "24h doorman",
+        "Live-in super",
+        "Roof deck",
+        "Bike room"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Tate",
+      "address": "535 W 23rd St",
+      "hood": "chelsea",
+      "lat": 40.7482437,
+      "lon": -74.0052615,
+      "units": 313,
+      "floors": null,
+      "note": "Two towers in the gallery district, Ismael Leyva with Rockwell Group interiors. Oak parquet floors, oversized windows.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Sun terrace",
+        "W/D in unit"
+      ],
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-tate"
+    },
+    {
+      "name": "Ten23",
+      "address": "500 W 23rd St",
+      "hood": "chelsea",
+      "lat": 40.7475405,
+      "lon": -74.0046894,
+      "units": 111,
+      "floors": null,
+      "note": "Right on the High Line with a CVS in the base. Floor-to-ceiling windows; residents flag recurring elevator problems.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Roof deck",
+        "Bike room",
+        "Pet friendly"
+      ],
+      "url": "http://www.equityapartments.com/new-york-city/chelsea/ten23-apartments"
+    },
+    {
+      "name": "The Caledonia",
+      "address": "450 W 17th St",
+      "hood": "chelsea",
+      "lat": 40.743401,
+      "lon": -74.0054686,
+      "units": null,
+      "floors": null,
+      "note": "On the High Line with a bamboo garden level. Courtyard-facing units get noticeably less light — ask for an exposure.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Pool",
+        "Garden",
+        "W/D in unit"
+      ],
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-caledonia"
+    },
+    {
+      "name": "AVA High Line",
+      "address": "525 W 28th St",
+      "hood": "chelsea",
+      "lat": 40.7513668,
+      "lon": -74.0029392,
+      "units": 710,
+      "floors": 30,
+      "note": "Big, LEED-certified, and consistently well-reviewed. Far west, so the blocks empty out completely after dark.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Roof deck",
+        "LEED"
+      ],
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
+    },
+    {
+      "name": "Avalon West Chelsea",
+      "address": "282 Eleventh Ave",
+      "hood": "chelsea",
+      "lat": 40.7518827,
+      "lon": -74.0037922,
+      "units": null,
+      "floors": 13,
+      "note": "Sister building to AVA next door, on Eleventh Ave. Same staff and standards, same after-dark quiet.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Roof deck",
+        "Pet friendly"
+      ],
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
+    },
+    {
+      "name": "Abington House",
+      "address": "500 W 30th St",
+      "hood": "chelsea",
+      "lat": 40.7520118,
+      "lon": -74.0014384,
+      "units": 390,
+      "floors": 33,
+      "note": "Related's High Line tower at the Hudson Yards edge — pool, bowling alley, multiple roof decks. Only a few floorplans are truly spacious.",
+      "tags": [
+        "24h concierge",
+        "Pool",
+        "Gym",
+        "Bowling",
+        "Roof decks"
+      ],
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
+    },
+    {
+      "name": "Highline 537",
+      "address": "537 W 27th St",
+      "hood": "chelsea",
+      "lat": 40.7511512,
+      "lon": -74.0040704,
+      "units": 29,
+      "floors": 5,
+      "note": "Small low-rise doorman building in the gallery blocks. Gym, and not much else.",
+      "tags": [
+        "Doorman",
+        "Gym"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Chelsea Grande",
+      "address": "460 W 20th St",
+      "hood": "chelsea",
+      "lat": 40.7456024,
+      "lon": -74.005321,
+      "units": 76,
+      "floors": 8,
+      "note": "Landmark-district building in far west Chelsea, faced in sand-mold brick to match the block.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Laundry",
+        "Landmark"
+      ],
+      "url": null
+    },
+    {
+      "name": "Port 10",
+      "address": "303 Tenth Ave",
+      "hood": "chelsea",
+      "lat": 40.7506946,
+      "lon": -74.0023551,
+      "units": 89,
+      "floors": 13,
+      "note": "Doorman high-rise on Tenth Ave, north end of the gallery district.",
+      "tags": [
+        "Doorman"
+      ],
+      "url": null
+    },
+    {
+      "name": "London Terrace Gardens",
+      "address": "415 W 23rd St",
+      "hood": "chelsea",
+      "lat": 40.746778,
+      "lon": -74.0017813,
+      "units": 92,
+      "floors": 17,
+      "note": "Pre-war complex spanning a full block, with a pool and garage shared across ten interior buildings. Roughly 900 rental units total.",
+      "tags": [
+        "Doorman",
+        "Pool",
+        "Garage",
+        "Pre-war"
+      ],
+      "url": null
+    },
+    {
+      "name": "Maverick Chelsea",
+      "address": "225 W 28th St",
+      "hood": "chelsea",
+      "lat": 40.7478329,
+      "lon": -73.9945066,
+      "units": 111,
+      "floors": 21,
+      "note": "Wellness-themed hybrid rental-condo tower from HAP/DXA Studio, with a 60-foot lap pool and a facaded diamond pattern.",
+      "tags": [
+        "24h attended lobby",
+        "Pool",
+        "Sauna & steam",
+        "Gym",
+        "Roof terrace",
+        "W/D in unit"
+      ],
+      "url": "https://225west28th.com/"
+    },
+    {
+      "name": "Ruby Chelsea",
+      "address": "243 W 28th St",
+      "hood": "chelsea",
+      "lat": 40.748185,
+      "lon": -73.995335,
+      "units": 480,
+      "floors": 22,
+      "note": "COOKFOX-designed two-tower development named for fashion designer Ruby Bailey. 30% of units are affordable under Affordable NY.",
+      "tags": [
+        "24h doorman",
+        "Rooftop pool",
+        "Gym",
+        "Co-working",
+        "Courtyard garden",
+        "Pet grooming"
+      ],
+      "url": "https://rubychelsea.com/"
+    },
+    {
+      "name": "Chelsea Canvas",
+      "address": "280 W 24th St",
+      "hood": "chelsea",
+      "lat": 40.7455089,
+      "lon": -73.9979126,
+      "units": 190,
+      "floors": 14,
+      "note": "Spans the full block between 23rd and 24th St, with a ground-floor Target. 12-foot ceilings and white oak finishes throughout.",
+      "tags": [
+        "Concierge",
+        "Gym",
+        "Co-working lounge",
+        "Roof terrace",
+        "Courtyard",
+        "Pet friendly"
+      ],
+      "url": "https://chelseacanvasnyc.com/"
+    },
+    {
+      "name": "Instrata Gramercy",
+      "address": "290 Third Ave",
+      "hood": "gramercy",
+      "lat": 40.739065,
+      "lon": -73.9831412,
+      "units": 166,
+      "floors": 33,
+      "note": "The tall modern option in Gramercy. Doorman and gym, with unusually consistent praise for the building staff.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Laundry"
+      ],
+      "url": "https://www.instratagramercy.com/"
+    },
+    {
+      "name": "Gramercy Starck",
+      "address": "340 E 23rd St",
+      "hood": "gramercy",
+      "lat": 40.7373688,
+      "lon": -73.9799787,
+      "units": null,
+      "floors": null,
+      "note": "Philippe Starck-designed condo on the Gramercy/Murray Hill edge. Rentals come through owners, so inventory is sporadic.",
+      "tags": [
+        "Condo",
+        "Doorman",
+        "Amenity-rich"
+      ],
+      "url": "https://www.gramercystarckny.com/"
+    },
+    {
+      "name": "Park 23",
+      "address": "295 Park Ave S",
+      "hood": "gramercy",
+      "lat": 40.7398357,
+      "lon": -73.986375,
+      "units": 178,
+      "floors": 16,
+      "note": "Turn-of-the-century doorman high-rise on Park Avenue South, a block from Gramercy Park itself.",
+      "tags": [
+        "Doorman",
+        "Laundry",
+        "Pre-war"
+      ],
+      "url": null
+    },
+    {
+      "name": "Hatten House",
+      "address": "200 E 15th St",
+      "hood": "gramercy",
+      "lat": 40.7337026,
+      "lon": -73.9863718,
+      "units": 213,
+      "floors": 17,
+      "note": "Post-war high-rise near Stuyvesant Square, walking distance to Union Square.",
+      "tags": [
+        "Doorman",
+        "Elevator"
+      ],
+      "url": null
+    },
+    {
+      "name": "Gramercy Court",
+      "address": "245 E 21st St",
+      "hood": "gramercy",
+      "lat": 40.7368026,
+      "lon": -73.9819931,
+      "units": 91,
+      "floors": 16,
+      "note": "Pre-war doorman high-rise directly east of Gramercy Park.",
+      "tags": [
+        "Doorman",
+        "Pre-war"
+      ],
+      "url": null
+    },
+    {
+      "name": "Gramercy East",
+      "address": "321 E 22nd St",
+      "hood": "gramercy",
+      "lat": 40.7369702,
+      "lon": -73.980291,
+      "units": 115,
+      "floors": 6,
+      "note": "Post-war mid-rise; some units have the high ceilings the pre-war stock is known for.",
+      "tags": [
+        "Doorman",
+        "Laundry",
+        "High ceilings"
+      ],
+      "url": null
+    },
+    {
+      "name": "New Amsterdam",
+      "address": "320 E 23rd St",
+      "hood": "gramercy",
+      "lat": 40.7372684,
+      "lon": -73.9799867,
+      "units": 210,
+      "floors": 16,
+      "note": "Large post-war doorman high-rise on E 23rd, at the Gramercy/Kips Bay line.",
+      "tags": [
+        "Doorman",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Washington Irving House",
+      "address": "145 E 16th St",
+      "hood": "gramercy",
+      "lat": 40.7348352,
+      "lon": -73.98647,
+      "units": 234,
+      "floors": 19,
+      "note": "Post-war high-rise steps from Union Square, with a garage. Among the most transit-convenient on this list.",
+      "tags": [
+        "Doorman",
+        "Garage"
+      ],
+      "url": null
+    },
+    {
+      "name": "245 East 19th Street",
+      "address": "245 E 19th St",
+      "hood": "gramercy",
+      "lat": 40.7357162,
+      "lon": -73.9830312,
+      "units": 292,
+      "floors": 20,
+      "note": "Big post-war doorman building on a quiet residential block near the park.",
+      "tags": [
+        "Doorman"
+      ],
+      "url": null
+    },
+    {
+      "name": "210 East 22nd Street",
+      "address": "210 E 22nd St",
+      "hood": "gramercy",
+      "lat": 40.7377391,
+      "lon": -73.9830981,
+      "units": 88,
+      "floors": 8,
+      "note": "Doorman mid-rise with high ceilings; rent includes heat, hot water and cooking gas.",
+      "tags": [
+        "Doorman",
+        "Laundry",
+        "Utilities included",
+        "High ceilings"
+      ],
+      "url": null
+    },
+    {
+      "name": "Gemma Gramercy",
+      "address": "200 E 23rd St",
+      "hood": "gramercy",
+      "lat": 40.7385135,
+      "lon": -73.9828107,
+      "units": 108,
+      "floors": 20,
+      "note": "Hill West's first Passive House project — triple-glazed windows, continuous air barrier, and energy-recovery ventilation in every unit.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Co-working",
+        "Roof deck",
+        "Passive House",
+        "W/D in unit"
+      ],
+      "url": "https://gemmagramercy.com/"
+    },
+    {
+      "name": "55 Thompson",
+      "address": "55 Thompson St",
+      "hood": "soho",
+      "lat": 40.7238008,
+      "lon": -74.0036671,
+      "units": 38,
+      "floors": 9,
+      "note": "Boutique tower with gas fireplaces and private balconies in select units; reviews consistently single out the concierge and resident manager as unusually responsive for a building this small.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Roof/sun deck",
+        "Garden",
+        "Garage"
+      ],
+      "url": "https://manhattanskyline.com/buildings/soho/55-thompson"
+    },
+    {
+      "name": "261 Hudson",
+      "address": "261 Hudson St",
+      "hood": "soho",
+      "lat": 40.7251751,
+      "lon": -74.0081129,
+      "units": 201,
+      "floors": 12,
+      "note": "Unusually large for the neighborhood — most SoHo doorman buildings top out under 50 units. Technically West SoHo/Hudson Square; the Equinox-curated fitness center is a real differentiator.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Courtyard garden",
+        "Library lounge",
+        "Roof deck"
+      ],
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/west-soho/261-hudson"
+    },
+    {
+      "name": "111 Varick",
+      "address": "111 Varick St",
+      "hood": "soho",
+      "lat": 40.7246055,
+      "lon": -74.0063156,
+      "units": 100,
+      "floors": 30,
+      "note": "Newest build in the group (leased up 2020) and the tallest tower here by far with real skyline/river views — a rare ground-up rental in a submarket dominated by office conversions and condos.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Club lounge",
+        "Roof deck",
+        "W/D in unit"
+      ],
+      "url": "https://111varick.com"
+    },
+    {
+      "name": "70 Charlton",
+      "address": "70 Charlton St",
+      "hood": "soho",
+      "lat": 40.7269568,
+      "lon": -74.0063984,
+      "units": 92,
+      "floors": 21,
+      "note": "A condo where owners rent out units rather than a pure rental; one of downtown's few buildings with an indoor 60-foot saltwater pool.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Gym",
+        "Steam room"
+      ],
+      "url": null
+    },
+    {
+      "name": "505 Greenwich Street",
+      "address": "505 Greenwich St",
+      "hood": "soho",
+      "lat": 40.7256521,
+      "lon": -74.0090433,
+      "units": 104,
+      "floors": 14,
+      "note": "Built 2003–04, so finishes read a bit dated next to newer Hudson Square towers, but the pet spa and meditation garden are genuinely uncommon extras for a mid-size building.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Pet spa",
+        "Meditation garden"
+      ],
+      "url": "https://www.505greenwich.com/"
+    },
+    {
+      "name": "The Greenwich Street Project",
+      "address": "497 Greenwich St",
+      "hood": "soho",
+      "lat": 40.7253942,
+      "lon": -74.0090878,
+      "units": 25,
+      "floors": 14,
+      "note": "Winka Dubbeldam-designed hybrid of a 1915 brick warehouse and a glass-and-steel addition; punches above its 25-unit size with a resistance pool, but sits on the SoHo/Tribeca/West Village seam.",
+      "tags": [
+        "Full-time doorman",
+        "Concierge",
+        "Gym",
+        "Pool",
+        "Sauna"
+      ],
+      "url": null
+    },
+    {
+      "name": "40 Mercer Residences",
+      "address": "40 Mercer St",
+      "hood": "soho",
+      "lat": 40.721204,
+      "lon": -74.0009476,
+      "units": 41,
+      "floors": 14,
+      "note": "Andre Balazs/Jean Nouvel-designed landmark with some of the highest per-square-foot prices in the neighborhood; most owners hold long-term, so actual rental availability is rare.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Gym",
+        "Valet"
+      ],
+      "url": null
+    },
+    {
+      "name": "One Kenmare Square",
+      "address": "210 Lafayette St",
+      "hood": "soho",
+      "lat": 40.7216918,
+      "lon": -73.9978781,
+      "units": 53,
+      "floors": 11,
+      "note": "Andre Balazs/Richard Gluckman's curved brick-and-glass facade sits right at the SoHo/Nolita/Little Italy crossroads; boutique scale means service feels personal but turnover is slow.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Private storage"
+      ],
+      "url": "https://one-kenmare-square.com/"
+    },
+    {
+      "name": "11 Greene Street",
+      "address": "11 Greene St",
+      "hood": "soho",
+      "lat": 40.7207611,
+      "lon": -74.0031918,
+      "units": 31,
+      "floors": 6,
+      "note": "Newer purpose-built rental (leased up ~2021) rather than a loft conversion despite the loft-inspired interiors; the cold-storage package room is a practical, non-marketing amenity.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Bike room",
+        "W/D in unit"
+      ],
+      "url": "https://11greene.com/"
+    },
+    {
+      "name": "68 Spring Street",
+      "address": "68 Spring St",
+      "hood": "soho",
+      "lat": 40.72229,
+      "lon": -73.9976444,
+      "units": 10,
+      "floors": 8,
+      "note": "Tiny 2022 infill building; listed as \"doorman + virtual doorman,\" suggesting coverage isn't a traditional live 24h desk — worth confirming staffing hours.",
+      "tags": [
+        "Doorman",
+        "Roof deck",
+        "Bike room",
+        "W/D in unit"
+      ],
+      "url": null
+    },
+    {
+      "name": "Renwick Modern",
+      "address": "22 Renwick St",
+      "hood": "soho",
+      "lat": 40.7250001,
+      "lon": -74.0083349,
+      "units": 17,
+      "floors": 8,
+      "note": "Philip Johnson/Alan Ritchie-designed condo, one of Johnson's last projects. Doorman coverage is only 8am–midnight, and with 17 units total, rentals are infrequent.",
+      "tags": [
+        "Part-time doorman",
+        "Bike storage",
+        "Private storage"
+      ],
+      "url": null
+    },
+    {
+      "name": "Independence Plaza",
+      "address": "310 Greenwich St",
+      "hood": "tribeca",
+      "lat": 40.7178024,
+      "lon": -74.0113957,
+      "units": 1300,
+      "floors": 39,
+      "note": "Built in 1974 as Mitchell-Lama affordable housing, because Tribeca was too undesirable then for market-rate tenants; it exited the program in 2004 and some original rent-stabilized tenants still live alongside market renters.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Pool",
+        "Garage"
+      ],
+      "url": "https://www.stellarmanagement.com/no-fee-NYC-rentals/new-york-city-neighborhoods/Tribeca-rental-apartment-listings-Independence-Plaza"
+    },
+    {
+      "name": "Tribeca House",
+      "address": "50 Murray St",
+      "hood": "tribeca",
+      "lat": 40.7139033,
+      "lon": -74.0092813,
+      "units": 504,
+      "floors": 21,
+      "note": "Two connected Related-managed rental buildings (50 Murray St and 53 Park Place) run as one leasing community; popular with FiDi commuters for proximity to multiple subway lines.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Garage",
+        "Playroom",
+        "Roof deck"
+      ],
+      "url": null
+    },
+    {
+      "name": "Barclay Tower",
+      "address": "10 Barclay St",
+      "hood": "tribeca",
+      "lat": 40.7120391,
+      "lon": -74.0084026,
+      "units": 396,
+      "floors": 58,
+      "note": "Glenwood-managed high-rise with a 50-foot indoor lap pool; reviews consistently praise the doormen and cleanliness but knock the leasing office as slow on renewal terms.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Indoor pool",
+        "Whirlpool spa",
+        "Lounge"
+      ],
+      "url": "https://www.glenwoodnyc.com/properties/downtown/barclay-tower/"
+    },
+    {
+      "name": "Tribeca Tower",
+      "address": "105 Duane St",
+      "hood": "tribeca",
+      "lat": 40.7157848,
+      "lon": -74.0058745,
+      "units": 440,
+      "floors": 52,
+      "note": "Related-managed tower with a Rockwell Group-designed lobby, a few blocks from the courthouses and City Hall — draws a lot of lawyer and finance-industry renters.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Pool",
+        "Roof deck"
+      ],
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower"
+    },
+    {
+      "name": "Truffles Tribeca",
+      "address": "34 Desbrosses St",
+      "hood": "tribeca",
+      "lat": 40.7236172,
+      "lon": -74.0105467,
+      "units": 283,
+      "floors": 15,
+      "note": "Twin towers linked by a glass skywalk; some tenant reviews cite lingering water-damage complaints from Hurricane Sandy and an extra $80/month gym fee.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Roof deck",
+        "Screening room",
+        "Billiards"
+      ],
+      "url": null
+    },
+    {
+      "name": "89 Murray Street",
+      "address": "89 Murray St",
+      "hood": "tribeca",
+      "lat": 40.7151315,
+      "lon": -74.0116475,
+      "units": 163,
+      "floors": 12,
+      "note": "SOM-designed (2007) with Victoria Hagan interiors — a notably higher design pedigree than most rental buildings. Whole Foods and Barnes & Noble are at sister building 101 Warren, not on-site here.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Playroom",
+        "Valet"
+      ],
+      "url": null
+    },
+    {
+      "name": "88 Leonard Street",
+      "address": "88 Leonard St",
+      "hood": "tribeca",
+      "lat": 40.7170711,
+      "lon": -74.0046817,
+      "units": 352,
+      "floors": 21,
+      "note": "Well-reviewed for cleanliness and friendly doormen, but several tenants note there's no on-site gym or in-unit laundry despite the full-amenity marketing.",
+      "tags": [
+        "24h concierge",
+        "Rooftop terrace",
+        "Outdoor pool",
+        "Hot tub",
+        "Pet friendly"
+      ],
+      "url": null
+    },
+    {
+      "name": "456 Washington Street",
+      "address": "456 Washington St",
+      "hood": "tribeca",
+      "lat": 40.7257228,
+      "lon": -74.0100711,
+      "units": 107,
+      "floors": 10,
+      "note": "Quieter, smaller-scale rental on a cobblestoned block near the Hudson, less flashy than the Duane/Murray Street towers but with comparable full-service staffing.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Garage",
+        "Playroom",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "440 Washington Street",
+      "address": "440 Washington St",
+      "hood": "tribeca",
+      "lat": 40.723401,
+      "lon": -74.010469,
+      "units": 49,
+      "floors": 11,
+      "note": "One of the smallest full-service rental buildings in the neighborhood, favored by renters who want doorman service without a high-rise's scale.",
+      "tags": [
+        "24h doorman",
+        "Gym"
+      ],
+      "url": null
+    },
+    {
+      "name": "101 Warren Street",
+      "address": "101 Warren St",
+      "hood": "tribeca",
+      "lat": 40.7156493,
+      "lon": -74.0120622,
+      "units": 227,
+      "floors": 35,
+      "note": "SOM-designed condo tower famous for its rooftop \"forest\" of 101 Austrian pine trees and a retail podium with Whole Foods and Barnes & Noble; individual units come up for rent regularly despite condo ownership.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Spa",
+        "W/D in unit"
+      ],
+      "url": "https://www.101-warren.com/"
+    },
+    {
+      "name": "111 Murray Street",
+      "address": "111 Murray St",
+      "hood": "tribeca",
+      "lat": 40.7154405,
+      "lon": -74.0127301,
+      "units": 157,
+      "floors": 63,
+      "note": "One of Tribeca's newest ultra-luxury condos (2016), with a 75-foot lap pool and hammam spa; rentals here run expensive since owners treat units as investment rentals.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Spa",
+        "Gym"
+      ],
+      "url": null
+    },
+    {
+      "name": "56 Leonard Street",
+      "address": "56 Leonard St",
+      "hood": "tribeca",
+      "lat": 40.7176412,
+      "lon": -74.006259,
+      "units": 145,
+      "floors": 57,
+      "note": "Herzog & de Meuron-designed with cantilevered, stacked floors that earned it the \"Jenga\" nickname — the tallest residential building in Tribeca, though overwhelmingly for-sale with only occasional high-end rentals.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Gym",
+        "Spa"
+      ],
+      "url": null
+    },
+    {
+      "name": "Woolworth Tower Residences",
+      "address": "2 Park Place",
+      "hood": "tribeca",
+      "lat": 40.712526,
+      "lon": -74.007861,
+      "units": 32,
+      "floors": 30,
+      "note": "Occupies the top 30 floors of the landmark 1913 Woolworth Building, with its own residential entrance; the basement pool commissioned by F.W. Woolworth himself was restored by designer Thierry Despont. Only 32 units total.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Sauna",
+        "Gym"
+      ],
+      "url": null
+    },
+    {
+      "name": "200 Chambers Street",
+      "address": "200 Chambers St",
+      "hood": "tribeca",
+      "lat": 40.7165524,
+      "lon": -74.0123677,
+      "units": 258,
+      "floors": 30,
+      "note": "One of the larger condo towers on Tribeca's western edge near Hudson River Park, notable for its bright skylit indoor pool.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Skylit pool",
+        "Gym",
+        "Roof terrace"
+      ],
+      "url": "https://www.200chambers.com/"
+    },
+    {
+      "name": "Reade Chambers",
+      "address": "71 Reade St",
+      "hood": "tribeca",
+      "lat": 40.7148969,
+      "lon": -74.0070428,
+      "units": 18,
+      "floors": 9,
+      "note": "Small boutique condo conversion with a dedicated pet-grooming station — an unusually specific amenity for how pet-focused Tribeca's boutique buildings have become.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Pet grooming",
+        "Roof terrace"
+      ],
+      "url": null
+    },
+    {
+      "name": "River Lofts",
+      "address": "92 Laight St",
+      "hood": "tribeca",
+      "lat": 40.7223743,
+      "lon": -74.0113103,
+      "units": 68,
+      "floors": 13,
+      "note": "Loft-style conversion retaining exposed industrial character; a good example of the boutique, lower-rise doorman tier that coexists with Tribeca's newer glass towers.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Roof deck"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Ice House",
+      "address": "27 North Moore St",
+      "hood": "tribeca",
+      "lat": 40.7199406,
+      "lon": -74.0074462,
+      "units": 57,
+      "floors": 14,
+      "note": "Converted former cold-storage warehouse, hence the name; a mid-size boutique doorman condo just off North Moore's landmarked block.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Roof deck"
+      ],
+      "url": null
+    },
+    {
+      "name": "91 Leonard Street",
+      "address": "91 Leonard St",
+      "hood": "tribeca",
+      "lat": 40.7172605,
+      "lon": -74.0041555,
+      "units": 112,
+      "floors": 20,
+      "note": "Full-amenity boutique condo directly across from the much taller 56 Leonard \"Jenga\" tower, offering a similar service tier at a smaller, less architecturally showy scale.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Pool",
+        "Playroom",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "Gateway Plaza",
+      "address": "345 South End Ave",
+      "hood": "bpc",
+      "lat": 40.710873,
+      "lon": -74.0164898,
+      "units": 1712,
+      "floors": 34,
+      "note": "The first residential development in Battery Park City (1983), a six-building complex developed by LeFrak, Fisher Brothers, and Olnick; its gated plazas and sheer scale make it feel more like a self-contained campus.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Pool",
+        "Garage",
+        "Live-in super"
+      ],
+      "url": "https://www.gatewayny.com/"
+    },
+    {
+      "name": "Liberty House",
+      "address": "377 Rector Pl",
+      "hood": "bpc",
+      "lat": 40.7098302,
+      "lon": -74.0179135,
+      "units": 238,
+      "floors": 27,
+      "note": "Its \"Terrace Club\" amenity floor has a riverfront gym and pool with a retractable sun roof; direct access to the Hudson River esplanade is the bigger draw here than the interiors, which reviewers call dated.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Pool w/ retractable roof"
+      ],
+      "url": "https://www.libertyhouse.info/"
+    },
+    {
+      "name": "Le Rivage",
+      "address": "21 West St",
+      "hood": "bpc",
+      "lat": 40.7063837,
+      "lon": -74.0155288,
+      "units": 324,
+      "floors": 33,
+      "note": "A landmarked 1929 Art Deco office tower, built on spec before the 1929 crash, converted to apartments in 1997; the pre-war bones set it apart from BPC's mostly modern glass towers.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Roof deck",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "Tribeca Pointe",
+      "address": "41 River Terrace",
+      "hood": "bpc",
+      "lat": 40.7182746,
+      "lon": -74.0145971,
+      "units": 340,
+      "floors": 42,
+      "note": "Despite the Tribeca-adjacent name, this Rockrose-developed 1998 tower sits at BPC's northern tip; residents frequently cite unusually helpful staff, and units have been getting rolling renovations.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Roof deck",
+        "Playroom",
+        "Valet"
+      ],
+      "url": null
+    },
+    {
+      "name": "Riverwatch",
+      "address": "70 Battery Place",
+      "hood": "bpc",
+      "lat": 40.7072998,
+      "lon": -74.0175266,
+      "units": 209,
+      "floors": 9,
+      "note": "A red-brick, mid-rise 1999 building at BPC's southern end; less glassy than the Hudson-facing towers, but full-service with a private courtyard.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Roof deck",
+        "Garage",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "South Cove Plaza",
+      "address": "50 Battery Place",
+      "hood": "bpc",
+      "lat": 40.706659,
+      "lon": -74.0179877,
+      "units": 208,
+      "floors": 9,
+      "note": "Sister building to Riverwatch just across the street with nearly identical stats — worth comparing both since brokers sometimes conflate them.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Garage",
+        "Courtyard"
+      ],
+      "url": "https://www.southcoveplaza.com/"
+    },
+    {
+      "name": "The Solaire",
+      "address": "20 River Terrace",
+      "hood": "bpc",
+      "lat": 40.7168721,
+      "lon": -74.0161467,
+      "units": 293,
+      "floors": 27,
+      "note": "Completed in 2003, it was the first LEED Gold-certified residential high-rise in the US, using an in-building wastewater recycling system — a genuinely early and serious green building.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Roof terrace",
+        "Playroom",
+        "EV charging"
+      ],
+      "url": null
+    },
+    {
+      "name": "Tribeca Green",
+      "address": "325 North End Ave",
+      "hood": "bpc",
+      "lat": 40.716932,
+      "lon": -74.0149509,
+      "units": 274,
+      "floors": 24,
+      "note": "LEED Gold certified Related rental at BPC's north end, near Stuyvesant High School and Rockefeller Park — popular with families given the nearby schools and playgrounds.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Playroom",
+        "Roof deck"
+      ],
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-green"
+    },
+    {
+      "name": "Tribeca Park",
+      "address": "400 Chambers St",
+      "hood": "bpc",
+      "lat": 40.7179124,
+      "lon": -74.0147525,
+      "units": 396,
+      "floors": 27,
+      "note": "Related-managed waterfront rental with a notably large 60-foot heated pool and a landscaped sculpture garden, distinguishing it amenity-wise from its Related siblings nearby.",
+      "tags": [
+        "24h doorman",
+        "Pool",
+        "Gym",
+        "Roof terrace",
+        "Sculpture garden"
+      ],
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-park"
+    },
+    {
+      "name": "Tribeca Bridge Tower",
+      "address": "450 North End Ave",
+      "hood": "bpc",
+      "lat": 40.7172609,
+      "lon": -74.0138507,
+      "units": 151,
+      "floors": 25,
+      "note": "Glenwood-managed rental named for the pedestrian bridge connecting it over West Street to the Hudson River esplanade, letting residents reach the waterfront without crossing traffic.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Playroom",
+        "High ceilings"
+      ],
+      "url": "https://www.glenwoodnyc.com/properties/downtown/tribeca-bridge-tower/"
+    },
+    {
+      "name": "The Verdesian",
+      "address": "211 North End Ave",
+      "hood": "bpc",
+      "lat": 40.7162076,
+      "lon": -74.0155207,
+      "units": 252,
+      "floors": 27,
+      "note": "Opened in 2006 as the first US residential high-rise to achieve Platinum LEED certification; it remains one of the more genuinely energy-efficient buildings in a neighborhood full of \"green\" marketing claims.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Green roof garden",
+        "Playroom",
+        "EV charging"
+      ],
+      "url": null
+    },
+    {
+      "name": "22 River Terrace",
+      "address": "22 River Terrace",
+      "hood": "bpc",
+      "lat": 40.7172822,
+      "lon": -74.0158233,
+      "units": 324,
+      "floors": 27,
+      "note": "Straightforward full-service rental at BPC's northern edge near the other Related/Tribeca-named towers; less architecturally distinctive but with the same waterfront-esplanade access.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Laundry",
+        "Roof deck"
+      ],
+      "url": null
+    },
+    {
+      "name": "Liberty Court",
+      "address": "200 Rector Pl",
+      "hood": "bpc",
+      "lat": 40.7084895,
+      "lon": -74.0165122,
+      "units": 545,
+      "floors": 44,
+      "note": "The tallest of the Liberty-branded condo towers and one of the largest buildings in BPC by unit count; panoramic Hudson views come with correspondingly higher density.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Pool",
+        "Garage"
+      ],
+      "url": null
+    },
+    {
+      "name": "Liberty Terrace",
+      "address": "380 Rector Pl",
+      "hood": "bpc",
+      "lat": 40.7090795,
+      "lon": -74.0181626,
+      "units": 247,
+      "floors": 26,
+      "note": "Part of the four-building Liberty complex along Rector Place; individual condo units regularly cycle onto the rental market via Milford Management and other agents.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Pool",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "Liberty View",
+      "address": "99 Battery Pl",
+      "hood": "bpc",
+      "lat": 40.7076895,
+      "lon": -74.0165978,
+      "units": 294,
+      "floors": 28,
+      "note": "Managed for rentals by Milford Management even though it's condo-owned, making it one of the more consistently available Liberty-branded buildings for renters rather than buyers.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Laundry",
+        "Roof deck"
+      ],
+      "url": "https://milfordrentals.com/buildings/liberty-view/"
+    },
+    {
+      "name": "Liberty Luxe",
+      "address": "200 North End Ave",
+      "hood": "bpc",
+      "lat": 40.7160302,
+      "lon": -74.0147836,
+      "units": 280,
+      "floors": 32,
+      "note": "Newer (2009-era) addition to the Liberty complex at BPC's north end, paired architecturally with sister tower Liberty Green next door.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Gym",
+        "Playroom"
+      ],
+      "url": null
+    },
+    {
+      "name": "Liberty Green",
+      "address": "300 North End Ave",
+      "hood": "bpc",
+      "lat": 40.716601,
+      "lon": -74.0143278,
+      "units": 191,
+      "floors": 22,
+      "note": "Twin building to Liberty Luxe, marketed together as an eco-conscious pair; Milford Management runs both for rentals despite the condo ownership structure.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Playroom"
+      ],
+      "url": "https://milfordrentals.com/buildings/liberty-green/"
+    },
+    {
+      "name": "The Visionaire",
+      "address": "70 Little West St",
+      "hood": "bpc",
+      "lat": 40.7069568,
+      "lon": -74.0166594,
+      "units": 251,
+      "floors": 35,
+      "note": "LEED Platinum-certified (2008, Pelli Clarke Pelli design) with an in-building wastewater treatment system and solar panels — one of the most technically \"green\" buildings in Manhattan, not just a marketing label.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Skylit indoor pool",
+        "Gym",
+        "Screening room"
+      ],
+      "url": "https://the-visionaire.com/"
+    },
+    {
+      "name": "Riverhouse",
+      "address": "2 River Terrace",
+      "hood": "bpc",
+      "lat": 40.7157134,
+      "lon": -74.0158294,
+      "units": 256,
+      "floors": 32,
+      "note": "LEED Gold building that also houses the Poets House library and a public library branch on its ground floor — an unusual cultural pairing, and known informally as something of a quiet celebrity enclave.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Gym",
+        "Playroom"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Ritz-Carlton Residences",
+      "address": "10 Little West St",
+      "hood": "bpc",
+      "lat": 40.7055009,
+      "lon": -74.0172783,
+      "units": 114,
+      "floors": 40,
+      "note": "Condo residences stacked above a 311-room Ritz-Carlton hotel at BPC's southern tip; residents can access hotel room service, housekeeping, and spa — true hotel-branded living, at a correspondingly high common-charge cost.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Gym",
+        "Housekeeping",
+        "Valet"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Regatta",
+      "address": "21 South End Ave",
+      "hood": "bpc",
+      "lat": 40.7082742,
+      "lon": -74.0177294,
+      "units": 182,
+      "floors": 9,
+      "note": "Built in 1988, one of BPC's older condo buildings, with a distinctive year-round interior garden at the lobby level rather than the glassy modern lobbies typical of newer BPC towers.",
+      "tags": [
+        "24h doorman",
+        "Roof deck",
+        "Interior garden",
+        "Bike room"
+      ],
+      "url": null
+    },
+    {
+      "name": "Millennium Tower Residences",
+      "address": "30 West St",
+      "hood": "bpc",
+      "lat": 40.7061047,
+      "lon": -74.0165448,
+      "units": 236,
+      "floors": 35,
+      "note": "NYC's original LEED Gold-certified luxury condo, adjacent to the Ritz-Carlton complex at BPC's southern tip; notably lacks a pool despite its otherwise full amenity package.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Playroom",
+        "Roof garden"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Soundings",
+      "address": "280 Rector Pl",
+      "hood": "bpc",
+      "lat": 40.7088551,
+      "lon": -74.0166594,
+      "units": 122,
+      "floors": 9,
+      "note": "A smaller, lower-rise condo on Rector Place known for unusually spacious 3- and 4-bedroom layouts with Statue of Liberty and Hudson views.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Garage",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "New York by Gehry",
+      "address": "8 Spruce Street",
+      "hood": "fidi",
+      "lat": 40.710849,
+      "lon": -74.0056192,
+      "units": 899,
+      "floors": 76,
+      "note": "Frank Gehry's rippling stainless-steel tower was briefly the tallest residential building in the Western Hemisphere; despite the pedigree, recent building-violation records show recurring rodent complaints and inconsistent management.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Pool",
+        "Playroom"
+      ],
+      "url": null
+    },
+    {
+      "name": "Twenty Exchange",
+      "address": "20 Exchange Place",
+      "hood": "fidi",
+      "lat": 40.7054651,
+      "lon": -74.0095083,
+      "units": 762,
+      "floors": 57,
+      "note": "Former 1931 Art Deco headquarters of City Bank-Farmers Trust, a Citigroup predecessor; Metro Loft converted the upper floors to apartments in the 1990s, making it one of downtown's earliest office-to-residential conversions.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Resident lounge",
+        "Game room"
+      ],
+      "url": null
+    },
+    {
+      "name": "One Wall Street",
+      "address": "1 Wall Street",
+      "hood": "fidi",
+      "lat": 40.7071243,
+      "lon": -74.0118265,
+      "units": 566,
+      "floors": 50,
+      "note": "Macklowe's 2023 conversion of Ralph Walker's 1931 Art Deco \"cathedral of banking\" is one of the largest office-to-residential conversions in NYC history; rent includes a Life Time Fitness membership across the building's 77,000 sq ft club.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Indoor pool",
+        "Gym",
+        "Pet spa",
+        "Co-working"
+      ],
+      "url": "https://onewallstreet.com/"
+    },
+    {
+      "name": "70 Pine",
+      "address": "70 Pine Street",
+      "hood": "fidi",
+      "lat": 40.7064733,
+      "lon": -74.0077415,
+      "units": 644,
+      "floors": 66,
+      "note": "Rose Associates converted the former Cities Service/AIG Building (1932) into rentals; the screening room and bowling lanes sit inside the tower's historic bank vault, a genuinely unusual reuse of the original architecture.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Pool/bowling lounge",
+        "Co-working"
+      ],
+      "url": "https://70pine.com/"
+    },
+    {
+      "name": "90 West",
+      "address": "90 West Street",
+      "hood": "fidi",
+      "lat": 40.7099924,
+      "lon": -74.0143515,
+      "units": 410,
+      "floors": 23,
+      "note": "Cass Gilbert's 1907 Gothic landmark was badly damaged by falling debris on 9/11, then underwent a $148M restoration before reopening as rentals in 2005 — one of the few genuinely pre-war conversions in FiDi.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Resident lounge",
+        "Billiards"
+      ],
+      "url": null
+    },
+    {
+      "name": "200 Water Street",
+      "address": "200 Water Street",
+      "hood": "fidi",
+      "lat": 40.7074203,
+      "lon": -74.0047645,
+      "units": 576,
+      "floors": 31,
+      "note": "Rockrose's 1997 conversion of a 1971 office tower was NYC's first postwar office-to-residential rental conversion. Reviewers like the maintenance and doormen but flag steep year-over-year rent increases.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Roof deck cabanas",
+        "Cinema room",
+        "Valet"
+      ],
+      "url": null
+    },
+    {
+      "name": "180 Water Street",
+      "address": "180 Water Street",
+      "hood": "fidi",
+      "lat": 40.7068168,
+      "lon": -74.0053605,
+      "units": 601,
+      "floors": 31,
+      "note": "A well-reviewed, clean building overall, but multiple tenants cite thin walls and noise from neighbors as a recurring downside.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Roof deck"
+      ],
+      "url": null
+    },
+    {
+      "name": "2 Gold Street",
+      "address": "2 Gold Street",
+      "hood": "fidi",
+      "lat": 40.707342,
+      "lon": -74.0069844,
+      "units": 650,
+      "floors": 51,
+      "note": "One of the few FiDi rentals with a genuine indoor pool and solarium; reviewers say the pool and gym are on the small side but rarely overcrowded.",
+      "tags": [
+        "24h concierge",
+        "Indoor lap pool",
+        "Gym",
+        "Roof deck",
+        "Playroom"
+      ],
+      "url": null
+    },
+    {
+      "name": "63 Wall Street",
+      "address": "63 Wall Street",
+      "hood": "fidi",
+      "lat": 40.705647,
+      "lon": -74.0087563,
+      "units": 476,
+      "floors": 37,
+      "note": "Converted from a 1929 building in 2002; has a resident-only \"speakeasy\" lounge called The Transcript. Reviews are mixed — friendly staff, but small units and occasional pest complaints.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Valet",
+        "Gym",
+        "Golf simulator"
+      ],
+      "url": "https://www.63wallstreet.com/"
+    },
+    {
+      "name": "100 Maiden Lane",
+      "address": "100 Maiden Lane",
+      "hood": "fidi",
+      "lat": 40.7066604,
+      "lon": -74.0071608,
+      "units": 340,
+      "floors": 24,
+      "note": "Reviews run notably mixed-to-negative with recurring plumbing and construction-noise complaints; one reviewer said a comparable nearby building was nicer at the same price with none of the headache.",
+      "tags": [
+        "24h concierge",
+        "Valet",
+        "Gym",
+        "Sundeck",
+        "Garage"
+      ],
+      "url": null
+    },
+    {
+      "name": "10 Hanover Square",
+      "address": "10 Hanover Square",
+      "hood": "fidi",
+      "lat": 40.7045409,
+      "lon": -74.0088435,
+      "units": 493,
+      "floors": 21,
+      "note": "Consistently rates higher on resident-satisfaction sites than several FiDi peers, with tenants citing fast maintenance turnaround and multi-year tenancies as a sign of genuine livability.",
+      "tags": [
+        "24h doorman",
+        "Gym"
+      ],
+      "url": null
+    },
+    {
+      "name": "19 Dutch Street",
+      "address": "19 Dutch Street",
+      "hood": "fidi",
+      "lat": 40.7098139,
+      "lon": -74.0073768,
+      "units": 483,
+      "floors": 64,
+      "note": "Developed by Carmel Partners with 97 of its 483 units set aside as affordable housing under the same roof as market-rate rentals; residents consistently praise security and cleanliness.",
+      "tags": [
+        "24h concierge",
+        "Doorman",
+        "Gym",
+        "Sky lounge"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Broad Exchange Building",
+      "address": "25 Broad Street",
+      "hood": "fidi",
+      "lat": 40.7058026,
+      "lon": -74.0104757,
+      "units": 308,
+      "floors": 23,
+      "note": "An 1902 Clinton & Russell landmark that was once the city's most valuable office building due to its Stock Exchange proximity; converted to rentals in 1997, then partly to condos in 2019.",
+      "tags": [
+        "Gym",
+        "Yoga studio",
+        "Co-working",
+        "Roof terrace",
+        "Pet spa"
+      ],
+      "url": null
+    },
+    {
+      "name": "Liberty Plaza",
+      "address": "10 Liberty Street",
+      "hood": "fidi",
+      "lat": 40.7074102,
+      "lon": -74.0081889,
+      "units": 287,
+      "floors": 45,
+      "note": "A Glenwood Management building purpose-built as residential rather than an office conversion, which reviewers say translates to fewer units per floor and a quieter, more private feel than most FiDi towers.",
+      "tags": [
+        "24h doorman",
+        "Valet",
+        "Lap pool",
+        "Sauna",
+        "Roof deck"
+      ],
+      "url": "https://www.glenwoodnyc.com/properties/downtown/liberty-plaza/"
+    },
+    {
+      "name": "7 Dey",
+      "address": "7 Dey Street",
+      "hood": "fidi",
+      "lat": 40.7104352,
+      "lon": -74.0097332,
+      "units": null,
+      "floors": 35,
+      "note": "Sits directly above the Fulton Street Transit Center, about as subway-connected as it gets downtown; reviewers like the quiet and water pressure but note the attended lobby has limited practical control over visitor access.",
+      "tags": [
+        "24h concierge",
+        "Valet",
+        "Gym",
+        "Yoga studio",
+        "Roof deck"
+      ],
+      "url": "https://7deynyc.com/"
+    },
+    {
+      "name": "Ocean",
+      "address": "1 West Street",
+      "hood": "fidi",
+      "lat": 40.7055977,
+      "lon": -74.0161541,
+      "units": 491,
+      "floors": 37,
+      "note": "A 1902 Henry Hardenbergh landmark, originally the Whitehall Building and home to a maritime club, converted to rentals by Moinian in 1999; sits at the harbor's edge with Statue of Liberty views from water-facing units.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Valet",
+        "Gym",
+        "Garage"
+      ],
+      "url": "https://www.liveatonewestnyc.com/"
+    },
+    {
+      "name": "116 John Street",
+      "address": "116 John Street",
+      "hood": "fidi",
+      "lat": 40.7074904,
+      "lon": -74.0058949,
+      "units": 416,
+      "floors": 35,
+      "note": "Well-reviewed for cleanliness and staff, but tenants report steep renewal increases — one cited a $500 jump after year one and roughly $1,000/month premium for declining to resign.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Resident lounge",
+        "Roof deck",
+        "Valet"
+      ],
+      "url": null
+    },
+    {
+      "name": "45 Wall Street",
+      "address": "45 Wall Street",
+      "hood": "fidi",
+      "lat": 40.7061832,
+      "lon": -74.0099035,
+      "units": 435,
+      "floors": 27,
+      "note": "Unusual for FiDi in having an actual half basketball court; reviewers praise the amenity-rich penthouse club but complain many units are dark due to surrounding buildings.",
+      "tags": [
+        "24h doorman",
+        "Two gyms",
+        "Basketball court",
+        "Club lounge"
+      ],
+      "url": null
+    },
+    {
+      "name": "37 Wall Street",
+      "address": "37 Wall Street",
+      "hood": "fidi",
+      "lat": 40.7064701,
+      "lon": -74.0101382,
+      "units": 372,
+      "floors": 26,
+      "note": "A turn-of-the-century conversion with a genuinely clubby amenity mezzanine — library, billiards, screening room. One recurring resident tip: avoid the lower floors, which get less light and more street noise.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Spa",
+        "Library",
+        "Roof deck"
+      ],
+      "url": null
+    },
+    {
+      "name": "95 Wall",
+      "address": "95 Wall Street",
+      "hood": "fidi",
+      "lat": 40.7047056,
+      "lon": -74.0075698,
+      "units": 507,
+      "floors": 22,
+      "note": "Designed with interiors by Yoo (Philippe Starck's brand), down to crystal chandeliers in the kitchens. Complaints center on inconsistent elevator reliability and thin-wall noise between units.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Basketball court",
+        "Rooftop lounge"
+      ],
+      "url": null
+    },
+    {
+      "name": "75 Wall Street",
+      "address": "75 Wall Street",
+      "hood": "fidi",
+      "lat": 40.7051407,
+      "lon": -74.0079783,
+      "units": null,
+      "floors": 36,
+      "note": "A condo building with individual units cycling onto the rental market, and one of FiDi's more dramatic 360-degree rooftop lounges; sits right at the Wall/Water Street corner near the Fulton St transit hub.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Yoga studio",
+        "Rooftop lounge",
+        "Billiards"
+      ],
+      "url": null
+    },
+    {
+      "name": "Bridgeview House",
+      "address": "50 Bayard Street",
+      "hood": "chinatown",
+      "lat": 40.7152018,
+      "lon": -73.9969659,
+      "units": 167,
+      "floors": 8,
+      "note": "A 1962-built condo/rental hybrid between Elizabeth Street and the Bowery — one of very few genuinely staffed buildings in the historic Chinatown core, where most stock is walk-up tenements.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Garage",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "Hester Gardens",
+      "address": "158 Hester Street",
+      "hood": "chinatown",
+      "lat": 40.7176747,
+      "lon": -73.9968722,
+      "units": 61,
+      "floors": 7,
+      "note": "Built in 2004, unusually new for this stretch of Chinatown, with a second-floor landscaped garden that's a rare private-outdoor perk in this part of the neighborhood.",
+      "tags": [
+        "Full-time doorman",
+        "Live-in super",
+        "Garden courtyard",
+        "Garage"
+      ],
+      "url": null
+    },
+    {
+      "name": "One Manhattan Square",
+      "address": "252 South Street",
+      "hood": "twobridges",
+      "lat": 40.7100128,
+      "lon": -73.9909786,
+      "units": 815,
+      "floors": 72,
+      "note": "Extell's East River supertall is Two Bridges' most famous — and most contested — building, having drawn lawsuits over its shadow on the LES waterfront; its 100,000-sq-ft amenity floor reads more like a resort than a typical rental building.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Gym",
+        "Pet spa",
+        "Co-working"
+      ],
+      "url": "https://onemanhattansquare.com/"
+    },
+    {
+      "name": "247 Cherry Street",
+      "address": "247 Cherry Street",
+      "hood": "twobridges",
+      "lat": 40.7110778,
+      "lon": -73.9902755,
+      "units": 639,
+      "floors": 77,
+      "note": "JDS Development/SHoP Architects' green terra-cotta supertall opened in 2025 as a mixed-income building — roughly a quarter of the units are permanently affordable under the same roof as market-rate rentals, unusual for a tower this tall.",
+      "tags": [
+        "24h attended lobby",
+        "Bike room",
+        "Sky decks",
+        "Community garden"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Crossroads",
+      "address": "10 Rutgers Street",
+      "hood": "twobridges",
+      "lat": 40.7137577,
+      "lon": -73.9904961,
+      "units": 83,
+      "floors": 8,
+      "note": "A modest, low-key doorman rental that predates Two Bridges' 2020s supertall boom; some sources classify it as Chinatown instead since it sits right on the border near Rutgers Street.",
+      "tags": [
+        "Doorman",
+        "Gym",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "1 University Place",
+      "address": "1 University Pl",
+      "hood": "gv",
+      "lat": 40.730599,
+      "lon": -73.9950101,
+      "units": 263,
+      "floors": 21,
+      "note": "Sits directly across from Washington Square Park; corner units reportedly have 18-foot ceilings and marble fireplaces. No gym — doorman-and-laundry only, unusually bare for a building this size.",
+      "tags": [
+        "24h doorman",
+        "Live-in super",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Greenwich",
+      "address": "65 West 13th St",
+      "hood": "gv",
+      "lat": 40.7368357,
+      "lon": -73.9968086,
+      "units": 67,
+      "floors": 12,
+      "note": "1905 department-store conversion; one of the few genuinely full-amenity rentals in the neighborhood's low-rise core, a short walk from the New School.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Roof deck",
+        "Playroom",
+        "Bike room"
+      ],
+      "url": null
+    },
+    {
+      "name": "24 Fifth Avenue",
+      "address": "24 Fifth Ave",
+      "hood": "gv",
+      "lat": 40.7330309,
+      "lon": -73.9960102,
+      "units": 419,
+      "floors": 15,
+      "note": "Emery Roth-designed 1926 former hotel. Legally a co-op, but it's run almost entirely as no-fee rentals by the Brodsky Organization — in practice one of GV's biggest true doorman inventories.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Laundry",
+        "Co-op"
+      ],
+      "url": null
+    },
+    {
+      "name": "25 Fifth Avenue",
+      "address": "25 Fifth Ave",
+      "hood": "gv",
+      "lat": 40.7329744,
+      "lon": -73.9956,
+      "units": 87,
+      "floors": 14,
+      "note": "The only pre-war condo on lower Fifth's \"Gold Coast,\" a block off Washington Square. Wood-burning fireplaces in many units — unusual for a building with active rental turnover.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Private garden",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "Devonshire House",
+      "address": "28 East 10th St",
+      "hood": "gv",
+      "lat": 40.73251,
+      "lon": -73.9935442,
+      "units": 96,
+      "floors": 15,
+      "note": "Another Emery Roth pre-war (1928) with a landscaped courtyard residents call one of the best private outdoor spaces in the Village. Condo — most owners hold rather than lease, so listings are sparse.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Roof terrace",
+        "Courtyard garden"
+      ],
+      "url": null
+    },
+    {
+      "name": "11 Waverly Place",
+      "address": "11 Waverly Pl",
+      "hood": "gv",
+      "lat": 40.730293,
+      "lon": -73.9940306,
+      "units": 152,
+      "floors": 13,
+      "note": "Steps from Washington Square and NYU, so it skews young. Staff gets consistent praise in reviews; slow work-order response from management is the recurring complaint.",
+      "tags": [
+        "24h doorman",
+        "Laundry",
+        "Package room"
+      ],
+      "url": null
+    },
+    {
+      "name": "2 Fifth Avenue",
+      "address": "2 Fifth Ave",
+      "hood": "gv",
+      "lat": 40.7322,
+      "lon": -73.9962,
+      "units": 343,
+      "floors": 20,
+      "note": "The big curved-driveway tower on the north corner of Washington Square, with a 30-person staff. Co-op — what's available to renters comes as furnished shareholder sublets requiring board approval.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Garage",
+        "Co-op"
+      ],
+      "url": null
+    },
+    {
+      "name": "1 Fifth Avenue",
+      "address": "1 Fifth Ave",
+      "hood": "gv",
+      "lat": 40.7319662,
+      "lon": -73.9963328,
+      "units": 184,
+      "floors": 27,
+      "note": "Art Deco 1927 landmark with some of the best Washington Square/skyline views downtown. Same caveat as 2 Fifth — a co-op, so rentals happen via shareholder sublease.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Resident lounge",
+        "Co-op"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Villager",
+      "address": "450 Sixth Ave",
+      "hood": "gv",
+      "lat": 40.7350138,
+      "lon": -73.9980972,
+      "units": 34,
+      "floors": 6,
+      "note": "Small 1902 conversion across from the old Jefferson Market Courthouse, with wood-burning fireplaces and exposed brick. Doorman coverage is part-time only — the weakest full-service claim on this list.",
+      "tags": [
+        "Part-time doorman",
+        "Concierge",
+        "Laundry"
+      ],
+      "url": null
+    },
+    {
+      "name": "7W21",
+      "address": "7 West 21st St",
+      "hood": "flatiron",
+      "lat": 40.7404696,
+      "lon": -73.9907878,
+      "units": 288,
+      "floors": 18,
+      "note": "Morris Adjmi-designed 2016 Rose Associates building steps from Madison Square Park. Deep amenity list — golf simulator, foosball, media room — but no pool, which residents say they wish it had.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Roof deck",
+        "Game room"
+      ],
+      "url": "https://www.7w21.com/"
+    },
+    {
+      "name": "Echelon Chelsea",
+      "address": "37 West 21st St",
+      "hood": "flatiron",
+      "lat": 40.7408477,
+      "lon": -73.9916865,
+      "units": 109,
+      "floors": 15,
+      "note": "Rare in this district for having an actual clubhouse pool. Trade-off is noise — 21st Street nightlife makes front-facing units loud.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Pool",
+        "Massage room",
+        "Roof sundeck"
+      ],
+      "url": null
+    },
+    {
+      "name": "Vanguard Chelsea",
+      "address": "77 West 24th St",
+      "hood": "flatiron",
+      "lat": 40.743707,
+      "lon": -73.9918011,
+      "units": 298,
+      "floors": 29,
+      "note": "LEED Platinum with a genuinely unusual amenity — an herb garden on the roof deck. Reviews are split on management, with steep renewal increases a recurring complaint.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Roof terrace",
+        "Garage",
+        "EV charging"
+      ],
+      "url": "https://www.vanguardchelsea.com/"
+    },
+    {
+      "name": "The Capitol at Chelsea",
+      "address": "55 West 26th St",
+      "hood": "flatiron",
+      "lat": 40.7449195,
+      "lon": -73.9908921,
+      "units": 387,
+      "floors": 39,
+      "note": "Despite the \"at Chelsea\" branding it actually sits on the NoMad/Flatiron line — one of several buildings here whose marketing name doesn't match its real cross streets.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Roof deck",
+        "Garage"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Grand Madison",
+      "address": "225 Fifth Ave",
+      "hood": "flatiron",
+      "lat": 40.7435852,
+      "lon": -73.9877866,
+      "units": 190,
+      "floors": 13,
+      "note": "1906 Brunswick Hotel conversion with old-school white-glove touches like in-house dry cleaning. Condo building, so rental inventory depends on individual owners listing.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Health club",
+        "Courtyard",
+        "Valet"
+      ],
+      "url": null
+    },
+    {
+      "name": "Flatiron 18",
+      "address": "30 West 18th St",
+      "hood": "flatiron",
+      "lat": 40.7388525,
+      "lon": -73.992849,
+      "units": 98,
+      "floors": 20,
+      "note": "Solid 2005 post-war infill between Fifth and Sixth. No standout amenity — the reliable but unglamorous option on this list, priced accordingly.",
+      "tags": [
+        "24h doorman",
+        "Gym",
+        "Roof deck",
+        "W/D in building"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Caroline",
+      "address": "60 West 23rd St",
+      "hood": "flatiron",
+      "lat": 40.7426455,
+      "lon": -73.9926972,
+      "units": 431,
+      "floors": 22,
+      "note": "Largest rental building in the immediate district. The \"pool\" is actually a paid Life Time/NYHRC club membership, not an included amenity — trips up people expecting it free.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Roof deck",
+        "Garage"
+      ],
+      "url": null
+    },
+    {
+      "name": "The Stanford",
+      "address": "45 East 25th St",
+      "hood": "flatiron",
+      "lat": 40.741974,
+      "lon": -73.9862148,
+      "units": 120,
+      "floors": 42,
+      "note": "A genuinely 42-story tower off Madison Square Park — taller than people expect, since most listing sites file it under NoMad. Condo building.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Courtyard",
+        "Laundry"
+      ],
+      "url": "https://www.thestanfordnyc.com/"
+    },
+    {
+      "name": "Flatiron House",
+      "address": "39 West 23rd St",
+      "hood": "flatiron",
+      "lat": 40.7423256,
+      "lon": -73.9910321,
+      "units": 44,
+      "floors": 25,
+      "note": "COOKFOX-designed 2023 building, two towers linked by a planted garden and glass walkway. Mostly for-sale, so rental inventory is thin and expensive when it appears.",
+      "tags": [
+        "Attended lobby",
+        "Gym",
+        "Roof terrace",
+        "Game room"
+      ],
+      "url": "https://flatironhousenyc.com/"
+    },
+    {
+      "name": "Bank of the Metropolis",
+      "address": "31 Union Square West",
+      "hood": "flatiron",
+      "lat": 40.7366794,
+      "lon": -73.9907622,
+      "units": 79,
+      "floors": 16,
+      "note": "Landmarked 1903 bank building whose original board included Tiffany, Steinway and Sloane. Loft-like high ceilings, but amenities beyond the doorman are minimal.",
+      "tags": [
+        "24h doorman",
+        "Live-in super",
+        "W/D in unit",
+        "Pet friendly"
+      ],
+      "url": null
+    },
+    {
+      "name": "15 Union Square West",
+      "address": "15 Union Square W",
+      "hood": "flatiron",
+      "lat": 40.7359043,
+      "lon": -73.991661,
+      "units": 33,
+      "floors": 12,
+      "note": "Former Tiffany & Co. headquarters, reborn 2008 with a genuine 50-foot lap pool and spa. Condo, so rental stock is limited.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Pool",
+        "Gym",
+        "Yoga studio"
+      ],
+      "url": "https://www.15unionsqwest.com/"
+    },
+    {
+      "name": "800 Sixth Avenue",
+      "address": "800 Sixth Ave",
+      "hood": "flatiron",
+      "lat": 40.7456025,
+      "lon": -73.9904181,
+      "units": 266,
+      "floors": 36,
+      "note": "16-foot ceilings and curved bay windows; technically closer to 27th/28th St than the Flatiron core, but shows up in most neighborhood round-ups and staff get consistently good reviews.",
+      "tags": [
+        "24h concierge",
+        "Gym",
+        "Roof deck",
+        "Bocce court",
+        "Garage"
+      ],
+      "url": "https://www.800sixth.com/"
+    },
+    {
+      "name": "1 Union Square South",
+      "address": "1 Union Square S",
+      "hood": "flatiron",
+      "lat": 40.7346912,
+      "lon": -73.9891893,
+      "units": 240,
+      "floors": 27,
+      "note": "Related-managed; its north facade carries the Metronome public art clock. Reviews call the roof \"never crowded\" but flag that corner units run cold in winter.",
+      "tags": [
+        "24h doorman",
+        "Concierge",
+        "Gym",
+        "Roof terrace",
+        "Garage"
+      ],
+      "url": null
+    }
+  ]
+}

@@ -1,13 +1,17 @@
 import { readFileSync } from "node:fs";
 
 export function loadBuildings() {
-  const html = readFileSync(new URL("../index.html", import.meta.url), "utf8");
-  const m = html.match(/const B = \[([\s\S]*?)\n\];/);
-  if (!m) throw new Error("Could not locate `const B = [...]` in index.html");
-  const src = m[1]
-    .split("\n")
-    .filter((line) => !/^\s*\/\//.test(line))
-    .join("\n")
-    .replace(/([{,]\s*)([A-Za-z_$][\w$]*)\s*:/g, '$1"$2":');
-  return JSON.parse(`[${src}]`);
+  const raw = JSON.parse(readFileSync(new URL("../data/buildings.json", import.meta.url), "utf8"));
+  return raw.buildings.map((b) => ({
+    n: b.name,
+    a: b.address,
+    h: b.hood,
+    lat: b.lat,
+    lon: b.lon,
+    u: b.units,
+    f: b.floors,
+    note: b.note,
+    t: b.tags,
+    url: b.url,
+  }));
 }
