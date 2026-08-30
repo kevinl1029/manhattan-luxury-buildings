@@ -665,6 +665,13 @@ async function positronStyle(){
   src.tiles = tj.tiles.map(q);
   src.attribution = tj.attribution;
   delete src.url;
+  const ROAD_ZOOM = {roadname_major:12, roadname_pri:13, roadname_sec:13.5, roadname_minor:14};
+  for (const l of style.layers){
+    if (ROAD_ZOOM[l.id] == null) continue;
+    l.minzoom = ROAD_ZOOM[l.id];
+    l.layout = l.layout || {};
+    l.layout["symbol-spacing"] = 160;
+  }
   return style;
 }
 
