@@ -7,8 +7,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin=""></script>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" integrity="sha512-KIMsMWIdnoG9OwZa+oaIafmbDonqck1UCmq+/zcUi2aaZ97N9QE6TqpTM+n36EO40HGh64hU/375zxtjx7WTyQ==" crossorigin="">
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js" integrity="sha512-rOFgoUgWaVi69JW1dzBu6PWF9xKW9rxYfY5u2SexFABHhWk0qUWkJoWNz4UuZRMvSXsNZG66+tU5B+HlwWF5kA==" crossorigin=""></script>
 <style>
   :root{
     --ground:#E4E6E0;
@@ -281,12 +281,20 @@
   }
   .mapwrap.is-fullscreen #map{height:100vh;height:100dvh;}
   body.map-fullscreen-active{overflow:hidden;}
-  .leaflet-popup-content-wrapper{
+  .maplibregl-popup-content{
     background:var(--sheet);color:var(--ink);border:1px solid var(--ink);
     border-radius:0;box-shadow:2px 2px 0 rgba(25,28,24,.12);
+    padding:14px 16px;font-family:"Archivo",system-ui,sans-serif;
   }
-  .leaflet-popup-tip{background:var(--sheet);border:1px solid var(--ink);box-shadow:none;}
-  .leaflet-popup-content{margin:14px 16px;font-family:"Archivo",system-ui,sans-serif;}
+  .maplibregl-popup-tip{border-top-color:var(--sheet)!important;border-bottom-color:var(--sheet)!important;border-left-color:var(--sheet)!important;border-right-color:var(--sheet)!important;}
+  .b-marker{
+    border-radius:50%;border-style:solid;border-color:#191C18;
+    box-sizing:border-box;cursor:pointer;
+  }
+  .maplibregl-popup.name-tip .maplibregl-popup-content{
+    padding:3px 8px;font-size:11px;color:var(--ink);
+    border:1px solid var(--rule);border-radius:0;box-shadow:none;white-space:nowrap;
+  }
   .pop-chip{
     font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;
     color:var(--hue);border:1px solid currentColor;padding:2px 5px;display:inline-block;margin-bottom:7px;
@@ -645,12 +653,40 @@ function card(b){
 }
 
 /* ---------- map ---------- */
-const map = L.map("map", {scrollWheelZoom:true}).setView([40.731, -73.994], 13.5);
-L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
-  attribution: 'Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Esri, DeLorme, NAVTEQ',
-  maxZoom: 19
-}).addTo(map);
-const markerLayer = L.layerGroup().addTo(map);
+const CARTO_KEY = "cb1_2kxt_1_64adcf504b4f89d013fae55d";
+
+async function positronStyle(){
+  const style = await (await fetch("https://basemaps.cartocdn.com/gl/positron-gl-style/style.json")).json();
+  const q = u => u + (u.includes("?") ? "&" : "?") + "key=" + CARTO_KEY;
+  style.glyphs = q(style.glyphs);
+  style.sprite = q(style.sprite);
+  const src = style.sources.carto;
+  const tj = await (await fetch(q(src.url))).json();
+  src.tiles = tj.tiles.map(q);
+  src.attribution = tj.attribution;
+  delete src.url;
+  return style;
+}
+
+const map = new maplibregl.Map({
+  container: "map",
+  style: {version:8, sources:{}, layers:[{id:"bg", type:"background", paint:{"background-color":"#F4F5F1"}}]},
+  center: [-73.994, 40.731],
+  zoom: 13.5,
+  maxZoom: 19,
+  dragRotate: false,
+  touchPitch: false,
+  attributionControl: {compact: false}
+});
+positronStyle().then(style => map.setStyle(style));
+let markers = [];
+let currentPopup = null;
+
+function boundsOf(list){
+  const b = new maplibregl.LngLatBounds();
+  list.forEach(p => b.extend([p.lon, p.lat]));
+  return b;
+}
 
 const mapwrapEl = document.getElementById("mapwrap");
 const fsBtn = document.getElementById("mapFullscreenBtn");
@@ -659,7 +695,7 @@ function setMapFullscreen(on){
   document.body.classList.toggle("map-fullscreen-active", on);
   fsBtn.setAttribute("aria-pressed", on);
   fsBtn.textContent = on ? "✕ Close" : "⤢ Fullscreen";
-  requestAnimationFrame(() => map.invalidateSize());
+  requestAnimationFrame(() => map.resize());
 }
 fsBtn.addEventListener("click", () => setMapFullscreen(!mapwrapEl.classList.contains("is-fullscreen")));
 document.addEventListener("keydown", (e) => {
@@ -690,25 +726,48 @@ function popupHtml(b){
     </div>`;
 }
 
+function hexA(hex, a){
+  if(!hex.startsWith("#")) return hex;
+  const n = parseInt(hex.slice(1), 16);
+  return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`;
+}
+
 function marker(b){
   const h = HOODS[b.h];
   const r = 6 + (b.f ? Math.round((b.f/MAXF)*9) : 0);
-  const m = L.circleMarker([b.lat, b.lon], {
-    radius: r,
-    color: "#191C18",
-    weight: saved.has(b.n) ? 2.5 : 1,
-    fillColor: h.hue.startsWith("var(") ? getComputedStyle(document.documentElement).getPropertyValue(h.hue.slice(4,-1)).trim() : h.hue,
-    fillOpacity: 0.82
+  const fill = h.hue.startsWith("var(") ? getComputedStyle(document.documentElement).getPropertyValue(h.hue.slice(4,-1)).trim() : h.hue;
+  const el = document.createElement("div");
+  el.className = "b-marker";
+  el.style.width = el.style.height = (r*2) + "px";
+  el.style.background = hexA(fill, 0.82);
+  el.style.borderWidth = (saved.has(b.n) ? 2.5 : 1) + "px";
+
+  const m = new maplibregl.Marker({element: el, anchor: "center"}).setLngLat([b.lon, b.lat]);
+
+  const tip = new maplibregl.Popup({className:"name-tip", closeButton:false, closeOnClick:false, offset:[0, -(r+2)]})
+    .setHTML(escapeHtml(b.n));
+  el.addEventListener("mouseenter", ()=> tip.addTo(map));
+  el.addEventListener("mouseleave", ()=> tip.remove());
+
+  el.addEventListener("click", (e)=>{
+    e.stopPropagation();
+    tip.remove();
+    openPopup(b, r);
   });
-  m.bindTooltip(b.n, {direction:"top", offset:[0,-r]});
-  m.bindPopup(popupHtml(b));
   return m;
 }
 
-map.on("popupopen", e=>{
-  const btn = e.popup._contentNode.querySelector(".js-view-listing");
+function openPopup(b, r){
+  if(currentPopup) currentPopup.remove();
+  const p = new maplibregl.Popup({offset:[0, -(r+2)], maxWidth:"300px"})
+    .setLngLat([b.lon, b.lat])
+    .setHTML(popupHtml(b))
+    .addTo(map);
+  p.on("close", ()=>{ if(currentPopup === p) currentPopup = null; });
+  currentPopup = p;
+  const btn = p.getElement().querySelector(".js-view-listing");
   if(btn) btn.addEventListener("click", ()=> viewInListing(btn.dataset.name));
-});
+}
 
 function viewInListing(name){
   setView("list");
@@ -745,8 +804,10 @@ function draw(){
 
   grid.replaceChildren(...list.map(card));
 
-  markerLayer.clearLayers();
-  list.forEach(b=> markerLayer.addLayer(marker(b)));
+  markers.forEach(m=>m.remove());
+  markers = [];
+  if(currentPopup){ currentPopup.remove(); currentPopup = null; }
+  list.forEach(b=> markers.push(marker(b).addTo(map)));
 
   document.getElementById("lrows").hidden = true;
 
@@ -761,7 +822,7 @@ function draw(){
   }
 
   if(list.length){
-    map.fitBounds(L.latLngBounds(list.map(b=>[b.lat,b.lon])), {padding:[40,40], maxZoom:16});
+    map.fitBounds(boundsOf(list), {padding:40, maxZoom:16});
   }
 
   const showMap = state.view === "map" && list.length > 0;
@@ -771,7 +832,7 @@ function draw(){
   grid.hidden = !showGrid;
   lgrid.hidden = true;
   document.getElementById("empty").dataset.on = list.length ? "false" : "true";
-  if(showMap) requestAnimationFrame(()=> map.invalidateSize());
+  if(showMap) requestAnimationFrame(()=> map.resize());
 
   document.getElementById("count").textContent =
     `${list.length} of ${B.length} shown`;
@@ -796,7 +857,7 @@ loadBuildings()
   .then(()=>{
     buildControls();
     byName = Object.fromEntries(B.map(b=>[b.n, b]));
-    map.fitBounds(L.latLngBounds(B.map(b=>[b.lat, b.lon])), {padding:[30,30]});
+    map.fitBounds(boundsOf(B), {padding:30});
   })
   .then(loadSaved)
   .then(loadListings)
