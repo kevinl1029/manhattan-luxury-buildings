@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T15:12:06.310Z",
+  "generatedAt": "2026-08-31T17:53:17.942Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -20,8 +20,9 @@
     {
       "name": "The Rollins",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 12
+      "status": "error",
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "The Suffolk",
@@ -32,20 +33,23 @@
     {
       "name": "The Essex",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 6
+      "status": "error",
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 6
+      "status": "error",
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "The Ludlow",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 2
+      "status": "error",
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "name": "The Chrystie",
@@ -238,7 +242,7 @@
       "adapter": "jonah",
       "status": "error",
       "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "error": "fetch failed"
     },
     {
       "name": "227 Mulberry",
@@ -346,7 +350,7 @@
       "name": "The Tate",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Ten23",
@@ -574,7 +578,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Truffles Tribeca",
