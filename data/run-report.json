@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T17:53:17.942Z",
+  "generatedAt": "2026-09-01T15:27:17.315Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -326,7 +326,7 @@
       "name": "101 West 15th Street",
       "adapter": "stonehenge",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "The Westminster",
@@ -350,7 +350,7 @@
       "name": "The Tate",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Ten23",
@@ -362,7 +362,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 3
     },
     {
       "name": "AVA High Line",
@@ -578,7 +578,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Truffles Tribeca",
