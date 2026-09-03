@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T14:56:05.475Z",
+  "generatedAt": "2026-09-03T14:54:06.459Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 13
+      "count": 12
     },
     {
       "name": "The Suffolk",
@@ -39,7 +39,7 @@
       "name": "The Artisan",
       "adapter": "jonah",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "name": "The Ludlow",
@@ -358,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "AVA High Line",
@@ -376,7 +376,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Highline 537",
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Chelsea Canvas",
@@ -574,7 +574,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Truffles Tribeca",
