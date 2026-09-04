@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T14:54:06.459Z",
+  "generatedAt": "2026-09-04T14:44:35.897Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "name": "The Suffolk",
@@ -274,7 +274,7 @@
       "name": "The Archive",
       "adapter": "rockrose",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "600 Washington",
@@ -346,7 +346,7 @@
       "name": "The Tate",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Ten23",
@@ -376,7 +376,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Highline 537",
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 17
+      "count": 15
     },
     {
       "name": "Chelsea Canvas",
@@ -670,7 +670,7 @@
       "name": "Liberty House",
       "adapter": "generic",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Le Rivage",
