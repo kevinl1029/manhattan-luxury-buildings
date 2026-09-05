@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T14:44:35.897Z",
+  "generatedAt": "2026-09-05T13:41:50.570Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -346,7 +346,7 @@
       "name": "The Tate",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Ten23",
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Chelsea Canvas",
@@ -574,7 +574,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 2
     },
     {
       "name": "Truffles Tribeca",
@@ -670,7 +670,7 @@
       "name": "Liberty House",
       "adapter": "generic",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Le Rivage",
@@ -712,7 +712,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Tribeca Bridge Tower",
