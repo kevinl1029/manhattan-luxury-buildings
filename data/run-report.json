@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T13:41:50.570Z",
+  "generatedAt": "2026-09-06T13:55:54.676Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 14
+      "count": 12
     },
     {
       "name": "Chelsea Canvas",

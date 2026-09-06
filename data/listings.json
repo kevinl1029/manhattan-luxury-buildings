@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-05T13:41:50.570Z",
-  "count": 92,
+  "generatedAt": "2026-09-06T13:55:54.676Z",
+  "count": 90,
   "byBuilding": {
     "The Rollins": 11,
     "The Essex": 5,
@@ -17,7 +17,7 @@
     "AVA High Line": 6,
     "Avalon West Chelsea": 6,
     "Abington House": 2,
-    "Ruby Chelsea": 14,
+    "Ruby Chelsea": 12,
     "Chelsea Canvas": 4,
     "Tribeca Tower": 2,
     "Liberty House": 1,
@@ -306,7 +306,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5250,
-      "availability": "Sep 06",
+      "availability": "Sep 07",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -647,7 +647,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4724,
-      "availability": "Sep 06",
+      "availability": "Sep 07",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -658,7 +658,7 @@
       "baths": 1,
       "sqft": 548,
       "price": 4915,
-      "availability": "Sep 06",
+      "availability": "Sep 07",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -669,7 +669,7 @@
       "baths": 1,
       "sqft": 620,
       "price": 4917,
-      "availability": "Sep 06",
+      "availability": "Sep 07",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -713,7 +713,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4763,
-      "availability": "Sep 06",
+      "availability": "Sep 07",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -774,12 +774,12 @@
     },
     {
       "building": "Abington House",
-      "unit": "Abington House: Corner 2 Bedroom, 2 Bath",
-      "beds": 2,
-      "baths": 2,
+      "unit": "Abington House: Corner 1 Bedroom, 1 Bath",
+      "beds": 1,
+      "baths": 1,
       "sqft": null,
-      "price": 10500,
-      "availability": "10/24",
+      "price": 6995,
+      "availability": "12/07",
       "source": "related",
       "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
     },
@@ -835,28 +835,6 @@
       "sqft": null,
       "price": 4968,
       "availability": "10/7/2026",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
-      "unit": "N-12K",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 4968,
-      "availability": "9/7/2026",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
-      "unit": "N-20P",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 5197,
-      "availability": "Immediate",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
     },
