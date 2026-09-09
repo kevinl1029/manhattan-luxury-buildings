@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T14:54:37.577Z",
+  "generatedAt": "2026-09-09T15:01:55.363Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 11
+      "count": 10
     },
     {
       "name": "The Suffolk",
@@ -322,7 +322,7 @@
       "name": "101 West 15th Street",
       "adapter": "stonehenge",
       "status": "ok",
-      "count": 2
+      "count": 0
     },
     {
       "name": "The Westminster",
@@ -358,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "AVA High Line",
@@ -670,7 +670,7 @@
       "name": "Liberty House",
       "adapter": "generic",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Le Rivage",
