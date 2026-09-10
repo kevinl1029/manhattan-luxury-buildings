@@ -1,24 +1,25 @@
 {
-  "generatedAt": "2026-09-09T15:01:55.363Z",
-  "count": 83,
+  "generatedAt": "2026-09-10T14:47:13.347Z",
+  "count": 87,
   "byBuilding": {
     "The Rollins": 10,
     "The Essex": 5,
-    "The Artisan": 5,
+    "The Artisan": 6,
     "The Ludlow": 3,
     "Avalon Bowery Place I": 5,
     "The Houston": 6,
     "The Archive": 3,
     "110 Horatio Street": 4,
     "The Westminster": 4,
-    "The Tate": 2,
+    "The Tate": 3,
     "The Caledonia": 3,
     "AVA High Line": 6,
     "Avalon West Chelsea": 6,
-    "Abington House": 1,
+    "Abington House": 2,
     "Ruby Chelsea": 13,
     "Chelsea Canvas": 4,
     "Tribeca Tower": 1,
+    "Liberty House": 1,
     "Tribeca Park": 2
   },
   "listings": [
@@ -243,6 +244,17 @@
       "url": "https://theartisannyc.com/floorplans/unit-ce28df91e4288dcb3cc13bffc0137494/"
     },
     {
+      "building": "The Artisan",
+      "unit": "0607",
+      "beds": 1,
+      "baths": 1,
+      "sqft": 750,
+      "price": 6825,
+      "availability": "Available Oct 16",
+      "source": "jonah",
+      "url": "https://theartisannyc.com/floorplans/unit-04704feff485ea65d78e50ec3cc5f113/"
+    },
+    {
       "building": "The Ludlow",
       "unit": "23H",
       "beds": 2,
@@ -282,7 +294,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5190,
-      "availability": "Sep 10",
+      "availability": "Sep 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -490,8 +502,8 @@
       "beds": 1,
       "baths": 1,
       "sqft": null,
-      "price": 7495,
-      "availability": "Now",
+      "price": 7405,
+      "availability": "09/22",
       "source": "related",
       "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
     },
@@ -502,7 +514,7 @@
       "baths": 1,
       "sqft": null,
       "price": 6750,
-      "availability": "Now",
+      "availability": "10/01",
       "source": "related",
       "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
     },
@@ -512,8 +524,8 @@
       "beds": 1,
       "baths": 1,
       "sqft": null,
-      "price": 7405,
-      "availability": "09/22",
+      "price": 7295,
+      "availability": "10/02",
       "source": "related",
       "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
     },
@@ -525,6 +537,17 @@
       "sqft": null,
       "price": 7250,
       "availability": "09/15",
+      "source": "related",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-tate"
+    },
+    {
+      "building": "The Tate",
+      "unit": "The Tate: 1 Bedroom, 1 Bath",
+      "beds": 1,
+      "baths": 1,
+      "sqft": null,
+      "price": 6795,
+      "availability": "10/19",
       "source": "related",
       "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-tate"
     },
@@ -579,7 +602,7 @@
       "baths": 1,
       "sqft": 587,
       "price": 4659,
-      "availability": "Sep 15",
+      "availability": "Sep 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -590,7 +613,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4724,
-      "availability": "Sep 10",
+      "availability": "Sep 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -601,7 +624,7 @@
       "baths": 1,
       "sqft": 548,
       "price": 4915,
-      "availability": "Sep 10",
+      "availability": "Sep 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -612,7 +635,7 @@
       "baths": 1,
       "sqft": 620,
       "price": 4917,
-      "availability": "Sep 10",
+      "availability": "Sep 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -623,7 +646,7 @@
       "baths": 1,
       "sqft": 522,
       "price": 4954,
-      "availability": "Oct 12",
+      "availability": "Oct 06",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -634,7 +657,7 @@
       "baths": 1,
       "sqft": 543,
       "price": 5106,
-      "availability": "Sep 10",
+      "availability": "Sep 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -656,7 +679,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4763,
-      "availability": "Sep 10",
+      "availability": "Sep 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -712,6 +735,17 @@
       "sqft": null,
       "price": 7995,
       "availability": "09/15",
+      "source": "related",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
+    },
+    {
+      "building": "Abington House",
+      "unit": "Abington House: Alcove Studio, 1 Bath",
+      "beds": 0.5,
+      "baths": 1,
+      "sqft": null,
+      "price": 4995,
+      "availability": "09/18",
       "source": "related",
       "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
     },
@@ -909,9 +943,20 @@
       "baths": 1,
       "sqft": null,
       "price": 7025,
-      "availability": "10/26",
+      "availability": "12/19",
       "source": "related",
       "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower"
+    },
+    {
+      "building": "Liberty House",
+      "unit": null,
+      "beds": null,
+      "baths": null,
+      "sqft": null,
+      "price": 100,
+      "availability": "Available",
+      "source": "generic",
+      "url": "/domain/libertyhouse.info/backlink?hash=5064d8"
     },
     {
       "building": "Tribeca Park",
