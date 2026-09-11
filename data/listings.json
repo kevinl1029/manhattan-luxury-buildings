@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-10T14:47:13.347Z",
-  "count": 87,
+  "generatedAt": "2026-09-11T14:50:08.238Z",
+  "count": 86,
   "byBuilding": {
     "The Rollins": 10,
     "The Essex": 5,
-    "The Artisan": 6,
+    "The Artisan": 7,
     "The Ludlow": 3,
-    "Avalon Bowery Place I": 5,
+    "Avalon Bowery Place I": 4,
     "The Houston": 6,
     "The Archive": 3,
     "110 Horatio Street": 4,
@@ -16,9 +16,9 @@
     "AVA High Line": 6,
     "Avalon West Chelsea": 6,
     "Abington House": 2,
-    "Ruby Chelsea": 13,
+    "Ruby Chelsea": 11,
     "Chelsea Canvas": 4,
-    "Tribeca Tower": 1,
+    "Tribeca Tower": 2,
     "Liberty House": 1,
     "Tribeca Park": 2
   },
@@ -234,12 +234,23 @@
     },
     {
       "building": "The Artisan",
+      "unit": "2201",
+      "beds": 0,
+      "baths": 1,
+      "sqft": 430,
+      "price": 4575,
+      "availability": "Available Now",
+      "source": "jonah",
+      "url": "https://theartisannyc.com/floorplans/unit-851a4748204587325f47850e4363135a/"
+    },
+    {
+      "building": "The Artisan",
       "unit": "1707",
       "beds": 1,
       "baths": 1,
       "sqft": 609,
       "price": 6075,
-      "availability": "Available Sep 11",
+      "availability": "Available Now",
       "source": "jonah",
       "url": "https://theartisannyc.com/floorplans/unit-ce28df91e4288dcb3cc13bffc0137494/"
     },
@@ -294,7 +305,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5190,
-      "availability": "Sep 11",
+      "availability": "Sep 12",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -315,19 +326,8 @@
       "beds": 1,
       "baths": 1,
       "sqft": 667,
-      "price": 7260,
+      "price": 7280,
       "availability": "Oct 06",
-      "source": "entrata",
-      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
-    },
-    {
-      "building": "Avalon Bowery Place I",
-      "unit": "1 bed • 1 bath • 721 sqft • Signature Collection",
-      "beds": 1,
-      "baths": 1,
-      "sqft": 721,
-      "price": 7430,
-      "availability": "Oct 14",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -602,7 +602,7 @@
       "baths": 1,
       "sqft": 587,
       "price": 4659,
-      "availability": "Sep 11",
+      "availability": "Sep 12",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -613,7 +613,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4724,
-      "availability": "Sep 11",
+      "availability": "Sep 12",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -624,7 +624,7 @@
       "baths": 1,
       "sqft": 548,
       "price": 4915,
-      "availability": "Sep 11",
+      "availability": "Sep 12",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -635,7 +635,7 @@
       "baths": 1,
       "sqft": 620,
       "price": 4917,
-      "availability": "Sep 11",
+      "availability": "Sep 12",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -657,7 +657,7 @@
       "baths": 1,
       "sqft": 543,
       "price": 5106,
-      "availability": "Sep 11",
+      "availability": "Sep 12",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -679,7 +679,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4763,
-      "availability": "Sep 11",
+      "availability": "Sep 12",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -751,17 +751,6 @@
     },
     {
       "building": "Ruby Chelsea",
-      "unit": "S-02F",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 4692,
-      "availability": "Immediate",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
       "unit": "S-05G",
       "beds": 0,
       "baths": 1,
@@ -784,17 +773,6 @@
     },
     {
       "building": "Ruby Chelsea",
-      "unit": "S-04D",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 4804,
-      "availability": "Immediate",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
       "unit": "N-02M",
       "beds": 0,
       "baths": 1,
@@ -806,23 +784,23 @@
     },
     {
       "building": "Ruby Chelsea",
-      "unit": "N-10A",
-      "beds": 1,
+      "unit": "N-16K",
+      "beds": 0,
       "baths": 1,
       "sqft": null,
-      "price": 6139,
-      "availability": "9/21/2026",
+      "price": 5110,
+      "availability": "Immediate",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
     },
     {
       "building": "Ruby Chelsea",
-      "unit": "S-17K",
-      "beds": 1,
+      "unit": "N-19M",
+      "beds": 0,
       "baths": 1,
       "sqft": null,
-      "price": 6449,
-      "availability": "10/16/2026",
+      "price": 5161,
+      "availability": "10/31/2026",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
     },
@@ -935,6 +913,17 @@
       "availability": null,
       "source": "generic",
       "url": "https://chelseacanvasnyc.com/"
+    },
+    {
+      "building": "Tribeca Tower",
+      "unit": "Tribeca Tower: Alcove Studio, 1 Bath",
+      "beds": 0.5,
+      "baths": 1,
+      "sqft": null,
+      "price": 5485,
+      "availability": "10/15",
+      "source": "related",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower"
     },
     {
       "building": "Tribeca Tower",
