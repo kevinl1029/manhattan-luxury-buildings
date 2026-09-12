@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T14:50:08.238Z",
+  "generatedAt": "2026-09-12T13:54:04.235Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -20,8 +20,9 @@
     {
       "name": "The Rollins",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 10
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://therollinsnyc.com/floorplans/"
     },
     {
       "name": "The Suffolk",
@@ -32,20 +33,23 @@
     {
       "name": "The Essex",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 5
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://theessexnyc.com/floorplans/"
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 7
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://theartisannyc.com/floorplans/"
     },
     {
       "name": "The Ludlow",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 3
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.theludlownyc.com/floorplans/"
     },
     {
       "name": "The Chrystie",
@@ -135,7 +139,7 @@
       "name": "Avalon Bowery Place I",
       "adapter": "entrata",
       "status": "ok",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Avalon Bowery Place II",
@@ -224,8 +228,9 @@
     {
       "name": "The Houston",
       "adapter": "wordpress",
-      "status": "ok",
-      "count": 6
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 45000ms"
     },
     {
       "name": "The East",
@@ -236,8 +241,9 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
     },
     {
       "name": "227 Mulberry",
@@ -321,7 +327,7 @@
       "name": "101 West 15th Street",
       "adapter": "stonehenge",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Westminster",
@@ -357,7 +363,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "AVA High Line",
@@ -573,7 +579,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Truffles Tribeca",
