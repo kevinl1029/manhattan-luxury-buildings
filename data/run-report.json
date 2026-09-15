@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T16:47:36.970Z",
+  "generatedAt": "2026-09-15T15:26:05.943Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -376,7 +376,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Highline 537",
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Chelsea Canvas",
@@ -574,7 +574,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 4
     },
     {
       "name": "Truffles Tribeca",
@@ -712,7 +712,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Tribeca Bridge Tower",
