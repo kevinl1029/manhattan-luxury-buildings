@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T15:26:05.943Z",
+  "generatedAt": "2026-09-16T15:19:10.643Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "name": "The Suffolk",
@@ -33,13 +33,13 @@
       "name": "The Essex",
       "adapter": "jonah",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
       "status": "ok",
-      "count": 7
+      "count": 6
     },
     {
       "name": "The Ludlow",
@@ -274,7 +274,7 @@
       "name": "The Archive",
       "adapter": "rockrose",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "600 Washington",
@@ -346,7 +346,7 @@
       "name": "The Tate",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Ten23",
@@ -358,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "AVA High Line",
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Chelsea Canvas",
@@ -712,7 +712,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Tribeca Bridge Tower",
