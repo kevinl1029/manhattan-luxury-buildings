@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T15:19:10.643Z",
+  "generatedAt": "2026-09-17T15:28:29.136Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -33,7 +33,7 @@
       "name": "The Essex",
       "adapter": "jonah",
       "status": "ok",
-      "count": 5
+      "count": 4
     },
     {
       "name": "The Artisan",
@@ -376,7 +376,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Highline 537",
