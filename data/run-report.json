@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T15:28:29.136Z",
+  "generatedAt": "2026-09-18T14:47:37.441Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -135,7 +135,7 @@
       "name": "Avalon Bowery Place I",
       "adapter": "entrata",
       "status": "ok",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Avalon Bowery Place II",
@@ -412,13 +412,13 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 13
+      "count": 10
     },
     {
       "name": "Chelsea Canvas",
       "adapter": "wordpress",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Instrata Gramercy",
@@ -712,7 +712,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Tribeca Bridge Tower",
