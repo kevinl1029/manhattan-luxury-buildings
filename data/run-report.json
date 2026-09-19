@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T14:47:37.441Z",
+  "generatedAt": "2026-09-19T14:11:48.131Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 11
+      "count": 12
     },
     {
       "name": "The Suffolk",
@@ -135,7 +135,7 @@
       "name": "Avalon Bowery Place I",
       "adapter": "entrata",
       "status": "ok",
-      "count": 5
+      "count": 0
     },
     {
       "name": "Avalon Bowery Place II",
@@ -346,7 +346,7 @@
       "name": "The Tate",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Ten23",
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Chelsea Canvas",
@@ -670,7 +670,7 @@
       "name": "Liberty House",
       "adapter": "generic",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Le Rivage",
