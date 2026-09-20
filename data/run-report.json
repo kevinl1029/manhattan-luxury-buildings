@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:11:48.131Z",
+  "generatedAt": "2026-09-20T14:28:00.823Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "name": "The Suffolk",
@@ -135,7 +135,7 @@
       "name": "Avalon Bowery Place I",
       "adapter": "entrata",
       "status": "ok",
-      "count": 0
+      "count": 4
     },
     {
       "name": "Avalon Bowery Place II",
@@ -328,7 +328,7 @@
       "name": "The Westminster",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Chelsea Landmark",
