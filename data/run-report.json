@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T16:48:36.444Z",
+  "generatedAt": "2026-09-22T15:23:20.108Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -236,9 +236,8 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "227 Mulberry",
@@ -286,7 +285,7 @@
       "name": "110 Horatio Street",
       "adapter": "rockrose",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "The Printing House",
@@ -358,7 +357,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "AVA High Line",
