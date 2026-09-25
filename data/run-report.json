@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T15:43:39.064Z",
+  "generatedAt": "2026-09-25T15:46:17.409Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -135,7 +135,7 @@
       "name": "Avalon Bowery Place I",
       "adapter": "entrata",
       "status": "ok",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Avalon Bowery Place II",
@@ -711,7 +711,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Tribeca Bridge Tower",
