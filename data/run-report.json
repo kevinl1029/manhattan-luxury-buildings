@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T14:54:07.151Z",
+  "generatedAt": "2026-09-27T15:33:07.787Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -236,8 +236,9 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
     },
     {
       "name": "227 Mulberry",
@@ -357,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "AVA High Line",
@@ -573,7 +574,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Truffles Tribeca",
