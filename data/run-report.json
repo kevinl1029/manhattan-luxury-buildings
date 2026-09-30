@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T16:47:24.490Z",
+  "generatedAt": "2026-09-30T16:40:21.880Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 9
+      "count": 10
     },
     {
       "name": "The Suffolk",
@@ -33,13 +33,13 @@
       "name": "The Essex",
       "adapter": "jonah",
       "status": "ok",
-      "count": 4
+      "count": 5
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "name": "The Ludlow",
@@ -334,7 +334,7 @@
       "name": "Chelsea Landmark",
       "adapter": "rose",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Arthur",
@@ -670,7 +670,7 @@
       "name": "Liberty House",
       "adapter": "generic",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Le Rivage",
