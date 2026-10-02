@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T17:17:48.022Z",
+  "generatedAt": "2026-10-02T16:31:34.668Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -236,8 +236,9 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
     },
     {
       "name": "227 Mulberry",
@@ -273,7 +274,7 @@
       "name": "The Archive",
       "adapter": "rockrose",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "600 Washington",
@@ -333,7 +334,7 @@
       "name": "Chelsea Landmark",
       "adapter": "rose",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Arthur",
@@ -411,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Chelsea Canvas",
