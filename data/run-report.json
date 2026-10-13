@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T20:08:49.463Z",
+  "generatedAt": "2026-10-13T17:58:38.299Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -358,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "AVA High Line",
@@ -1053,8 +1053,9 @@
     {
       "name": "The Stanford",
       "adapter": "generic",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 45000ms"
     },
     {
       "name": "Flatiron House",

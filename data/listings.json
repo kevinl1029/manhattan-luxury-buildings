@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T20:08:49.463Z",
-  "count": 84,
+  "generatedAt": "2026-10-13T17:58:38.299Z",
+  "count": 83,
   "byBuilding": {
     "The Rollins": 8,
     "The Essex": 7,
@@ -13,7 +13,7 @@
     "101 West 15th Street": 1,
     "The Westminster": 4,
     "The Tate": 4,
-    "The Caledonia": 4,
+    "The Caledonia": 3,
     "AVA High Line": 6,
     "Avalon West Chelsea": 6,
     "Ruby Chelsea": 13,
@@ -283,7 +283,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5100,
-      "availability": "Oct 13",
+      "availability": "Oct 14",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -294,7 +294,7 @@
       "baths": 1,
       "sqft": 702,
       "price": 6509,
-      "availability": "Oct 13",
+      "availability": "Oct 14",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -315,8 +315,8 @@
       "beds": 1,
       "baths": 1,
       "sqft": 667,
-      "price": 7345,
-      "availability": "Oct 13",
+      "price": 7340,
+      "availability": "Oct 14",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -326,7 +326,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 747,
-      "price": 7688,
+      "price": 7683,
       "availability": "Dec 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
@@ -575,17 +575,6 @@
     },
     {
       "building": "The Caledonia",
-      "unit": "The Caledonia: Studio, 1 Bath",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 5350,
-      "availability": "10/23",
-      "source": "related",
-      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-caledonia"
-    },
-    {
-      "building": "The Caledonia",
       "unit": "The Caledonia: 1 Bedroom, 1 Bath",
       "beds": 1,
       "baths": 1,
@@ -613,7 +602,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4587,
-      "availability": "Oct 13",
+      "availability": "Oct 14",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -624,7 +613,7 @@
       "baths": 1,
       "sqft": 522,
       "price": 4809,
-      "availability": "Oct 13",
+      "availability": "Oct 14",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -635,7 +624,7 @@
       "baths": 1,
       "sqft": 543,
       "price": 4958,
-      "availability": "Oct 13",
+      "availability": "Oct 14",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -646,7 +635,7 @@
       "baths": 1,
       "sqft": 564,
       "price": 5040,
-      "availability": "Oct 13",
+      "availability": "Oct 14",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -690,7 +679,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4625,
-      "availability": "Oct 13",
+      "availability": "Oct 14",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
