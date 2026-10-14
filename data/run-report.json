@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T17:58:38.299Z",
+  "generatedAt": "2026-10-14T15:43:59.317Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -20,8 +20,9 @@
     {
       "name": "The Rollins",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 8
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://therollinsnyc.com/floorplans/"
     },
     {
       "name": "The Suffolk",
@@ -32,20 +33,23 @@
     {
       "name": "The Essex",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 7
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://theessexnyc.com/floorplans/"
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 7
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://theartisannyc.com/floorplans/"
     },
     {
       "name": "The Ludlow",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 1
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.theludlownyc.com/floorplans/"
     },
     {
       "name": "The Chrystie",
@@ -1053,9 +1057,8 @@
     {
       "name": "The Stanford",
       "adapter": "generic",
-      "status": "error",
-      "count": 0,
-      "error": "timeout after 45000ms"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "Flatiron House",
