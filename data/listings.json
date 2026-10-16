@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-15T15:30:19.578Z",
+  "generatedAt": "2026-10-16T15:10:09.630Z",
   "count": 84,
   "byBuilding": {
     "The Rollins": 8,
     "The Essex": 7,
-    "The Artisan": 7,
+    "The Artisan": 6,
     "The Ludlow": 2,
     "Avalon Bowery Place I": 5,
     "The Houston": 6,
@@ -16,6 +16,7 @@
     "The Caledonia": 3,
     "AVA High Line": 6,
     "Avalon West Chelsea": 4,
+    "Abington House": 1,
     "Ruby Chelsea": 14,
     "Chelsea Canvas": 2,
     "Tribeca Tower": 1,
@@ -162,7 +163,7 @@
       "baths": 1,
       "sqft": 634,
       "price": 6675,
-      "availability": "Available Now",
+      "availability": "Available Oct 19",
       "source": "jonah",
       "url": "https://theessexnyc.com/floorplans/unit-f65ae5e710e86c0871c65781a021c3ee/"
     },
@@ -234,17 +235,6 @@
     },
     {
       "building": "The Artisan",
-      "unit": "0607",
-      "beds": 1,
-      "baths": 1,
-      "sqft": 750,
-      "price": 6825,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theartisannyc.com/floorplans/unit-04704feff485ea65d78e50ec3cc5f113/"
-    },
-    {
-      "building": "The Artisan",
       "unit": "2314",
       "beds": 3,
       "baths": 2,
@@ -294,7 +284,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5100,
-      "availability": "Oct 16",
+      "availability": "Oct 17",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -305,7 +295,7 @@
       "baths": 1,
       "sqft": 702,
       "price": 6509,
-      "availability": "Oct 16",
+      "availability": "Oct 17",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -327,7 +317,7 @@
       "baths": 1,
       "sqft": 667,
       "price": 7340,
-      "availability": "Oct 16",
+      "availability": "Oct 17",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -624,7 +614,7 @@
       "baths": 1,
       "sqft": 522,
       "price": 4809,
-      "availability": "Oct 16",
+      "availability": "Oct 17",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -635,7 +625,7 @@
       "baths": 1,
       "sqft": 543,
       "price": 4958,
-      "availability": "Oct 16",
+      "availability": "Oct 17",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -646,7 +636,7 @@
       "baths": 1,
       "sqft": 564,
       "price": 5040,
-      "availability": "Oct 16",
+      "availability": "Oct 17",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -690,7 +680,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4625,
-      "availability": "Oct 16",
+      "availability": "Oct 17",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -726,6 +716,17 @@
       "availability": "Dec 04",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
+    },
+    {
+      "building": "Abington House",
+      "unit": "Abington House: 1 Bedroom, 1 Bath",
+      "beds": 1,
+      "baths": 1,
+      "sqft": null,
+      "price": 6595,
+      "availability": "Now",
+      "source": "related",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
     },
     {
       "building": "Ruby Chelsea",
@@ -861,7 +862,7 @@
     },
     {
       "building": "Ruby Chelsea",
-      "unit": "N-17D",
+      "unit": "N-17C",
       "beds": 2,
       "baths": 2,
       "sqft": null,
@@ -872,11 +873,11 @@
     },
     {
       "building": "Ruby Chelsea",
-      "unit": "N-17C",
+      "unit": "N-17D",
       "beds": 2,
       "baths": 2,
       "sqft": null,
-      "price": 14839,
+      "price": 14576,
       "availability": "Immediate",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
