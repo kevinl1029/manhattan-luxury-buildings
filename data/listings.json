@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-17T14:04:46.256Z",
-  "count": 82,
+  "generatedAt": "2026-10-18T14:18:24.036Z",
+  "count": 79,
   "byBuilding": {
     "The Rollins": 8,
     "The Essex": 7,
@@ -12,12 +12,11 @@
     "110 Horatio Street": 4,
     "101 West 15th Street": 1,
     "The Westminster": 4,
-    "The Tate": 3,
+    "The Tate": 2,
     "The Caledonia": 3,
     "AVA High Line": 6,
     "Avalon West Chelsea": 4,
-    "Abington House": 1,
-    "Ruby Chelsea": 14,
+    "Ruby Chelsea": 13,
     "Chelsea Canvas": 2,
     "Tribeca Tower": 1,
     "Liberty House": 1,
@@ -273,7 +272,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5100,
-      "availability": "Oct 18",
+      "availability": "Oct 20",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -284,7 +283,7 @@
       "baths": 1,
       "sqft": 702,
       "price": 6509,
-      "availability": "Oct 18",
+      "availability": "Oct 20",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -306,7 +305,7 @@
       "baths": 1,
       "sqft": 667,
       "price": 7335,
-      "availability": "Oct 18",
+      "availability": "Oct 20",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -521,17 +520,6 @@
     },
     {
       "building": "The Tate",
-      "unit": "The Tate: 1.5 Bedroom, 1 Bath, Terrace",
-      "beds": 1.5,
-      "baths": 1,
-      "sqft": null,
-      "price": 7595,
-      "availability": "Now",
-      "source": "related",
-      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-tate"
-    },
-    {
-      "building": "The Tate",
       "unit": "The Tate: Alcove Studio, 1 Bath",
       "beds": 0.5,
       "baths": 1,
@@ -592,7 +580,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4587,
-      "availability": "Oct 18",
+      "availability": "Oct 19",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -603,7 +591,7 @@
       "baths": 1,
       "sqft": 522,
       "price": 4809,
-      "availability": "Oct 18",
+      "availability": "Oct 19",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -614,7 +602,7 @@
       "baths": 1,
       "sqft": 543,
       "price": 4958,
-      "availability": "Oct 18",
+      "availability": "Oct 19",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -625,7 +613,7 @@
       "baths": 1,
       "sqft": 564,
       "price": 5040,
-      "availability": "Oct 18",
+      "availability": "Oct 19",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -658,7 +646,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4625,
-      "availability": "Oct 18",
+      "availability": "Oct 19",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -694,17 +682,6 @@
       "availability": "Dec 04",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
-    },
-    {
-      "building": "Abington House",
-      "unit": "Abington House: 1 Bedroom, 1 Bath",
-      "beds": 1,
-      "baths": 1,
-      "sqft": null,
-      "price": 6595,
-      "availability": "Now",
-      "source": "related",
-      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
     },
     {
       "building": "Ruby Chelsea",
@@ -801,17 +778,6 @@
       "baths": 1,
       "sqft": null,
       "price": 7261,
-      "availability": "Immediate",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
-      "unit": "S-16H",
-      "beds": 1,
-      "baths": 1,
-      "sqft": null,
-      "price": 7296,
       "availability": "Immediate",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
