@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T14:18:24.036Z",
+  "generatedAt": "2026-10-19T17:21:34.842Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -358,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "AVA High Line",
@@ -370,7 +370,7 @@
       "name": "Avalon West Chelsea",
       "adapter": "entrata",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Abington House",
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 13
+      "count": 9
     },
     {
       "name": "Chelsea Canvas",
