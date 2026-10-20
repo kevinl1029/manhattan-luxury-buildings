@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T17:21:34.842Z",
+  "generatedAt": "2026-10-20T15:36:07.520Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -236,9 +236,8 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "227 Mulberry",
@@ -405,8 +404,9 @@
     {
       "name": "Maverick Chelsea",
       "adapter": "wordpress",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "timeout after 45001ms"
     },
     {
       "name": "Ruby Chelsea",
@@ -712,7 +712,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Tribeca Bridge Tower",
