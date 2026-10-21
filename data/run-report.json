@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T15:36:07.520Z",
+  "generatedAt": "2026-10-21T15:51:41.278Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -321,7 +321,7 @@
       "name": "101 West 15th Street",
       "adapter": "stonehenge",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "name": "The Westminster",
@@ -404,15 +404,14 @@
     {
       "name": "Maverick Chelsea",
       "adapter": "wordpress",
-      "status": "error",
-      "count": 0,
-      "error": "timeout after 45001ms"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Chelsea Canvas",
