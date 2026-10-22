@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T15:51:41.278Z",
+  "generatedAt": "2026-10-22T15:50:06.407Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -273,7 +273,7 @@
       "name": "The Archive",
       "adapter": "rockrose",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "600 Washington",
@@ -333,7 +333,7 @@
       "name": "Chelsea Landmark",
       "adapter": "rose",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "The Arthur",
@@ -357,7 +357,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "AVA High Line",
@@ -411,7 +411,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Chelsea Canvas",
