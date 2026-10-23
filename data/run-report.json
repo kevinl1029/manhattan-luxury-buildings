@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T15:50:06.407Z",
+  "generatedAt": "2026-10-23T15:39:16.151Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -135,7 +135,7 @@
       "name": "Avalon Bowery Place I",
       "adapter": "entrata",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Avalon Bowery Place II",
@@ -273,7 +273,7 @@
       "name": "The Archive",
       "adapter": "rockrose",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "600 Washington",
@@ -333,7 +333,7 @@
       "name": "Chelsea Landmark",
       "adapter": "rose",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "The Arthur",
@@ -345,7 +345,7 @@
       "name": "The Tate",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Ten23",
@@ -357,7 +357,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "AVA High Line",
@@ -369,7 +369,7 @@
       "name": "Avalon West Chelsea",
       "adapter": "entrata",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Abington House",
