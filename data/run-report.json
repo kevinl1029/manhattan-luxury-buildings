@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T15:39:16.151Z",
+  "generatedAt": "2026-10-24T14:16:07.011Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -33,7 +33,7 @@
       "name": "The Essex",
       "adapter": "jonah",
       "status": "ok",
-      "count": 7
+      "count": 6
     },
     {
       "name": "The Artisan",
@@ -236,8 +236,9 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
     },
     {
       "name": "227 Mulberry",
@@ -273,7 +274,7 @@
       "name": "The Archive",
       "adapter": "rockrose",
       "status": "ok",
-      "count": 1
+      "count": 3
     },
     {
       "name": "600 Washington",

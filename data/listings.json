@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-23T15:39:16.151Z",
-  "count": 73,
+  "generatedAt": "2026-10-24T14:16:07.011Z",
+  "count": 74,
   "byBuilding": {
     "The Rollins": 8,
-    "The Essex": 7,
+    "The Essex": 6,
     "The Artisan": 5,
     "The Ludlow": 2,
     "Avalon Bowery Place I": 6,
     "The Houston": 6,
-    "The Archive": 1,
+    "The Archive": 3,
     "110 Horatio Street": 4,
     "101 West 15th Street": 2,
     "The Westminster": 4,
@@ -39,7 +39,7 @@
       "beds": 2,
       "baths": 1,
       "sqft": 897,
-      "price": 7865,
+      "price": 7765,
       "availability": "Available Now",
       "source": "jonah",
       "url": "https://therollinsnyc.com/floorplans/unit-1402fe82c463abc34346dad826473b37/"
@@ -94,7 +94,7 @@
       "beds": 2,
       "baths": 1,
       "sqft": 893,
-      "price": 7165,
+      "price": 6965,
       "availability": "Available Oct 31",
       "source": "jonah",
       "url": "https://therollinsnyc.com/floorplans/unit-8064159a69d70a739480962cac4f5955/"
@@ -105,7 +105,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 520,
-      "price": 5415,
+      "price": 5065,
       "availability": "Available Nov 14",
       "source": "jonah",
       "url": "https://therollinsnyc.com/floorplans/unit-3266be21d53b93f48d387256d8f010b3/"
@@ -116,7 +116,7 @@
       "beds": 2,
       "baths": 2,
       "sqft": 907,
-      "price": 8075,
+      "price": 7975,
       "availability": "Available Now",
       "source": "jonah",
       "url": "https://theessexnyc.com/floorplans/unit-4b0a109aadac5a4a5ec4040faf375ac6/"
@@ -127,7 +127,7 @@
       "beds": 2,
       "baths": 2,
       "sqft": 907,
-      "price": 8075,
+      "price": 7925,
       "availability": "Available Now",
       "source": "jonah",
       "url": "https://theessexnyc.com/floorplans/unit-3798c276dbb6c281decc52c18088cc8f/"
@@ -138,7 +138,7 @@
       "beds": 2,
       "baths": 2,
       "sqft": 894,
-      "price": 8075,
+      "price": 8025,
       "availability": "Available Now",
       "source": "jonah",
       "url": "https://theessexnyc.com/floorplans/unit-eb29a797f92bce6549d5536d2c092349/"
@@ -149,21 +149,10 @@
       "beds": 3,
       "baths": 2,
       "sqft": 1095,
-      "price": 9375,
+      "price": 9175,
       "availability": "Available Now",
       "source": "jonah",
       "url": "https://theessexnyc.com/floorplans/unit-f1a7bdb5221713b58a5609b3cb00651a/"
-    },
-    {
-      "building": "The Essex",
-      "unit": "0603",
-      "beds": 1,
-      "baths": 1,
-      "sqft": 634,
-      "price": 6675,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theessexnyc.com/floorplans/unit-f65ae5e710e86c0871c65781a021c3ee/"
     },
     {
       "building": "The Essex",
@@ -204,7 +193,7 @@
       "beds": 0,
       "baths": 1,
       "sqft": 430,
-      "price": 4575,
+      "price": 4375,
       "availability": "Available Now",
       "source": "jonah",
       "url": "https://theartisannyc.com/floorplans/unit-851a4748204587325f47850e4363135a/"
@@ -226,7 +215,7 @@
       "beds": 3,
       "baths": 2,
       "sqft": 1098,
-      "price": 9375,
+      "price": 9425,
       "availability": "Available Now",
       "source": "jonah",
       "url": "https://theartisannyc.com/floorplans/unit-05a6ab9329b13ec5ce567d6922dd0c5b/"
@@ -271,7 +260,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5155,
-      "availability": "Oct 24",
+      "availability": "Oct 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -282,7 +271,18 @@
       "baths": 1,
       "sqft": 420,
       "price": 5230,
-      "availability": "Oct 24",
+      "availability": "Oct 25",
+      "source": "entrata",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
+    },
+    {
+      "building": "Avalon Bowery Place I",
+      "unit": "Studio • 1 bath • 513 sqft • Classic Package",
+      "beds": 0,
+      "baths": 1,
+      "sqft": 513,
+      "price": 5565,
+      "availability": "Jan 01",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -293,7 +293,7 @@
       "baths": 1,
       "sqft": 702,
       "price": 6509,
-      "availability": "Oct 24",
+      "availability": "Oct 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -303,7 +303,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 707,
-      "price": 7340,
+      "price": 7330,
       "availability": "Dec 10",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
@@ -314,19 +314,8 @@
       "beds": 1,
       "baths": 1,
       "sqft": 667,
-      "price": 7410,
-      "availability": "Oct 24",
-      "source": "entrata",
-      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
-    },
-    {
-      "building": "Avalon Bowery Place I",
-      "unit": "1 bed • 1 bath • 747 sqft • Classic Package",
-      "beds": 1,
-      "baths": 1,
-      "sqft": 747,
-      "price": 7963,
-      "availability": "Dec 25",
+      "price": 7335,
+      "availability": "Oct 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -395,6 +384,28 @@
       "availability": null,
       "source": "generic",
       "url": "https://thehoustonnyc.com/wp-content/uploads/2025/05/3-8A_The_Houston.pdf"
+    },
+    {
+      "building": "The Archive",
+      "unit": "#739",
+      "beds": 0,
+      "baths": 1,
+      "sqft": null,
+      "price": 9425,
+      "availability": null,
+      "source": "rockrose",
+      "url": "https://rockrose.com/listing/739/"
+    },
+    {
+      "building": "The Archive",
+      "unit": "#544",
+      "beds": 0,
+      "baths": 2,
+      "sqft": null,
+      "price": 8285,
+      "availability": null,
+      "source": "rockrose",
+      "url": "https://rockrose.com/listing/544/"
     },
     {
       "building": "The Archive",
@@ -479,17 +490,6 @@
       "beds": 1,
       "baths": 1,
       "sqft": null,
-      "price": 7195,
-      "availability": "Now",
-      "source": "related",
-      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
-    },
-    {
-      "building": "The Westminster",
-      "unit": "The Westminster: 1 Bedroom, 1 Bath",
-      "beds": 1,
-      "baths": 1,
-      "sqft": null,
       "price": 8680,
       "availability": "Now",
       "source": "related",
@@ -518,13 +518,24 @@
       "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
     },
     {
+      "building": "The Westminster",
+      "unit": "The Westminster: 1 Bedroom, 1 Bath",
+      "beds": 1,
+      "baths": 1,
+      "sqft": null,
+      "price": 7095,
+      "availability": "Now",
+      "source": "related",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
+    },
+    {
       "building": "The Tate",
       "unit": "The Tate: Alcove Studio, 1 Bath",
       "beds": 0.5,
       "baths": 1,
       "sqft": null,
       "price": 5675,
-      "availability": "10/26",
+      "availability": "Now",
       "source": "related",
       "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-tate"
     },
@@ -546,7 +557,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4587,
-      "availability": "Oct 24",
+      "availability": "Oct 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -557,7 +568,18 @@
       "baths": 1,
       "sqft": 522,
       "price": 4809,
-      "availability": "Oct 24",
+      "availability": "Oct 25",
+      "source": "entrata",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
+    },
+    {
+      "building": "AVA High Line",
+      "unit": "Studio • 1 bath • 520 sqft",
+      "beds": 0,
+      "baths": 1,
+      "sqft": 520,
+      "price": 4942,
+      "availability": "Jan 01",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -568,7 +590,7 @@
       "baths": 1,
       "sqft": 543,
       "price": 4958,
-      "availability": "Oct 24",
+      "availability": "Oct 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -579,18 +601,7 @@
       "baths": 1,
       "sqft": 564,
       "price": 5040,
-      "availability": "Oct 24",
-      "source": "entrata",
-      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
-    },
-    {
-      "building": "AVA High Line",
-      "unit": "Studio • 1 bath • 520 sqft",
-      "beds": 0,
-      "baths": 1,
-      "sqft": 520,
-      "price": 5263,
-      "availability": "Nov 23",
+      "availability": "Oct 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -601,7 +612,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4625,
-      "availability": "Oct 24",
+      "availability": "Oct 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -612,7 +623,7 @@
       "baths": 1,
       "sqft": 655,
       "price": 5625,
-      "availability": "Nov 03",
+      "availability": "Nov 09",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
