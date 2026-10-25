@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T14:16:07.011Z",
+  "generatedAt": "2026-10-25T14:47:03.759Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -33,7 +33,7 @@
       "name": "The Essex",
       "adapter": "jonah",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "name": "The Artisan",
@@ -412,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Chelsea Canvas",
@@ -574,7 +574,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Truffles Tribeca",
