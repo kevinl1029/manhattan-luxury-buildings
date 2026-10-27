@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T17:09:25.636Z",
+  "generatedAt": "2026-10-27T16:12:23.026Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -33,7 +33,7 @@
       "name": "The Essex",
       "adapter": "jonah",
       "status": "ok",
-      "count": 5
+      "count": 3
     },
     {
       "name": "The Artisan",
@@ -358,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "AVA High Line",
@@ -574,7 +574,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Truffles Tribeca",
@@ -712,7 +712,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Tribeca Bridge Tower",
