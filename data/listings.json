@@ -1,11 +1,7 @@
 {
-  "generatedAt": "2026-10-27T16:12:23.026Z",
-  "count": 70,
+  "generatedAt": "2026-10-28T17:00:23.993Z",
+  "count": 53,
   "byBuilding": {
-    "The Rollins": 8,
-    "The Essex": 3,
-    "The Artisan": 5,
-    "The Ludlow": 2,
     "Avalon Bowery Place I": 6,
     "The Houston": 6,
     "The Archive": 3,
@@ -16,210 +12,12 @@
     "The Caledonia": 1,
     "AVA High Line": 6,
     "Avalon West Chelsea": 4,
+    "Abington House": 2,
     "Ruby Chelsea": 11,
     "Chelsea Canvas": 2,
-    "Tribeca Tower": 1,
     "Liberty House": 1
   },
   "listings": [
-    {
-      "building": "The Rollins",
-      "unit": "07K",
-      "beds": 2,
-      "baths": 2,
-      "sqft": 1136,
-      "price": 8015,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://therollinsnyc.com/floorplans/unit-97e5cab0fbfbcf7e3aed399645ef3869/"
-    },
-    {
-      "building": "The Rollins",
-      "unit": "09A",
-      "beds": 2,
-      "baths": 1,
-      "sqft": 897,
-      "price": 7765,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://therollinsnyc.com/floorplans/unit-1402fe82c463abc34346dad826473b37/"
-    },
-    {
-      "building": "The Rollins",
-      "unit": "16A",
-      "beds": 2,
-      "baths": 1,
-      "sqft": 897,
-      "price": 8165,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://therollinsnyc.com/floorplans/unit-52d8166ade1d83234b21611513102632/"
-    },
-    {
-      "building": "The Rollins",
-      "unit": "05A",
-      "beds": 2,
-      "baths": 1,
-      "sqft": 897,
-      "price": 7765,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://therollinsnyc.com/floorplans/unit-ead7e2a8082ee28850b5982239a95761/"
-    },
-    {
-      "building": "The Rollins",
-      "unit": "06A",
-      "beds": 2,
-      "baths": 1,
-      "sqft": 897,
-      "price": 7565,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://therollinsnyc.com/floorplans/unit-357c3e2a4466fcd3ffb89f051c932dc0/"
-    },
-    {
-      "building": "The Rollins",
-      "unit": "14E",
-      "beds": 1,
-      "baths": 1,
-      "sqft": 685,
-      "price": 5665,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://therollinsnyc.com/floorplans/unit-acb4ca61c12242309feda2cbcd74f8e1/"
-    },
-    {
-      "building": "The Rollins",
-      "unit": "05J",
-      "beds": 2,
-      "baths": 1,
-      "sqft": 893,
-      "price": 6965,
-      "availability": "Available Oct 31",
-      "source": "jonah",
-      "url": "https://therollinsnyc.com/floorplans/unit-8064159a69d70a739480962cac4f5955/"
-    },
-    {
-      "building": "The Rollins",
-      "unit": "11L",
-      "beds": 1,
-      "baths": 1,
-      "sqft": 520,
-      "price": 5065,
-      "availability": "Available Nov 14",
-      "source": "jonah",
-      "url": "https://therollinsnyc.com/floorplans/unit-3266be21d53b93f48d387256d8f010b3/"
-    },
-    {
-      "building": "The Essex",
-      "unit": "1002",
-      "beds": 2,
-      "baths": 2,
-      "sqft": 907,
-      "price": 7975,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theessexnyc.com/floorplans/unit-4b0a109aadac5a4a5ec4040faf375ac6/"
-    },
-    {
-      "building": "The Essex",
-      "unit": "1105",
-      "beds": 2,
-      "baths": 2,
-      "sqft": 894,
-      "price": 8025,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theessexnyc.com/floorplans/unit-eb29a797f92bce6549d5536d2c092349/"
-    },
-    {
-      "building": "The Essex",
-      "unit": "1109",
-      "beds": 3,
-      "baths": 2,
-      "sqft": 1095,
-      "price": 9175,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theessexnyc.com/floorplans/unit-f1a7bdb5221713b58a5609b3cb00651a/"
-    },
-    {
-      "building": "The Artisan",
-      "unit": "2413",
-      "beds": 0,
-      "baths": 1,
-      "sqft": 487,
-      "price": 5025,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theartisannyc.com/floorplans/unit-2dd9c521dc0c2856b716127013a2dac0/"
-    },
-    {
-      "building": "The Artisan",
-      "unit": "2201",
-      "beds": 0,
-      "baths": 1,
-      "sqft": 430,
-      "price": 4375,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theartisannyc.com/floorplans/unit-851a4748204587325f47850e4363135a/"
-    },
-    {
-      "building": "The Artisan",
-      "unit": "1707",
-      "beds": 1,
-      "baths": 1,
-      "sqft": 609,
-      "price": 5825,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theartisannyc.com/floorplans/unit-ce28df91e4288dcb3cc13bffc0137494/"
-    },
-    {
-      "building": "The Artisan",
-      "unit": "2314",
-      "beds": 3,
-      "baths": 2,
-      "sqft": 1098,
-      "price": 9425,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theartisannyc.com/floorplans/unit-05a6ab9329b13ec5ce567d6922dd0c5b/"
-    },
-    {
-      "building": "The Artisan",
-      "unit": "2105",
-      "beds": 2,
-      "baths": 2,
-      "sqft": 852,
-      "price": 7575,
-      "availability": "Available Oct 31",
-      "source": "jonah",
-      "url": "https://theartisannyc.com/floorplans/unit-2ecfc71d0fcc79d8c3e4f2c334cd84fb/"
-    },
-    {
-      "building": "The Ludlow",
-      "unit": "6D",
-      "beds": 0,
-      "baths": 1,
-      "sqft": 472,
-      "price": 4650,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://www.theludlownyc.com/floorplans/unit-65fdd1f8521d7b8740ed57b989c2c508/"
-    },
-    {
-      "building": "The Ludlow",
-      "unit": "15I",
-      "beds": 0,
-      "baths": 1,
-      "sqft": 411,
-      "price": 4530,
-      "availability": "Available Dec 04",
-      "source": "jonah",
-      "url": "https://www.theludlownyc.com/floorplans/unit-1a129d4dbd43d6a1fd773e9a92f5d13b/"
-    },
     {
       "building": "Avalon Bowery Place I",
       "unit": "Studio • 1 bath • 420 sqft • Classic Package",
@@ -227,7 +25,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5230,
-      "availability": "Oct 28",
+      "availability": "Oct 29",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -249,18 +47,7 @@
       "baths": 1,
       "sqft": 702,
       "price": 6509,
-      "availability": "Oct 28",
-      "source": "entrata",
-      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
-    },
-    {
-      "building": "Avalon Bowery Place I",
-      "unit": "1 bed • 1 bath • 707 sqft • Signature Collection",
-      "beds": 1,
-      "baths": 1,
-      "sqft": 707,
-      "price": 7375,
-      "availability": "Dec 10",
+      "availability": "Oct 29",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -270,8 +57,19 @@
       "beds": 1,
       "baths": 1,
       "sqft": 667,
-      "price": 7380,
-      "availability": "Oct 28",
+      "price": 7405,
+      "availability": "Oct 29",
+      "source": "entrata",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
+    },
+    {
+      "building": "Avalon Bowery Place I",
+      "unit": "1 bed • 1 bath • 707 sqft • Signature Collection",
+      "beds": 1,
+      "baths": 1,
+      "sqft": 707,
+      "price": 7435,
+      "availability": "Dec 10",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -281,7 +79,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 747,
-      "price": 7783,
+      "price": 7848,
       "availability": "Dec 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
@@ -457,6 +255,17 @@
       "beds": 1,
       "baths": 1,
       "sqft": null,
+      "price": 8680,
+      "availability": "Now",
+      "source": "related",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
+    },
+    {
+      "building": "The Westminster",
+      "unit": "The Westminster: 1 Bedroom, 1 Bath",
+      "beds": 1,
+      "baths": 1,
+      "sqft": null,
       "price": 7295,
       "availability": "Now",
       "source": "related",
@@ -481,17 +290,6 @@
       "sqft": null,
       "price": 7095,
       "availability": "Now",
-      "source": "related",
-      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
-    },
-    {
-      "building": "The Westminster",
-      "unit": "The Westminster: Alcove Studio, 1 Bath",
-      "beds": 0.5,
-      "baths": 1,
-      "sqft": null,
-      "price": 5660,
-      "availability": "11/10",
       "source": "related",
       "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
     },
@@ -535,7 +333,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4587,
-      "availability": "Oct 28",
+      "availability": "Oct 29",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -546,7 +344,7 @@
       "baths": 1,
       "sqft": 522,
       "price": 4809,
-      "availability": "Oct 28",
+      "availability": "Oct 29",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -568,7 +366,7 @@
       "baths": 1,
       "sqft": 543,
       "price": 4958,
-      "availability": "Oct 28",
+      "availability": "Oct 29",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -579,7 +377,7 @@
       "baths": 1,
       "sqft": 564,
       "price": 5040,
-      "availability": "Oct 28",
+      "availability": "Oct 29",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -590,7 +388,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4625,
-      "availability": "Oct 28",
+      "availability": "Oct 29",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -626,6 +424,28 @@
       "availability": "Dec 10",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
+    },
+    {
+      "building": "Abington House",
+      "unit": "Abington House: Alcove Studio, 1 Bath",
+      "beds": 0.5,
+      "baths": 1,
+      "sqft": null,
+      "price": 5395,
+      "availability": "Now",
+      "source": "related",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
+    },
+    {
+      "building": "Abington House",
+      "unit": "Abington House: Alcove Studio, 1 Bath",
+      "beds": 0.5,
+      "baths": 1,
+      "sqft": null,
+      "price": 5595,
+      "availability": "11/03",
+      "source": "related",
+      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
     },
     {
       "building": "Ruby Chelsea",
@@ -769,17 +589,6 @@
       "availability": null,
       "source": "generic",
       "url": "https://chelseacanvasnyc.com/"
-    },
-    {
-      "building": "Tribeca Tower",
-      "unit": "Tribeca Tower: 1 Bedroom, 1 Bath",
-      "beds": 1,
-      "baths": 1,
-      "sqft": null,
-      "price": 7725,
-      "availability": "Now",
-      "source": "related",
-      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-tower"
     },
     {
       "building": "Liberty House",

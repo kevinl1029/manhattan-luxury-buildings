@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T16:12:23.026Z",
+  "generatedAt": "2026-10-28T17:00:23.993Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -20,8 +20,9 @@
     {
       "name": "The Rollins",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 8
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://therollinsnyc.com/floorplans/"
     },
     {
       "name": "The Suffolk",
@@ -32,20 +33,23 @@
     {
       "name": "The Essex",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 3
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://theessexnyc.com/floorplans/"
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 5
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://theartisannyc.com/floorplans/"
     },
     {
       "name": "The Ludlow",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 2
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.theludlownyc.com/floorplans/"
     },
     {
       "name": "The Chrystie",
@@ -376,7 +380,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Highline 537",
@@ -574,7 +578,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Truffles Tribeca",
