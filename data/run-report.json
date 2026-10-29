@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T17:00:23.993Z",
+  "generatedAt": "2026-10-29T17:18:18.937Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -20,9 +20,8 @@
     {
       "name": "The Rollins",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://therollinsnyc.com/floorplans/"
+      "status": "ok",
+      "count": 7
     },
     {
       "name": "The Suffolk",
@@ -33,23 +32,20 @@
     {
       "name": "The Essex",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://theessexnyc.com/floorplans/"
+      "status": "ok",
+      "count": 3
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://theartisannyc.com/floorplans/"
+      "status": "ok",
+      "count": 5
     },
     {
       "name": "The Ludlow",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://www.theludlownyc.com/floorplans/"
+      "status": "ok",
+      "count": 2
     },
     {
       "name": "The Chrystie",
@@ -139,7 +135,7 @@
       "name": "Avalon Bowery Place I",
       "adapter": "entrata",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Avalon Bowery Place II",
@@ -350,7 +346,7 @@
       "name": "The Tate",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Ten23",
@@ -362,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 3
     },
     {
       "name": "AVA High Line",
@@ -716,7 +712,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Tribeca Bridge Tower",
