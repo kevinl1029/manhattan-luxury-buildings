@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-31T15:59:33.520Z",
+  "generatedAt": "2026-11-01T17:02:22.041Z",
   "count": 74,
   "byBuilding": {
     "The Rollins": 8,
-    "The Essex": 3,
+    "The Essex": 2,
     "The Artisan": 4,
     "The Ludlow": 3,
     "Avalon Bowery Place I": 5,
     "The Houston": 6,
-    "The Archive": 3,
+    "The Archive": 4,
     "110 Horatio Street": 4,
     "101 West 15th Street": 2,
     "The Westminster": 4,
@@ -124,17 +124,6 @@
     },
     {
       "building": "The Essex",
-      "unit": "1109",
-      "beds": 3,
-      "baths": 2,
-      "sqft": 1095,
-      "price": 9175,
-      "availability": "Available Now",
-      "source": "jonah",
-      "url": "https://theessexnyc.com/floorplans/unit-f1a7bdb5221713b58a5609b3cb00651a/"
-    },
-    {
-      "building": "The Essex",
       "unit": "1809",
       "beds": 3,
       "baths": 2,
@@ -228,7 +217,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5230,
-      "availability": "Nov 01",
+      "availability": "Nov 02",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -250,7 +239,7 @@
       "baths": 1,
       "sqft": 702,
       "price": 6509,
-      "availability": "Nov 01",
+      "availability": "Nov 02",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -260,7 +249,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 707,
-      "price": 7390,
+      "price": 7385,
       "availability": "Dec 10",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
@@ -271,7 +260,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 747,
-      "price": 7953,
+      "price": 7943,
       "availability": "Dec 25",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
@@ -363,6 +352,17 @@
       "availability": null,
       "source": "rockrose",
       "url": "https://rockrose.com/listing/544/"
+    },
+    {
+      "building": "The Archive",
+      "unit": "#545",
+      "beds": 1,
+      "baths": 2,
+      "sqft": null,
+      "price": 10350,
+      "availability": null,
+      "source": "rockrose",
+      "url": "https://rockrose.com/listing/545/"
     },
     {
       "building": "The Archive",
@@ -547,7 +547,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4587,
-      "availability": "Nov 01",
+      "availability": "Nov 02",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -558,7 +558,7 @@
       "baths": 1,
       "sqft": 522,
       "price": 4809,
-      "availability": "Nov 01",
+      "availability": "Nov 02",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -580,7 +580,7 @@
       "baths": 1,
       "sqft": 543,
       "price": 4958,
-      "availability": "Nov 01",
+      "availability": "Nov 02",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -591,7 +591,7 @@
       "baths": 1,
       "sqft": 564,
       "price": 5040,
-      "availability": "Nov 01",
+      "availability": "Nov 02",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -602,7 +602,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4625,
-      "availability": "Nov 01",
+      "availability": "Nov 02",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -678,7 +678,7 @@
       "beds": 0,
       "baths": 1,
       "sqft": null,
-      "price": 4699,
+      "price": 4700,
       "availability": "12/18/2026",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
@@ -745,7 +745,7 @@
       "baths": 1,
       "sqft": null,
       "price": 7196,
-      "availability": "11/1/2026",
+      "availability": "Immediate",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
     },
