@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:40:12.397Z",
+  "generatedAt": "2026-11-03T18:15:32.834Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -345,7 +345,7 @@
       "name": "The Tate",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 4
     },
     {
       "name": "Ten23",
@@ -357,7 +357,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "name": "AVA High Line",
@@ -375,7 +375,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Highline 537",
