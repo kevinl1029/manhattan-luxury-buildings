@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T18:26:06.646Z",
+  "generatedAt": "2026-11-05T18:29:36.748Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 9
+      "count": 8
     },
     {
       "name": "The Suffolk",
