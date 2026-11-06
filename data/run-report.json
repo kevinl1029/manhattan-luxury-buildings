@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T18:29:36.748Z",
+  "generatedAt": "2026-11-06T17:50:40.077Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 8
+      "count": 7
     },
     {
       "name": "The Suffolk",
@@ -33,7 +33,7 @@
       "name": "The Essex",
       "adapter": "jonah",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "The Artisan",
@@ -375,7 +375,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Highline 537",
@@ -573,7 +573,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Truffles Tribeca",
