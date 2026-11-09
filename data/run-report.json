@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T16:57:15.679Z",
+  "generatedAt": "2026-11-09T21:19:00.282Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -45,7 +45,7 @@
       "name": "The Ludlow",
       "adapter": "jonah",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "The Chrystie",
@@ -236,9 +236,8 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "227 Mulberry",
@@ -376,7 +375,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Highline 537",
