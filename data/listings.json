@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T21:19:00.282Z",
-  "count": 71,
+  "generatedAt": "2026-11-10T18:28:51.088Z",
+  "count": 69,
   "byBuilding": {
     "The Rollins": 6,
     "The Essex": 2,
@@ -8,8 +8,8 @@
     "The Ludlow": 2,
     "Avalon Bowery Place I": 5,
     "The Houston": 6,
-    "The Archive": 4,
-    "110 Horatio Street": 4,
+    "The Archive": 3,
+    "110 Horatio Street": 3,
     "101 West 15th Street": 2,
     "The Westminster": 4,
     "The Tate": 4,
@@ -173,7 +173,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5230,
-      "availability": "Nov 10",
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -195,7 +195,7 @@
       "baths": 1,
       "sqft": 667,
       "price": 7330,
-      "availability": "Nov 10",
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -212,12 +212,12 @@
     },
     {
       "building": "Avalon Bowery Place I",
-      "unit": "1 bed • 1 bath • 747 sqft • Classic Package",
+      "unit": "1 bed • 1 bath • 702 sqft • Renovated Package I",
       "beds": 1,
       "baths": 1,
-      "sqft": 747,
-      "price": 8028,
-      "availability": "Dec 25",
+      "sqft": 702,
+      "price": 7898,
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -289,17 +289,6 @@
     },
     {
       "building": "The Archive",
-      "unit": "#739",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 9425,
-      "availability": null,
-      "source": "rockrose",
-      "url": "https://rockrose.com/listing/739/"
-    },
-    {
-      "building": "The Archive",
       "unit": "#408",
       "beds": 0,
       "baths": 2,
@@ -333,14 +322,14 @@
     },
     {
       "building": "110 Horatio Street",
-      "unit": "#603",
+      "unit": "#522",
       "beds": 0,
       "baths": 1,
       "sqft": null,
-      "price": 6045,
+      "price": 5455,
       "availability": null,
       "source": "rockrose",
-      "url": "https://rockrose.com/listing/603-9/"
+      "url": "https://rockrose.com/listing/522-2/"
     },
     {
       "building": "110 Horatio Street",
@@ -352,17 +341,6 @@
       "availability": null,
       "source": "rockrose",
       "url": "https://rockrose.com/listing/215-2/"
-    },
-    {
-      "building": "110 Horatio Street",
-      "unit": "#522",
-      "beds": 0,
-      "baths": 1,
-      "sqft": null,
-      "price": 5455,
-      "availability": null,
-      "source": "rockrose",
-      "url": "https://rockrose.com/listing/522-2/"
     },
     {
       "building": "110 Horatio Street",
@@ -432,12 +410,12 @@
     },
     {
       "building": "The Westminster",
-      "unit": "The Westminster: Corner 1.5 Bedroom, 1.5 Bath",
-      "beds": 1.5,
-      "baths": 1.5,
+      "unit": "The Westminster: Corner 1 Bedroom, 1 Bath",
+      "beds": 1,
+      "baths": 1,
       "sqft": null,
-      "price": 8275,
-      "availability": "11/26",
+      "price": 7635,
+      "availability": "11/27",
       "source": "related",
       "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/the-westminster"
     },
@@ -514,7 +492,7 @@
       "baths": 1,
       "sqft": 587,
       "price": 4524,
-      "availability": "Nov 10",
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -525,7 +503,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4587,
-      "availability": "Nov 10",
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -536,7 +514,7 @@
       "baths": 1,
       "sqft": 522,
       "price": 4809,
-      "availability": "Nov 10",
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -558,7 +536,7 @@
       "baths": 1,
       "sqft": 543,
       "price": 4958,
-      "availability": "Nov 10",
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -569,7 +547,7 @@
       "baths": 1,
       "sqft": 520,
       "price": 4988,
-      "availability": "Nov 23",
+      "availability": "Nov 19",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -580,7 +558,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4625,
-      "availability": "Nov 10",
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -591,7 +569,7 @@
       "baths": 1,
       "sqft": 655,
       "price": 5625,
-      "availability": "Nov 10",
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -602,7 +580,7 @@
       "baths": 1,
       "sqft": 730,
       "price": 5882,
-      "availability": "Nov 10",
+      "availability": "Nov 11",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -638,6 +616,17 @@
       "availability": "12/07",
       "source": "related",
       "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
+    },
+    {
+      "building": "Ruby Chelsea",
+      "unit": "S-02G",
+      "beds": 0,
+      "baths": 1,
+      "sqft": null,
+      "price": 4519,
+      "availability": "11/17/2026",
+      "source": "rose",
+      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
     },
     {
       "building": "Ruby Chelsea",
@@ -691,17 +680,6 @@
       "sqft": null,
       "price": 4985,
       "availability": "Immediate",
-      "source": "rose",
-      "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
-    },
-    {
-      "building": "Ruby Chelsea",
-      "unit": "N-06A",
-      "beds": 1,
-      "baths": 1,
-      "sqft": null,
-      "price": 5927,
-      "availability": "12/7/2026",
       "source": "rose",
       "url": "https://availability.rosenyc.com/availability/hgpiehrt/"
     },
