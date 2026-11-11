@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T18:28:51.088Z",
+  "generatedAt": "2026-11-11T18:20:13.328Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -236,9 +236,8 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "227 Mulberry",
@@ -712,7 +711,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Tribeca Bridge Tower",
