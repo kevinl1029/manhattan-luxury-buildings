@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T18:43:49.901Z",
+  "generatedAt": "2026-11-13T18:23:23.478Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -39,7 +39,7 @@
       "name": "The Artisan",
       "adapter": "jonah",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "The Ludlow",
@@ -411,7 +411,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Chelsea Canvas",
