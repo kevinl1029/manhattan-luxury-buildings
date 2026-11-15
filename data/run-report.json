@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:52:22.227Z",
+  "generatedAt": "2026-11-15T17:34:57.889Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -21,7 +21,7 @@
       "name": "The Rollins",
       "adapter": "jonah",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "name": "The Suffolk",
@@ -33,13 +33,13 @@
       "name": "The Essex",
       "adapter": "jonah",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "The Ludlow",
