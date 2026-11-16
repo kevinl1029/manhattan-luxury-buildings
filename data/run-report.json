@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T17:34:57.889Z",
+  "generatedAt": "2026-11-16T20:50:53.022Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -39,13 +39,13 @@
       "name": "The Artisan",
       "adapter": "jonah",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "The Ludlow",
       "adapter": "jonah",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "The Chrystie",
@@ -236,9 +236,8 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "227 Mulberry",
@@ -322,7 +321,7 @@
       "name": "101 West 15th Street",
       "adapter": "stonehenge",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "The Westminster",
@@ -370,7 +369,7 @@
       "name": "Avalon West Chelsea",
       "adapter": "entrata",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Abington House",
