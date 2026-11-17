@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T20:50:53.022Z",
+  "generatedAt": "2026-11-17T19:35:05.550Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -39,13 +39,13 @@
       "name": "The Artisan",
       "adapter": "jonah",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "name": "The Ludlow",
       "adapter": "jonah",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "The Chrystie",
@@ -236,8 +236,9 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
     },
     {
       "name": "227 Mulberry",
@@ -357,7 +358,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 3
     },
     {
       "name": "AVA High Line",
@@ -411,7 +412,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 11
+      "count": 7
     },
     {
       "name": "Chelsea Canvas",
