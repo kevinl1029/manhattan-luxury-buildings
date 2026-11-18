@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T19:35:05.550Z",
+  "generatedAt": "2026-11-18T19:16:59.079Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -45,7 +45,7 @@
       "name": "The Ludlow",
       "adapter": "jonah",
       "status": "ok",
-      "count": 1
+      "count": 2
     },
     {
       "name": "The Chrystie",
@@ -236,9 +236,8 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "227 Mulberry",
@@ -358,7 +357,7 @@
       "name": "The Caledonia",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "AVA High Line",
@@ -376,7 +375,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Highline 537",
@@ -412,7 +411,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 7
+      "count": 9
     },
     {
       "name": "Chelsea Canvas",
@@ -574,7 +573,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Truffles Tribeca",
@@ -712,7 +711,7 @@
       "name": "Tribeca Park",
       "adapter": "related",
       "status": "ok",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Tribeca Bridge Tower",
