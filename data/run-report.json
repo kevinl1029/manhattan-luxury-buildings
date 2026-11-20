@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T19:22:04.931Z",
+  "generatedAt": "2026-11-20T18:59:57.737Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -236,9 +236,8 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "227 Mulberry",
@@ -412,7 +411,7 @@
       "name": "Ruby Chelsea",
       "adapter": "rose",
       "status": "ok",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Chelsea Canvas",
