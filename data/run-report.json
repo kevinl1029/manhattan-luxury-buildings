@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T18:59:57.737Z",
+  "generatedAt": "2026-11-21T17:54:53.367Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -273,7 +273,7 @@
       "name": "The Archive",
       "adapter": "rockrose",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "name": "600 Washington",
@@ -375,7 +375,7 @@
       "name": "Abington House",
       "adapter": "related",
       "status": "ok",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Highline 537",
@@ -573,7 +573,7 @@
       "name": "Tribeca Tower",
       "adapter": "related",
       "status": "ok",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Truffles Tribeca",
