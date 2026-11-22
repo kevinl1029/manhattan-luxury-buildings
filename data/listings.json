@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-21T17:54:53.367Z",
+  "generatedAt": "2026-11-22T18:14:26.651Z",
   "count": 68,
   "byBuilding": {
-    "The Rollins": 5,
+    "The Rollins": 6,
     "The Essex": 3,
     "The Artisan": 2,
     "The Ludlow": 2,
@@ -16,7 +16,7 @@
     "The Caledonia": 2,
     "AVA High Line": 6,
     "Avalon West Chelsea": 3,
-    "Abington House": 2,
+    "Abington House": 1,
     "Ruby Chelsea": 9,
     "Chelsea Canvas": 2,
     "Liberty House": 1,
@@ -66,6 +66,17 @@
       "availability": "Available Now",
       "source": "jonah",
       "url": "https://therollinsnyc.com/floorplans/unit-357c3e2a4466fcd3ffb89f051c932dc0/"
+    },
+    {
+      "building": "The Rollins",
+      "unit": "05J",
+      "beds": 2,
+      "baths": 1,
+      "sqft": 893,
+      "price": 6965,
+      "availability": "Available Now",
+      "source": "jonah",
+      "url": "https://therollinsnyc.com/floorplans/unit-8064159a69d70a739480962cac4f5955/"
     },
     {
       "building": "The Rollins",
@@ -162,7 +173,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5330,
-      "availability": "Nov 22",
+      "availability": "Nov 23",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -184,7 +195,7 @@
       "baths": 1,
       "sqft": 667,
       "price": 6850,
-      "availability": "Nov 22",
+      "availability": "Nov 23",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -206,7 +217,7 @@
       "baths": 1,
       "sqft": 702,
       "price": 7633,
-      "availability": "Nov 22",
+      "availability": "Nov 23",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -503,7 +514,7 @@
       "baths": 1,
       "sqft": 587,
       "price": 4524,
-      "availability": "Nov 22",
+      "availability": "Nov 23",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -514,7 +525,7 @@
       "baths": 1,
       "sqft": 525,
       "price": 4587,
-      "availability": "Nov 22",
+      "availability": "Nov 23",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -524,7 +535,7 @@
       "beds": 0,
       "baths": 1,
       "sqft": 520,
-      "price": 4593,
+      "price": 4588,
       "availability": "Jan 01",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
@@ -535,8 +546,8 @@
       "beds": 0,
       "baths": 1,
       "sqft": 522,
-      "price": 4623,
-      "availability": "Nov 22",
+      "price": 4618,
+      "availability": "Nov 23",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -546,8 +557,8 @@
       "beds": 0,
       "baths": 1,
       "sqft": 520,
-      "price": 4643,
-      "availability": "Nov 22",
+      "price": 4638,
+      "availability": "Nov 23",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -558,7 +569,7 @@
       "baths": 1,
       "sqft": 453,
       "price": 4365,
-      "availability": "Nov 22",
+      "availability": "Nov 23",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -569,7 +580,7 @@
       "baths": 1,
       "sqft": 655,
       "price": 5625,
-      "availability": "Nov 22",
+      "availability": "Nov 23",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -583,17 +594,6 @@
       "availability": "Dec 10",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
-    },
-    {
-      "building": "Abington House",
-      "unit": "Abington House: Alcove Studio, 1 Bath",
-      "beds": 0.5,
-      "baths": 1,
-      "sqft": null,
-      "price": 5295,
-      "availability": "Now",
-      "source": "related",
-      "url": "http://www.relatedrentals.com/apartment-rentals/new-york-city/chelsea/abington-house"
     },
     {
       "building": "Abington House",
