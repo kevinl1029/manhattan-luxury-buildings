@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T21:01:44.086Z",
+  "generatedAt": "2026-11-25T20:23:38.107Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -236,9 +236,8 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "error",
-      "count": 0,
-      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
+      "status": "ok",
+      "count": 0
     },
     {
       "name": "227 Mulberry",
@@ -370,7 +369,7 @@
       "name": "Avalon West Chelsea",
       "adapter": "entrata",
       "status": "ok",
-      "count": 3
+      "count": 6
     },
     {
       "name": "Abington House",

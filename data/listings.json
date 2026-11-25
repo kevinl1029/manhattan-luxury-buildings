@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T21:01:44.086Z",
-  "count": 67,
+  "generatedAt": "2026-11-25T20:23:38.107Z",
+  "count": 70,
   "byBuilding": {
     "The Rollins": 6,
     "The Essex": 4,
@@ -15,7 +15,7 @@
     "The Tate": 2,
     "The Caledonia": 1,
     "AVA High Line": 6,
-    "Avalon West Chelsea": 3,
+    "Avalon West Chelsea": 6,
     "Abington House": 1,
     "Ruby Chelsea": 10,
     "Chelsea Canvas": 2,
@@ -195,7 +195,7 @@
       "baths": 1,
       "sqft": 420,
       "price": 5330,
-      "availability": "Nov 25",
+      "availability": "Nov 26",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -217,7 +217,7 @@
       "baths": 1,
       "sqft": 667,
       "price": 6965,
-      "availability": "Nov 25",
+      "availability": "Nov 26",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -227,7 +227,7 @@
       "beds": 1,
       "baths": 1,
       "sqft": 707,
-      "price": 7045,
+      "price": 7050,
       "availability": "Dec 10",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
@@ -239,7 +239,7 @@
       "baths": 1,
       "sqft": 702,
       "price": 7763,
-      "availability": "Nov 25",
+      "availability": "Nov 26",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-bowery-place"
     },
@@ -503,7 +503,7 @@
       "baths": 1,
       "sqft": 587,
       "price": 4524,
-      "availability": "Nov 25",
+      "availability": "Nov 26",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -513,8 +513,8 @@
       "beds": 0,
       "baths": 1,
       "sqft": 525,
-      "price": 4587,
-      "availability": "Nov 25",
+      "price": 4533,
+      "availability": "Nov 26",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -524,7 +524,7 @@
       "beds": 0,
       "baths": 1,
       "sqft": 520,
-      "price": 4608,
+      "price": 4533,
       "availability": "Jan 01",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
@@ -535,8 +535,8 @@
       "beds": 0,
       "baths": 1,
       "sqft": 522,
-      "price": 4638,
-      "availability": "Nov 25",
+      "price": 4563,
+      "availability": "Nov 26",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
     },
@@ -546,10 +546,21 @@
       "beds": 0,
       "baths": 1,
       "sqft": 520,
-      "price": 4658,
-      "availability": "Nov 25",
+      "price": 4583,
+      "availability": "Nov 26",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/ava-high-line"
+    },
+    {
+      "building": "Avalon West Chelsea",
+      "unit": "Studio • 1 bath • 530 sqft",
+      "beds": 0,
+      "baths": 1,
+      "sqft": 530,
+      "price": 4478,
+      "availability": "Jan 04",
+      "source": "entrata",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
     {
       "building": "Avalon West Chelsea",
@@ -557,8 +568,19 @@
       "beds": 0,
       "baths": 1,
       "sqft": 453,
-      "price": 4505,
-      "availability": "Nov 25",
+      "price": 4480,
+      "availability": "Nov 26",
+      "source": "entrata",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
+    },
+    {
+      "building": "Avalon West Chelsea",
+      "unit": "1 bed • 1 bath • 656 sqft",
+      "beds": 1,
+      "baths": 1,
+      "sqft": 656,
+      "price": 4567,
+      "availability": "Jan 01",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -569,7 +591,18 @@
       "baths": 1,
       "sqft": 655,
       "price": 5625,
-      "availability": "Nov 25",
+      "availability": "Nov 26",
+      "source": "entrata",
+      "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
+    },
+    {
+      "building": "Avalon West Chelsea",
+      "unit": "1 bed • 1 bath • 730 sqft",
+      "beds": 1,
+      "baths": 1,
+      "sqft": 730,
+      "price": 5882,
+      "availability": "Nov 26",
       "source": "entrata",
       "url": "https://www.avaloncommunities.com/new-york/new-york-city-apartments/avalon-west-chelsea"
     },
@@ -740,23 +773,23 @@
     },
     {
       "building": "Tribeca Park",
-      "unit": "Tribeca Park: Corner 1.5 Bedroom, 1.5 Bath",
-      "beds": 1.5,
-      "baths": 1.5,
-      "sqft": null,
-      "price": 7795,
-      "availability": "11/30",
-      "source": "related",
-      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-park"
-    },
-    {
-      "building": "Tribeca Park",
       "unit": "Tribeca Park: 1 Bedroom, 1 Bath",
       "beds": 1,
       "baths": 1,
       "sqft": null,
       "price": 6995,
       "availability": "01/05",
+      "source": "related",
+      "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-park"
+    },
+    {
+      "building": "Tribeca Park",
+      "unit": "Tribeca Park: Corner 1.5 Bedroom, 1.5 Bath",
+      "beds": 1.5,
+      "baths": 1.5,
+      "sqft": null,
+      "price": 7795,
+      "availability": "01/07",
       "source": "related",
       "url": "https://www.relatedrentals.com/apartment-rentals/new-york-city/tribeca-battery-park-city/tribeca-park"
     }
