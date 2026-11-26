@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T20:23:38.107Z",
+  "generatedAt": "2026-11-26T20:00:45.430Z",
   "byAdapter": {
     "jonah": 5,
     "rentcafe": 14,
@@ -20,8 +20,9 @@
     {
       "name": "The Rollins",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 6
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://therollinsnyc.com/floorplans/"
     },
     {
       "name": "The Suffolk",
@@ -32,20 +33,23 @@
     {
       "name": "The Essex",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 4
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://theessexnyc.com/floorplans/"
     },
     {
       "name": "The Artisan",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 3
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://theartisannyc.com/floorplans/"
     },
     {
       "name": "The Ludlow",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 2
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.theludlownyc.com/floorplans/"
     },
     {
       "name": "The Chrystie",
@@ -236,8 +240,9 @@
     {
       "name": "298 Mulberry",
       "adapter": "jonah",
-      "status": "ok",
-      "count": 0
+      "status": "error",
+      "count": 0,
+      "error": "HTTP 403 for https://www.298mulberryst.com/floorplans/"
     },
     {
       "name": "227 Mulberry",
@@ -369,7 +374,7 @@
       "name": "Avalon West Chelsea",
       "adapter": "entrata",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Abington House",
